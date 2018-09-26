@@ -121,7 +121,8 @@ class DivideAndConquerNetwork(nn.Module):
         loss = cost
         if regularize:
             loss -= self.beta * variances
-        loss.backward(retain_variables=True)
+        loss.backward(retain_graph=True) # pyTorch > 0.2
+        #loss.backward(retain_variables=True)
         nn.utils.clip_grad_norm(self.split.parameters(), self.grad_clip_split)
         self.optim_split.step()
 

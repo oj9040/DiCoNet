@@ -134,8 +134,9 @@ def train(DCN, logger, gen):
             Loss.append(losses.data.cpu().numpy())
             Loss_reg.append(variances.data.cpu().numpy())
             elapsed = time.time() - start
-            if it % 64 == 0:
-                print('TRAINING --> | Epoch {} | Batch {} / {} | Loss {} |'
+            #if it % 64 == 0:
+            if it % batch_size == 0:
+                print('TRAINING --> | Epoch {} | Iter {} / {} | Loss {} |'
                       ' Accuracy Train {} | Elapsed {} | dynamic {} |'
                       ' Learning Rate {}'
                       .format(epoch, it, iterations_tr,
@@ -153,10 +154,14 @@ def train(DCN, logger, gen):
                 # for perm in Perms:
                 #     print('permutation', perm.data[0, 1:].cpu().numpy())
                 # print('target', target[0].data.cpu().numpy())
-            if it % 1000 == 1000 - 1:
+            
+            #if it % 1000 == 1000 - 1:
+            if it % iterations_tr == iterations_tr - 1:
                 print('Saving model parameters')
                 DCN.save_split(args.path)
                 DCN.save_merge(args.path)
+                """
+                ## commented due to cuda out of memory 
                 accuracies_test = test(DCN, gen)
                 for i, scales in enumerate(gen.scales['test']):
                     Accuracies_te[i].append(accuracies_test[i])
@@ -169,9 +174,12 @@ def train(DCN, logger, gen):
                                        scales=gen.scales['test'],
                                        mode='test', fig=2)
                 logger.save_results(Loss, Accuracies_te, Discard_rates)
+                """
 
 
 def test(DCN, gen):
+    import pdb
+
     accuracies_test = [[] for ii in gen.scales['test']]
     iterations_te = int(gen.num_examples_test / batch_size)
     for it in range(iterations_te):

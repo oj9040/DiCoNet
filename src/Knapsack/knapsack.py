@@ -325,20 +325,21 @@ if __name__ == '__main__':
             if it%1000 == 0 and it >= 0:
                 if args.save_file_path != '':
                     save_model(args.save_file_path, Knap)
-    if test:
-        elapsed = time.time() - start
-        loss = log.get('loss').mean()
-        w = log.get('w').mean()
-        opt = log.get('opt').mean()
-        tw = log.get('tw').mean()
-        ratioW = log.get('ratioW').mean()
-        ratioT = log.get('ratioT').mean()
+    
+        if test:
+            elapsed = time.time() - start
+            loss = log.get('loss').mean()
+            w = log.get('w').mean()
+            opt = log.get('opt').mean()
+            tw = log.get('tw').mean()
+            ratioW = log.get('ratioW').mean()
+            ratioT = log.get('ratioT').mean()
 
-        out1 = ['---', it, loss, w, opt, tw, elapsed]
-        out2 = ['', '', '', ratioW, opt/opt, ratioT, '']
-        print(template_train1.format(*info_train))
-        print(template_train2.format(*out1))
-        print(template_train3.format(*out2))
+            out1 = ['---', it, loss, w, opt, tw, elapsed]
+            out2 = ['', '', '', ratioW, opt/opt, ratioT, '']
+            print(template_train1.format(*info_train))
+            print(template_train2.format(*out1))
+            print(template_train3.format(*out2))
             
 
 

@@ -1,0 +1,43 @@
+Initializing Parameters Merge
+Initializing Parameters Split
+Reading split parameters from src/ConvexHull/baseline/parameters/params_split.pt
+Reading merge parameters from src/ConvexHull/baseline/parameters/params_ptr.pt
+Reading train dataset for 1 scales
+Reading train dataset for 2 scales
+Reading train dataset for 3 scales
+Created test dataset for 2 scales
+/home/jo1443/DiCoNet/src/ConvexHull/DCN.py:179: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  init.uniform(rand)
+0.8515625
+0.84765625
+0.8463541666666666
+0.849609375
+0.853125
+0.8502604166666666
+0.8571428571428571
+0.8623046875
+0.8602430555555556
+0.853125
+0.8501420454545454
+0.84765625
+0.8467548076923077
+0.84765625
+0.8395833333333333
+0.8408203125
+0.8446691176470589
+0.8450520833333334
+0.84375
+0.842578125
+0.8441220238095238
+0.8423295454545454
+0.8440896739130435
+0.8440755208333334
+0.844375
+0.8431490384615384
+0.8425925925925926
+0.84375
+0.8426724137931034
+0.8403645833333333
+0.8382056451612904
+0.840087890625
+acc test: [0.840087890625]

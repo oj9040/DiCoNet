@@ -1,0 +1,336 @@
+Reading training dataset at ./data/knapsack/Dataset_Knapsack100_train_capacity_20_30.np
+Reading testing dataset at ./data/knapsack/Dataset_Knapsack100_test_capacity_20_30.np
+/home/jo1443/DiCoNet/src/Knapsack/model.py:68: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  Y = F.softmax(Y.permute(2,1,0)).permute(2,1,0)
+src/Knapsack/knapsack.py:148: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(sample)
+src/Knapsack/knapsack.py:149: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  sample = sample*F.softmax(prob_scores).data
+src/Knapsack/knapsack.py:170: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  probs = 1e-6 + (1-2e-6) * F.softmax(scores)
+src/Knapsack/knapsack.py:290: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  nn.utils.clip_grad_norm(Knap.parameters(), clip_grad_norm)
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        0          16.297     25.32967   40.44936   40.21225   45.328     
+                                 1.66074    1.00000    1.00599               
+
+Model Saved.
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        50         9.097      36.18273   40.32732   40.08873   2180.281   
+                                 1.13226    1.00000    1.00605               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        100        3.372      39.37096   40.35546   40.11560   2180.969   
+                                 1.02632    1.00000    1.00608               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        150        1.770      39.64687   40.28654   40.04716   2179.710   
+                                 1.01679    1.00000    1.00608               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        200        0.947      39.88467   40.33275   40.09602   2264.567   
+                                 1.01166    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        250        1.315      39.82281   40.28633   40.04951   2313.809   
+                                 1.01211    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        300        0.490      39.94861   40.29227   40.05478   2252.743   
+                                 1.00885    1.00000    1.00603               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        350        0.137      40.03972   40.32521   40.08658   2300.274   
+                                 1.00728    1.00000    1.00605               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        400        0.109      40.03624   40.29957   40.06173   2307.387   
+                                 1.00671    1.00000    1.00604               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        450        0.083      40.02962   40.27608   40.03675   2291.346   
+                                 1.00627    1.00000    1.00607               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        500        0.067      40.05502   40.29553   40.05798   2277.591   
+                                 1.00611    1.00000    1.00603               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        550        0.080      40.10257   40.33685   40.09961   2300.097   
+                                 1.00595    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        600        0.066      40.03805   40.26829   40.02971   2235.910   
+                                 1.00586    1.00000    1.00607               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        650        0.065      40.07870   40.30682   40.06963   2253.851   
+                                 1.00579    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        700        0.072      40.06683   40.29205   40.05517   2307.890   
+                                 1.00572    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        750        0.068      40.06210   40.29199   40.05492   2296.004   
+                                 1.00584    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        800        0.054      40.10161   40.32348   40.08471   2292.892   
+                                 1.00563    1.00000    1.00605               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        850        0.052      40.07180   40.28992   40.05391   2274.591   
+                                 1.00554    1.00000    1.00599               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        900        0.048      40.09399   40.31151   40.07503   2307.790   
+                                 1.00552    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        950        0.048      40.08425   40.29892   40.06235   2210.262   
+                                 1.00545    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1000       0.052      40.10390   40.31649   40.08138   2199.385   
+                                 1.00540    1.00000    1.00596               
+
+Model Saved.
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1050       0.053      40.06355   40.27486   40.03773   2209.810   
+                                 1.00536    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1100       0.054      40.13085   40.34374   40.10500   2214.573   
+                                 1.00540    1.00000    1.00606               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1150       0.058      40.11719   40.32655   40.08923   2210.793   
+                                 1.00531    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1200       0.056      40.11177   40.31885   40.08109   2210.741   
+                                 1.00525    1.00000    1.00603               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1250       0.044      40.09129   40.29405   40.05761   2213.468   
+                                 1.00514    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1300       0.053      40.11306   40.31921   40.08229   2215.299   
+                                 1.00523    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1350       0.043      40.09875   40.29949   40.06270   2215.485   
+                                 1.00509    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1400       0.049      40.12084   40.31938   40.08382   2198.786   
+                                 1.00503    1.00000    1.00598               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1450       0.046      40.10067   40.30134   40.06664   2199.138   
+                                 1.00508    1.00000    1.00596               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1500       0.051      40.15184   40.35122   40.11300   2214.047   
+                                 1.00504    1.00000    1.00604               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1550       0.054      40.10475   40.29747   40.06035   2213.628   
+                                 1.00488    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1600       0.044      40.10883   40.30074   40.06460   2200.711   
+                                 1.00486    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1650       0.054      40.09418   40.29196   40.05333   2203.334   
+                                 1.00501    1.00000    1.00606               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1700       0.045      40.07466   40.26649   40.02776   2212.073   
+                                 1.00487    1.00000    1.00607               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1750       0.048      40.11829   40.30089   40.06514   2212.677   
+                                 1.00462    1.00000    1.00598               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1800       0.037      40.11233   40.29301   40.05629   2195.290   
+                                 1.00456    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1850       0.037      40.16478   40.33861   40.10046   2190.839   
+                                 1.00439    1.00000    1.00604               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1900       0.035      40.17981   40.35335   40.11700   2207.272   
+                                 1.00438    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        1950       0.033      40.12390   40.29589   40.05906   2210.545   
+                                 1.00434    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2000       0.030      40.13690   40.31095   40.07320   2185.466   
+                                 1.00439    1.00000    1.00603               
+
+Model Saved.
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2050       0.030      40.13050   40.30070   40.06350   2192.935   
+                                 1.00430    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2100       0.028      40.10836   40.27814   40.04160   2210.492   
+                                 1.00429    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2150       0.020      40.11535   40.28889   40.05108   2191.885   
+                                 1.00438    1.00000    1.00603               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2200       0.027      40.12272   40.28733   40.04761   2211.349   
+                                 1.00416    1.00000    1.00609               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2250       0.029      40.18401   40.35147   40.11652   2209.330   
+                                 1.00422    1.00000    1.00595               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2300       0.022      40.15788   40.32385   40.08794   2208.528   
+                                 1.00419    1.00000    1.00598               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2350       0.026      40.14510   40.30679   40.07186   2207.242   
+                                 1.00408    1.00000    1.00596               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2400       0.018      40.15232   40.31311   40.07626   2205.252   
+                                 1.00405    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2450       0.018      40.16410   40.33382   40.09821   2204.332   
+                                 1.00428    1.00000    1.00597               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2500       0.017      40.12151   40.28590   40.05030   2189.328   
+                                 1.00416    1.00000    1.00599               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2550       0.025      40.16269   40.32054   40.08352   2184.202   
+                                 1.00398    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2600       0.021      40.14269   40.29910   40.06194   2189.244   
+                                 1.00394    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2650       0.015      40.15911   40.31659   40.08109   2181.152   
+                                 1.00397    1.00000    1.00597               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2700       0.024      40.18294   40.33060   40.09498   2186.293   
+                                 1.00372    1.00000    1.00597               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2750       0.023      40.16914   40.31901   40.08145   2202.103   
+                                 1.00377    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2800       0.022      40.14520   40.29772   40.05986   2205.572   
+                                 1.00384    1.00000    1.00604               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2850       0.012      40.11655   40.26643   40.02813   2204.974   
+                                 1.00377    1.00000    1.00605               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2900       0.024      40.18113   40.34054   40.10589   2204.666   
+                                 1.00402    1.00000    1.00595               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        2950       0.018      40.18900   40.34190   40.10624   2191.041   
+                                 1.00384    1.00000    1.00597               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3000       0.021      40.15863   40.30580   40.07066   2181.357   
+                                 1.00371    1.00000    1.00597               
+
+Model Saved.
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3050       0.012      40.16350   40.30807   40.07102   2184.574   
+                                 1.00364    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3100       0.015      40.19627   40.34090   40.10395   2191.207   
+                                 1.00363    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3150       0.023      40.15738   40.30475   40.06736   2185.990   
+                                 1.00371    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3200       0.019      40.18647   40.33121   40.09160   2191.707   
+                                 1.00364    1.00000    1.00608               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3250       0.016      40.13212   40.27687   40.04219   2191.100   
+                                 1.00365    1.00000    1.00596               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3300       0.019      40.22338   40.36690   40.13008   2190.426   
+                                 1.00361    1.00000    1.00600               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3350       0.016      40.16124   40.30330   40.06769   2196.341   
+                                 1.00357    1.00000    1.00598               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3400       0.017      40.16167   40.29766   40.06466   2184.486   
+                                 1.00342    1.00000    1.00591               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3450       0.013      40.14837   40.29081   40.05487   2184.646   
+                                 1.00359    1.00000    1.00599               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3500       0.015      40.19032   40.32805   40.09059   2185.431   
+                                 1.00346    1.00000    1.00602               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3550       0.019      40.15487   40.29406   40.05939   2187.122   
+                                 1.00350    1.00000    1.00595               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3600       0.008      40.17430   40.30890   40.06943   2187.581   
+                                 1.00338    1.00000    1.00608               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3650       0.007      40.23082   40.36841   40.13410   2187.040   
+                                 1.00346    1.00000    1.00594               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3700       0.018      40.17762   40.31351   40.07901   2187.746   
+                                 1.00341    1.00000    1.00595               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3750       0.016      40.16271   40.29893   40.06207   2187.864   
+                                 1.00342    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3800       0.012      40.16787   40.30247   40.06460   2187.897   
+                                 1.00339    1.00000    1.00604               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3850       0.011      40.20802   40.34464   40.10917   2188.734   
+                                 1.00343    1.00000    1.00597               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3900       0.013      40.16661   40.29998   40.06305   2176.652   
+                                 1.00335    1.00000    1.00601               
+
+TRAIN      iteration  loss       weight     opt        trivial    elapsed    
+---        3950       0.011      40.20762   40.33981   40.10217   2170.222   
+                                 1.00332    1.00000    1.00603               
+

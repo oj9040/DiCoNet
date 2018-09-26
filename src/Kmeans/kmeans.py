@@ -58,8 +58,8 @@ parser.add_argument('--normalize', action='store_true')
 
 args = parser.parse_args()
 
-args.save_file = '/home/anowak/DCN-for-KMEANS/model/exp1'
-# args.load_file = '/home/anowak/DCN-for-KMEANS/model/exp1'
+#args.save_file = '/home/anowak/DCN-for-KMEANS/model/exp1'
+#args.load_file = '/home/anowak/DCN-for-KMEANS/model/exp1'
 
 if torch.cuda.is_available():
     dtype = torch.cuda.FloatTensor
@@ -432,9 +432,9 @@ if __name__ == '__main__':
     baseline = args.baseline
     
     if args.dataset == 'GM':
-        gen = Generator('/data/anowak/dataset/', num_examples_train, num_examples_test, N, clusters, dim)
+        gen = Generator('./data/kmeans/', num_examples_train, num_examples_test, N, clusters, dim)
     elif args.dataset == "CIFAR":
-        gen = GeneratorCIFAR('/data/anowak/dataset/', num_examples_train, num_examples_test, N, clusters, dim)
+        gen = GeneratorCIFAR('./data/kmeans/', num_examples_train, num_examples_test, N, clusters, dim)
         dim = 27
     gen.load_dataset()
     num_iterations = 100000
@@ -452,61 +452,114 @@ if __name__ == '__main__':
     if test:
         num_iterations = num_examples_test // batch_size
     
-    
+   
     log = Logger()
     start = time.time()
-    for it in range(num_iterations):
-        if it % 50 == 0:
-            mode = 'test'
-        batch = gen.sample_batch(batch_size, is_training=True)
-        points, target = batch
-        if k_step > 0:
-            k = min(K,1+it//k_step)
-        else:
-            k = K
-        if not baseline:
-            e, loss, show_loss, c = execute(points, k, n_samples, sigma2, reg_factor, mode=mode)
-        else:
-            e, loss, show_loss, c = execute_baseline(points, k, n_samples, sigma2, reg_factor, mode=mode)
-        log.add('show_loss', show_loss)
-        
-        if mode == 'train':
-            gnn.zero_grad()
-            loss.backward()
-            nn.utils.clip_grad_norm(gnn.parameters(), clip_grad_norm)
-            optimizer.step()
+    
+    if not test:
             
-        # if not test:
-        if it%50 == 0:
-            elapsed = time.time()-start
-            # print('iteration {}, var {}, loss {}, elapsed {}'.format(it, show_loss, loss.data.mean(), elapsed))
-            plot_clusters(it, e, c, points.data, 0, 'gnn')
-            #out1 = ['---', it, loss, w, wt, tw, elapsed]
-            #print(template_train1.format(*info_train))
-            #print(template_train2.format(*out1))
-            start = time.time()
-            # Lloyds
-            points_np = points.data.cpu().numpy()
-            cost_lloyd = Lloyds(points_np, n_clusters=clusters)
-            cost_rec_lloyd, labels = recursive_Lloyds(points_np, K=K)
-            labels = torch.from_numpy(labels).type(dtype_l)
-            plot_clusters(it, labels, None, points.data, 0, 'lloyds')
-            print('gnn: {:.5f}, lloyds: {:.5f}, rec_lloyds: {:.5f}, ratio_lloyd: {:.5f}'
-                  'ratio_rec_lloyd: {:.5f}'
+            for it in range(num_iterations):
+                if it % 50 == 0:
+                    mode = 'test'
+                batch = gen.sample_batch(batch_size, is_training=True)
+                points, target = batch
+                if k_step > 0:
+                    k = min(K,1+it//k_step)
+                else:
+                    k = K
+                if not baseline:
+                    e, loss, show_loss, c = execute(points, k, n_samples, sigma2, reg_factor, mode=mode)
+                else:
+                    e, loss, show_loss, c = execute_baseline(points, k, n_samples, sigma2, reg_factor, mode=mode)
+                log.add('show_loss', show_loss)
+                
+                if mode == 'train':
+                    gnn.zero_grad()
+                    loss.backward()
+                    nn.utils.clip_grad_norm(gnn.parameters(), clip_grad_norm)
+                    optimizer.step()
+                    
+                # if not test:
+                if it%50 == 0:
+                    elapsed = time.time()-start
+                    # print('iteration {}, var {}, loss {}, elapsed {}'.format(it, show_loss, loss.data.mean(), elapsed))
+                    plot_clusters(it, e, c, points.data, 0, 'gnn')
+                    #out1 = ['---', it, loss, w, wt, tw, elapsed]
+                    #print(template_train1.format(*info_train))
+                    #print(template_train2.format(*out1))
+                    start = time.time()
+                    # Lloyds
+                    points_np = points.data.cpu().numpy()
+                    cost_lloyd = Lloyds(points_np, n_clusters=clusters)
+                    cost_rec_lloyd, labels = recursive_Lloyds(points_np, K=K)
+                    labels = torch.from_numpy(labels).type(dtype_l)
+                    plot_clusters(it, labels, None, points.data, 0, 'lloyds')
+                    print('gnn: {:.5f}, lloyds: {:.5f}, rec_lloyds: {:.5f}, ratio_lloyd: {:.5f}, ratio_rec_lloyd: {:.5f}'
+                          .format(show_loss, cost_lloyd, cost_rec_lloyd,
+                                  show_loss/cost_lloyd, show_loss/cost_rec_lloyd))
+                    mode = 'train'
+
+                if it%300 == 0:
+                    plot_train_logs(log.get('show_loss'))
+                    if args.save_file != '':
+                        save_model(args.save_file, gnn)
+                
+            
+    elif test:
+            
+            gnn_acc = []
+            lloyd_acc = []
+            reclloyd_acc = []
+            ratio_gnn_lloyd_acc = []
+            ratio_gnn_reclloyd_acc = []
+ 
+            for it in range(num_iterations):
+                mode = 'test'
+                batch = gen.sample_batch(batch_size, is_training=True)
+                points, target = batch
+                if k_step > 0:
+                    k = min(K,1+it//k_step)
+                else:
+                    k = K
+                if not baseline:
+                    e, loss, show_loss, c = execute(points, k, n_samples, sigma2, reg_factor, mode=mode)
+                else:
+                    e, loss, show_loss, c = execute_baseline(points, k, n_samples, sigma2, reg_factor, mode=mode)
+                log.add('show_loss', show_loss)
+                
+                elapsed = time.time()-start
+    
+                # print('iteration {}, var {}, loss {}, elapsed {}'.format(it, show_loss, loss.data.mean(), elapsed))
+                plot_clusters(it, e, c, points.data, 0, 'gnn')
+                #out1 = ['---', it, loss, w, wt, tw, elapsed]
+                #print(template_train1.format(*info_train))
+                #print(template_train2.format(*out1))
+                start = time.time()
+                # Lloyds
+                points_np = points.data.cpu().numpy()
+                cost_lloyd = Lloyds(points_np, n_clusters=clusters)
+                cost_rec_lloyd, labels = recursive_Lloyds(points_np, K=K)
+                labels = torch.from_numpy(labels).type(dtype_l)
+                plot_clusters(it, labels, None, points.data, 0, 'lloyds')
+                print('gnn: {:.5f}, lloyd: {:.5f}, rec_lloyd: {:.5f}, ratio_lloyd: {:.5f}, ratio_rec_lloyd: {:.5f}'
                   .format(show_loss, cost_lloyd, cost_rec_lloyd,
                           show_loss/cost_lloyd, show_loss/cost_rec_lloyd))
-            mode = 'train'
 
-        if it%300 == 0:
-            plot_train_logs(log.get('show_loss'))
-            if args.save_file != '':
-                save_model(args.save_file, gnn)
-        
-    if test:
-        a = 1
-        #ensenyar resultats
-            
-    
+                gnn_acc.append(show_loss)
+                lloyd_acc.append(cost_lloyd)
+                reclloyd_acc.append(cost_rec_lloyd)
+                ratio_gnn_lloyd_acc.append(show_loss/cost_lloyd)
+                ratio_gnn_reclloyd_acc.append(show_loss/cost_rec_lloyd)
+
+                plot_train_logs(log.get('show_loss'))
+
+            mean_gnn = sum(gnn_acc)/len(gnn_acc)
+            mean_lloyd = sum(lloyd_acc)/len(lloyd_acc)
+            mean_reclloyd = sum(reclloyd_acc)/len(reclloyd_acc)
+            mean_ratio_gnn_lloyd = sum(ratio_gnn_lloyd_acc)/len(ratio_gnn_lloyd_acc)
+            mean_ratio_gnn_reclloyd = sum(ratio_gnn_reclloyd_acc)/len(ratio_gnn_reclloyd_acc)
+
+            print('avg. gnn: {:.5f}, lloyd: {:.5f}, rec_lloyd: {:.5f}, ratio_lloyd: {:.5f}, ratio_rec_lloyd: {:.5f}'.format(mean_gnn, mean_lloyd, mean_reclloyd, mean_ratio_gnn_lloyd, mean_ratio_gnn_reclloyd))
 
 
 

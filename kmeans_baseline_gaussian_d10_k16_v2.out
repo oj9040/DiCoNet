@@ -1,0 +1,1233 @@
+Reading training dataset at ./data/kmeans/KMEANS_GM320_clusters16_dim10_train.np
+Reading testing dataset at ./data/kmeans/KMEANS_GM320_clusters16_dim10_test.np
+/home/jo1443/DiCoNet/src/Kmeans/model.py:64: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  Y = F.softmax(Y.permute(1,0,2)).permute(1,0,2)
+src/Kmeans/kmeans.py:316: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  probs = F.softmax(scores.permute(2, 1, 0)).permute(2, 1, 0)
+gnn: 0.72234, lloyds: 0.00979, rec_lloyds: 0.08029, ratio_lloyd: 73.79787, ratio_rec_lloyd: 8.99690
+Model Saved.
+src/Kmeans/kmeans.py:479: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  nn.utils.clip_grad_norm(gnn.parameters(), clip_grad_norm)
+gnn: 0.43619, lloyds: 0.00932, rec_lloyds: 0.08739, ratio_lloyd: 46.80100, ratio_rec_lloyd: 4.99103
+gnn: 0.39753, lloyds: 0.00902, rec_lloyds: 0.08410, ratio_lloyd: 44.06219, ratio_rec_lloyd: 4.72692
+gnn: 0.41123, lloyds: 0.00928, rec_lloyds: 0.08758, ratio_lloyd: 44.30029, ratio_rec_lloyd: 4.69547
+gnn: 0.38267, lloyds: 0.00924, rec_lloyds: 0.08896, ratio_lloyd: 41.39799, ratio_rec_lloyd: 4.30146
+gnn: 0.31485, lloyds: 0.00949, rec_lloyds: 0.09041, ratio_lloyd: 33.18229, ratio_rec_lloyd: 3.48251
+gnn: 0.35287, lloyds: 0.00927, rec_lloyds: 0.08365, ratio_lloyd: 38.07610, ratio_rec_lloyd: 4.21832
+Model Saved.
+gnn: 0.28704, lloyds: 0.00971, rec_lloyds: 0.09105, ratio_lloyd: 29.57033, ratio_rec_lloyd: 3.15251
+gnn: 0.28083, lloyds: 0.00945, rec_lloyds: 0.07862, ratio_lloyd: 29.70793, ratio_rec_lloyd: 3.57204
+gnn: 0.27678, lloyds: 0.00953, rec_lloyds: 0.08521, ratio_lloyd: 29.04721, ratio_rec_lloyd: 3.24813
+gnn: 0.24807, lloyds: 0.00903, rec_lloyds: 0.07381, ratio_lloyd: 27.46481, ratio_rec_lloyd: 3.36095
+gnn: 0.24599, lloyds: 0.00960, rec_lloyds: 0.08322, ratio_lloyd: 25.63303, ratio_rec_lloyd: 2.95581
+gnn: 0.26896, lloyds: 0.00946, rec_lloyds: 0.09052, ratio_lloyd: 28.44127, ratio_rec_lloyd: 2.97132
+Model Saved.
+gnn: 0.21689, lloyds: 0.00957, rec_lloyds: 0.08776, ratio_lloyd: 22.67151, ratio_rec_lloyd: 2.47145
+gnn: 0.22759, lloyds: 0.00927, rec_lloyds: 0.08605, ratio_lloyd: 24.56403, ratio_rec_lloyd: 2.64489
+gnn: 0.23801, lloyds: 0.00968, rec_lloyds: 0.08521, ratio_lloyd: 24.59108, ratio_rec_lloyd: 2.79311
+gnn: 0.21277, lloyds: 0.00974, rec_lloyds: 0.08324, ratio_lloyd: 21.84758, ratio_rec_lloyd: 2.55611
+gnn: 0.21157, lloyds: 0.00959, rec_lloyds: 0.07942, ratio_lloyd: 22.05874, ratio_rec_lloyd: 2.66392
+gnn: 0.21914, lloyds: 0.00948, rec_lloyds: 0.07482, ratio_lloyd: 23.11788, ratio_rec_lloyd: 2.92905
+Model Saved.
+gnn: 0.21854, lloyds: 0.00936, rec_lloyds: 0.08746, ratio_lloyd: 23.34388, ratio_rec_lloyd: 2.49884
+gnn: 0.21399, lloyds: 0.00917, rec_lloyds: 0.09220, ratio_lloyd: 23.33592, ratio_rec_lloyd: 2.32097
+gnn: 0.23380, lloyds: 0.00958, rec_lloyds: 0.08223, ratio_lloyd: 24.40171, ratio_rec_lloyd: 2.84319
+gnn: 0.20014, lloyds: 0.00962, rec_lloyds: 0.08223, ratio_lloyd: 20.80724, ratio_rec_lloyd: 2.43386
+gnn: 0.23252, lloyds: 0.00985, rec_lloyds: 0.08001, ratio_lloyd: 23.60772, ratio_rec_lloyd: 2.90609
+gnn: 0.22494, lloyds: 0.00988, rec_lloyds: 0.08552, ratio_lloyd: 22.76605, ratio_rec_lloyd: 2.63037
+Model Saved.
+gnn: 0.21262, lloyds: 0.00953, rec_lloyds: 0.09509, ratio_lloyd: 22.30212, ratio_rec_lloyd: 2.23594
+gnn: 0.19977, lloyds: 0.00980, rec_lloyds: 0.08361, ratio_lloyd: 20.37795, ratio_rec_lloyd: 2.38928
+gnn: 0.19735, lloyds: 0.00974, rec_lloyds: 0.08466, ratio_lloyd: 20.25185, ratio_rec_lloyd: 2.33105
+gnn: 0.19760, lloyds: 0.00928, rec_lloyds: 0.07655, ratio_lloyd: 21.29987, ratio_rec_lloyd: 2.58137
+gnn: 0.20023, lloyds: 0.00984, rec_lloyds: 0.09435, ratio_lloyd: 20.34933, ratio_rec_lloyd: 2.12221
+gnn: 0.18457, lloyds: 0.00928, rec_lloyds: 0.08132, ratio_lloyd: 19.88215, ratio_rec_lloyd: 2.26950
+Model Saved.
+gnn: 0.18858, lloyds: 0.00959, rec_lloyds: 0.08165, ratio_lloyd: 19.66322, ratio_rec_lloyd: 2.30959
+gnn: 0.18065, lloyds: 0.00972, rec_lloyds: 0.08276, ratio_lloyd: 18.59266, ratio_rec_lloyd: 2.18286
+gnn: 0.17893, lloyds: 0.00970, rec_lloyds: 0.07973, ratio_lloyd: 18.44285, ratio_rec_lloyd: 2.24416
+gnn: 0.18467, lloyds: 0.00959, rec_lloyds: 0.08254, ratio_lloyd: 19.25112, ratio_rec_lloyd: 2.23728
+gnn: 0.20359, lloyds: 0.01005, rec_lloyds: 0.07746, ratio_lloyd: 20.25388, ratio_rec_lloyd: 2.62810
+gnn: 0.21481, lloyds: 0.00938, rec_lloyds: 0.07881, ratio_lloyd: 22.90412, ratio_rec_lloyd: 2.72583
+Model Saved.
+gnn: 0.17898, lloyds: 0.00899, rec_lloyds: 0.08478, ratio_lloyd: 19.90646, ratio_rec_lloyd: 2.11122
+gnn: 0.18699, lloyds: 0.00904, rec_lloyds: 0.07607, ratio_lloyd: 20.68622, ratio_rec_lloyd: 2.45803
+gnn: 0.18294, lloyds: 0.00974, rec_lloyds: 0.07728, ratio_lloyd: 18.78494, ratio_rec_lloyd: 2.36716
+gnn: 0.16919, lloyds: 0.00938, rec_lloyds: 0.08685, ratio_lloyd: 18.03526, ratio_rec_lloyd: 1.94802
+gnn: 0.19992, lloyds: 0.00974, rec_lloyds: 0.07843, ratio_lloyd: 20.53007, ratio_rec_lloyd: 2.54904
+gnn: 0.18752, lloyds: 0.00994, rec_lloyds: 0.08854, ratio_lloyd: 18.86933, ratio_rec_lloyd: 2.11790
+Model Saved.
+gnn: 0.17726, lloyds: 0.01005, rec_lloyds: 0.08434, ratio_lloyd: 17.64430, ratio_rec_lloyd: 2.10160
+gnn: 0.18920, lloyds: 0.00962, rec_lloyds: 0.08607, ratio_lloyd: 19.67439, ratio_rec_lloyd: 2.19829
+gnn: 0.18936, lloyds: 0.00971, rec_lloyds: 0.08132, ratio_lloyd: 19.50019, ratio_rec_lloyd: 2.32861
+gnn: 0.18897, lloyds: 0.00988, rec_lloyds: 0.08629, ratio_lloyd: 19.13169, ratio_rec_lloyd: 2.18997
+gnn: 0.18044, lloyds: 0.00963, rec_lloyds: 0.09317, ratio_lloyd: 18.73103, ratio_rec_lloyd: 1.93671
+gnn: 0.18572, lloyds: 0.00948, rec_lloyds: 0.08281, ratio_lloyd: 19.58277, ratio_rec_lloyd: 2.24276
+Model Saved.
+gnn: 0.17619, lloyds: 0.00941, rec_lloyds: 0.07899, ratio_lloyd: 18.73219, ratio_rec_lloyd: 2.23052
+gnn: 0.18145, lloyds: 0.00944, rec_lloyds: 0.09108, ratio_lloyd: 19.21587, ratio_rec_lloyd: 1.99224
+gnn: 0.18030, lloyds: 0.00944, rec_lloyds: 0.09062, ratio_lloyd: 19.09368, ratio_rec_lloyd: 1.98957
+gnn: 0.18151, lloyds: 0.00955, rec_lloyds: 0.08204, ratio_lloyd: 19.00638, ratio_rec_lloyd: 2.21262
+gnn: 0.16970, lloyds: 0.00918, rec_lloyds: 0.08865, ratio_lloyd: 18.47916, ratio_rec_lloyd: 1.91434
+gnn: 0.18285, lloyds: 0.00983, rec_lloyds: 0.08819, ratio_lloyd: 18.59502, ratio_rec_lloyd: 2.07341
+Model Saved.
+gnn: 0.17410, lloyds: 0.00909, rec_lloyds: 0.09230, ratio_lloyd: 19.14353, ratio_rec_lloyd: 1.88635
+gnn: 0.18294, lloyds: 0.00936, rec_lloyds: 0.08418, ratio_lloyd: 19.53498, ratio_rec_lloyd: 2.17313
+gnn: 0.17828, lloyds: 0.00958, rec_lloyds: 0.08283, ratio_lloyd: 18.60023, ratio_rec_lloyd: 2.15218
+gnn: 0.16994, lloyds: 0.00972, rec_lloyds: 0.07862, ratio_lloyd: 17.48654, ratio_rec_lloyd: 2.16148
+gnn: 0.16357, lloyds: 0.00969, rec_lloyds: 0.08351, ratio_lloyd: 16.87669, ratio_rec_lloyd: 1.95877
+gnn: 0.15863, lloyds: 0.00933, rec_lloyds: 0.09523, ratio_lloyd: 17.00098, ratio_rec_lloyd: 1.66565
+Model Saved.
+gnn: 0.16703, lloyds: 0.00996, rec_lloyds: 0.08958, ratio_lloyd: 16.76390, ratio_rec_lloyd: 1.86468
+gnn: 0.17778, lloyds: 0.00956, rec_lloyds: 0.09061, ratio_lloyd: 18.60632, ratio_rec_lloyd: 1.96211
+gnn: 0.16046, lloyds: 0.00921, rec_lloyds: 0.07886, ratio_lloyd: 17.41553, ratio_rec_lloyd: 2.03465
+gnn: 0.15912, lloyds: 0.00970, rec_lloyds: 0.08197, ratio_lloyd: 16.41031, ratio_rec_lloyd: 1.94110
+gnn: 0.16199, lloyds: 0.00956, rec_lloyds: 0.09664, ratio_lloyd: 16.93615, ratio_rec_lloyd: 1.67616
+gnn: 0.16094, lloyds: 0.00991, rec_lloyds: 0.08051, ratio_lloyd: 16.24359, ratio_rec_lloyd: 1.99905
+Model Saved.
+gnn: 0.16931, lloyds: 0.00929, rec_lloyds: 0.07215, ratio_lloyd: 18.22338, ratio_rec_lloyd: 2.34666
+gnn: 0.17636, lloyds: 0.00941, rec_lloyds: 0.08527, ratio_lloyd: 18.75053, ratio_rec_lloyd: 2.06836
+gnn: 0.16080, lloyds: 0.00959, rec_lloyds: 0.08045, ratio_lloyd: 16.76333, ratio_rec_lloyd: 1.99875
+gnn: 0.16181, lloyds: 0.00942, rec_lloyds: 0.07702, ratio_lloyd: 17.17435, ratio_rec_lloyd: 2.10087
+gnn: 0.15789, lloyds: 0.00927, rec_lloyds: 0.08397, ratio_lloyd: 17.03890, ratio_rec_lloyd: 1.88024
+gnn: 0.17127, lloyds: 0.00953, rec_lloyds: 0.08889, ratio_lloyd: 17.97152, ratio_rec_lloyd: 1.92665
+Model Saved.
+gnn: 0.18089, lloyds: 0.00937, rec_lloyds: 0.09082, ratio_lloyd: 19.31198, ratio_rec_lloyd: 1.99171
+gnn: 0.16309, lloyds: 0.00937, rec_lloyds: 0.08929, ratio_lloyd: 17.40754, ratio_rec_lloyd: 1.82662
+gnn: 0.17685, lloyds: 0.00936, rec_lloyds: 0.08085, ratio_lloyd: 18.88843, ratio_rec_lloyd: 2.18738
+gnn: 0.15798, lloyds: 0.00926, rec_lloyds: 0.08778, ratio_lloyd: 17.06641, ratio_rec_lloyd: 1.79978
+gnn: 0.16744, lloyds: 0.00938, rec_lloyds: 0.08719, ratio_lloyd: 17.84861, ratio_rec_lloyd: 1.92037
+gnn: 0.15754, lloyds: 0.00952, rec_lloyds: 0.07984, ratio_lloyd: 16.55221, ratio_rec_lloyd: 1.97306
+Model Saved.
+gnn: 0.14654, lloyds: 0.00951, rec_lloyds: 0.07450, ratio_lloyd: 15.41426, ratio_rec_lloyd: 1.96695
+gnn: 0.15512, lloyds: 0.00948, rec_lloyds: 0.08034, ratio_lloyd: 16.36202, ratio_rec_lloyd: 1.93073
+gnn: 0.14274, lloyds: 0.00943, rec_lloyds: 0.08235, ratio_lloyd: 15.13491, ratio_rec_lloyd: 1.73326
+gnn: 0.16804, lloyds: 0.00937, rec_lloyds: 0.08649, ratio_lloyd: 17.93751, ratio_rec_lloyd: 1.94277
+gnn: 0.16169, lloyds: 0.00932, rec_lloyds: 0.08199, ratio_lloyd: 17.35709, ratio_rec_lloyd: 1.97199
+gnn: 0.15972, lloyds: 0.00996, rec_lloyds: 0.08850, ratio_lloyd: 16.04355, ratio_rec_lloyd: 1.80469
+Model Saved.
+gnn: 0.17601, lloyds: 0.00983, rec_lloyds: 0.09077, ratio_lloyd: 17.91460, ratio_rec_lloyd: 1.93913
+gnn: 0.15471, lloyds: 0.00969, rec_lloyds: 0.09103, ratio_lloyd: 15.96797, ratio_rec_lloyd: 1.69960
+gnn: 0.15264, lloyds: 0.00983, rec_lloyds: 0.07611, ratio_lloyd: 15.53522, ratio_rec_lloyd: 2.00549
+gnn: 0.16345, lloyds: 0.00925, rec_lloyds: 0.08079, ratio_lloyd: 17.66231, ratio_rec_lloyd: 2.02321
+gnn: 0.13755, lloyds: 0.00962, rec_lloyds: 0.08314, ratio_lloyd: 14.30265, ratio_rec_lloyd: 1.65441
+gnn: 0.15186, lloyds: 0.00934, rec_lloyds: 0.08761, ratio_lloyd: 16.25829, ratio_rec_lloyd: 1.73336
+Model Saved.
+gnn: 0.17010, lloyds: 0.00939, rec_lloyds: 0.08186, ratio_lloyd: 18.11804, ratio_rec_lloyd: 2.07805
+gnn: 0.15677, lloyds: 0.00964, rec_lloyds: 0.08401, ratio_lloyd: 16.26635, ratio_rec_lloyd: 1.86617
+gnn: 0.14749, lloyds: 0.00925, rec_lloyds: 0.08853, ratio_lloyd: 15.94049, ratio_rec_lloyd: 1.66600
+gnn: 0.16063, lloyds: 0.00965, rec_lloyds: 0.07920, ratio_lloyd: 16.64725, ratio_rec_lloyd: 2.02830
+gnn: 0.14680, lloyds: 0.00966, rec_lloyds: 0.08033, ratio_lloyd: 15.20016, ratio_rec_lloyd: 1.82746
+gnn: 0.15047, lloyds: 0.00956, rec_lloyds: 0.08531, ratio_lloyd: 15.73937, ratio_rec_lloyd: 1.76381
+Model Saved.
+gnn: 0.14838, lloyds: 0.00936, rec_lloyds: 0.08754, ratio_lloyd: 15.85530, ratio_rec_lloyd: 1.69494
+gnn: 0.15105, lloyds: 0.00966, rec_lloyds: 0.09044, ratio_lloyd: 15.63178, ratio_rec_lloyd: 1.67009
+gnn: 0.14115, lloyds: 0.00956, rec_lloyds: 0.08546, ratio_lloyd: 14.77030, ratio_rec_lloyd: 1.65164
+gnn: 0.16663, lloyds: 0.00957, rec_lloyds: 0.09244, ratio_lloyd: 17.40570, ratio_rec_lloyd: 1.80265
+gnn: 0.14272, lloyds: 0.00947, rec_lloyds: 0.07491, ratio_lloyd: 15.06425, ratio_rec_lloyd: 1.90534
+gnn: 0.16255, lloyds: 0.00959, rec_lloyds: 0.07945, ratio_lloyd: 16.95597, ratio_rec_lloyd: 2.04583
+Model Saved.
+gnn: 0.15056, lloyds: 0.00926, rec_lloyds: 0.08249, ratio_lloyd: 16.25820, ratio_rec_lloyd: 1.82531
+gnn: 0.16280, lloyds: 0.00938, rec_lloyds: 0.08772, ratio_lloyd: 17.34763, ratio_rec_lloyd: 1.85589
+gnn: 0.15267, lloyds: 0.00956, rec_lloyds: 0.08830, ratio_lloyd: 15.96422, ratio_rec_lloyd: 1.72904
+gnn: 0.14498, lloyds: 0.00926, rec_lloyds: 0.08425, ratio_lloyd: 15.66263, ratio_rec_lloyd: 1.72093
+gnn: 0.15105, lloyds: 0.00950, rec_lloyds: 0.08278, ratio_lloyd: 15.89182, ratio_rec_lloyd: 1.82471
+gnn: 0.15419, lloyds: 0.00927, rec_lloyds: 0.08655, ratio_lloyd: 16.63154, ratio_rec_lloyd: 1.78164
+Model Saved.
+gnn: 0.15599, lloyds: 0.00963, rec_lloyds: 0.08223, ratio_lloyd: 16.19418, ratio_rec_lloyd: 1.89693
+gnn: 0.14207, lloyds: 0.00938, rec_lloyds: 0.08020, ratio_lloyd: 15.13925, ratio_rec_lloyd: 1.77146
+gnn: 0.14368, lloyds: 0.00941, rec_lloyds: 0.09163, ratio_lloyd: 15.27040, ratio_rec_lloyd: 1.56808
+gnn: 0.15570, lloyds: 0.00960, rec_lloyds: 0.08330, ratio_lloyd: 16.21759, ratio_rec_lloyd: 1.86922
+gnn: 0.15582, lloyds: 0.00963, rec_lloyds: 0.07358, ratio_lloyd: 16.17866, ratio_rec_lloyd: 2.11771
+gnn: 0.13912, lloyds: 0.00960, rec_lloyds: 0.08372, ratio_lloyd: 14.49498, ratio_rec_lloyd: 1.66168
+Model Saved.
+gnn: 0.15137, lloyds: 0.00946, rec_lloyds: 0.08742, ratio_lloyd: 16.00642, ratio_rec_lloyd: 1.73142
+gnn: 0.15591, lloyds: 0.00926, rec_lloyds: 0.08527, ratio_lloyd: 16.83744, ratio_rec_lloyd: 1.82835
+gnn: 0.12906, lloyds: 0.00948, rec_lloyds: 0.08428, ratio_lloyd: 13.61436, ratio_rec_lloyd: 1.53132
+gnn: 0.14533, lloyds: 0.01013, rec_lloyds: 0.09466, ratio_lloyd: 14.35120, ratio_rec_lloyd: 1.53525
+gnn: 0.14409, lloyds: 0.00968, rec_lloyds: 0.08789, ratio_lloyd: 14.87873, ratio_rec_lloyd: 1.63940
+gnn: 0.15186, lloyds: 0.00954, rec_lloyds: 0.08408, ratio_lloyd: 15.91088, ratio_rec_lloyd: 1.80608
+Model Saved.
+gnn: 0.16310, lloyds: 0.00954, rec_lloyds: 0.08761, ratio_lloyd: 17.10339, ratio_rec_lloyd: 1.86172
+gnn: 0.13789, lloyds: 0.00935, rec_lloyds: 0.07726, ratio_lloyd: 14.74831, ratio_rec_lloyd: 1.78482
+gnn: 0.14086, lloyds: 0.00946, rec_lloyds: 0.08744, ratio_lloyd: 14.89380, ratio_rec_lloyd: 1.61087
+gnn: 0.14688, lloyds: 0.00934, rec_lloyds: 0.07525, ratio_lloyd: 15.72416, ratio_rec_lloyd: 1.95207
+gnn: 0.14475, lloyds: 0.00938, rec_lloyds: 0.08557, ratio_lloyd: 15.43724, ratio_rec_lloyd: 1.69157
+gnn: 0.15159, lloyds: 0.00970, rec_lloyds: 0.09432, ratio_lloyd: 15.63496, ratio_rec_lloyd: 1.60721
+Model Saved.
+gnn: 0.13121, lloyds: 0.00942, rec_lloyds: 0.07831, ratio_lloyd: 13.92777, ratio_rec_lloyd: 1.67548
+gnn: 0.13479, lloyds: 0.00973, rec_lloyds: 0.08062, ratio_lloyd: 13.85355, ratio_rec_lloyd: 1.67197
+gnn: 0.13733, lloyds: 0.00912, rec_lloyds: 0.08367, ratio_lloyd: 15.05848, ratio_rec_lloyd: 1.64121
+gnn: 0.14554, lloyds: 0.00922, rec_lloyds: 0.07808, ratio_lloyd: 15.77775, ratio_rec_lloyd: 1.86405
+gnn: 0.15040, lloyds: 0.00973, rec_lloyds: 0.08697, ratio_lloyd: 15.44910, ratio_rec_lloyd: 1.72931
+gnn: 0.15937, lloyds: 0.00953, rec_lloyds: 0.08455, ratio_lloyd: 16.72397, ratio_rec_lloyd: 1.88489
+Model Saved.
+gnn: 0.16486, lloyds: 0.00989, rec_lloyds: 0.08829, ratio_lloyd: 16.66454, ratio_rec_lloyd: 1.86721
+gnn: 0.14544, lloyds: 0.00927, rec_lloyds: 0.07757, ratio_lloyd: 15.68820, ratio_rec_lloyd: 1.87490
+gnn: 0.14214, lloyds: 0.00956, rec_lloyds: 0.09063, ratio_lloyd: 14.87125, ratio_rec_lloyd: 1.56834
+gnn: 0.14714, lloyds: 0.00930, rec_lloyds: 0.08975, ratio_lloyd: 15.82367, ratio_rec_lloyd: 1.63950
+gnn: 0.14927, lloyds: 0.00962, rec_lloyds: 0.08830, ratio_lloyd: 15.51775, ratio_rec_lloyd: 1.69045
+gnn: 0.14990, lloyds: 0.00949, rec_lloyds: 0.07996, ratio_lloyd: 15.78756, ratio_rec_lloyd: 1.87460
+Model Saved.
+gnn: 0.14257, lloyds: 0.00935, rec_lloyds: 0.08402, ratio_lloyd: 15.25137, ratio_rec_lloyd: 1.69677
+gnn: 0.14950, lloyds: 0.00930, rec_lloyds: 0.07941, ratio_lloyd: 16.06761, ratio_rec_lloyd: 1.88272
+gnn: 0.15910, lloyds: 0.00978, rec_lloyds: 0.08368, ratio_lloyd: 16.27543, ratio_rec_lloyd: 1.90117
+gnn: 0.14552, lloyds: 0.00892, rec_lloyds: 0.07659, ratio_lloyd: 16.31226, ratio_rec_lloyd: 1.89985
+gnn: 0.13008, lloyds: 0.00953, rec_lloyds: 0.07376, ratio_lloyd: 13.65434, ratio_rec_lloyd: 1.76344
+gnn: 0.13563, lloyds: 0.00955, rec_lloyds: 0.08186, ratio_lloyd: 14.19753, ratio_rec_lloyd: 1.65690
+Model Saved.
+gnn: 0.14824, lloyds: 0.00986, rec_lloyds: 0.09007, ratio_lloyd: 15.02867, ratio_rec_lloyd: 1.64574
+gnn: 0.13757, lloyds: 0.00931, rec_lloyds: 0.06715, ratio_lloyd: 14.77311, ratio_rec_lloyd: 2.04858
+gnn: 0.13527, lloyds: 0.00971, rec_lloyds: 0.08728, ratio_lloyd: 13.93011, ratio_rec_lloyd: 1.54977
+gnn: 0.14484, lloyds: 0.00898, rec_lloyds: 0.08962, ratio_lloyd: 16.12849, ratio_rec_lloyd: 1.61607
+gnn: 0.12555, lloyds: 0.00968, rec_lloyds: 0.07453, ratio_lloyd: 12.96828, ratio_rec_lloyd: 1.68462
+gnn: 0.12623, lloyds: 0.01047, rec_lloyds: 0.08369, ratio_lloyd: 12.05286, ratio_rec_lloyd: 1.50832
+Model Saved.
+gnn: 0.14408, lloyds: 0.00948, rec_lloyds: 0.09919, ratio_lloyd: 15.20294, ratio_rec_lloyd: 1.45254
+gnn: 0.13299, lloyds: 0.00963, rec_lloyds: 0.09345, ratio_lloyd: 13.80529, ratio_rec_lloyd: 1.42307
+gnn: 0.14230, lloyds: 0.00948, rec_lloyds: 0.08388, ratio_lloyd: 15.00414, ratio_rec_lloyd: 1.69649
+gnn: 0.12259, lloyds: 0.00925, rec_lloyds: 0.08253, ratio_lloyd: 13.25746, ratio_rec_lloyd: 1.48531
+gnn: 0.13068, lloyds: 0.00915, rec_lloyds: 0.08890, ratio_lloyd: 14.27971, ratio_rec_lloyd: 1.47005
+gnn: 0.13150, lloyds: 0.00977, rec_lloyds: 0.08823, ratio_lloyd: 13.46312, ratio_rec_lloyd: 1.49046
+Model Saved.
+gnn: 0.13342, lloyds: 0.00959, rec_lloyds: 0.08810, ratio_lloyd: 13.91020, ratio_rec_lloyd: 1.51451
+gnn: 0.11795, lloyds: 0.00971, rec_lloyds: 0.08124, ratio_lloyd: 12.14330, ratio_rec_lloyd: 1.45188
+gnn: 0.14197, lloyds: 0.00960, rec_lloyds: 0.08463, ratio_lloyd: 14.78776, ratio_rec_lloyd: 1.67760
+gnn: 0.12199, lloyds: 0.00941, rec_lloyds: 0.08171, ratio_lloyd: 12.96151, ratio_rec_lloyd: 1.49294
+gnn: 0.13724, lloyds: 0.00949, rec_lloyds: 0.07862, ratio_lloyd: 14.46092, ratio_rec_lloyd: 1.74550
+gnn: 0.13698, lloyds: 0.00956, rec_lloyds: 0.08421, ratio_lloyd: 14.32549, ratio_rec_lloyd: 1.62663
+Model Saved.
+gnn: 0.13701, lloyds: 0.00959, rec_lloyds: 0.07951, ratio_lloyd: 14.29350, ratio_rec_lloyd: 1.72326
+gnn: 0.14452, lloyds: 0.00932, rec_lloyds: 0.08938, ratio_lloyd: 15.50066, ratio_rec_lloyd: 1.61693
+gnn: 0.13761, lloyds: 0.00931, rec_lloyds: 0.07882, ratio_lloyd: 14.78808, ratio_rec_lloyd: 1.74588
+gnn: 0.15422, lloyds: 0.00961, rec_lloyds: 0.08311, ratio_lloyd: 16.04793, ratio_rec_lloyd: 1.85554
+gnn: 0.13854, lloyds: 0.00959, rec_lloyds: 0.08151, ratio_lloyd: 14.44832, ratio_rec_lloyd: 1.69957
+gnn: 0.13350, lloyds: 0.00974, rec_lloyds: 0.08981, ratio_lloyd: 13.71077, ratio_rec_lloyd: 1.48657
+Model Saved.
+gnn: 0.12864, lloyds: 0.00950, rec_lloyds: 0.08089, ratio_lloyd: 13.53683, ratio_rec_lloyd: 1.59023
+gnn: 0.13357, lloyds: 0.00947, rec_lloyds: 0.08993, ratio_lloyd: 14.10118, ratio_rec_lloyd: 1.48525
+gnn: 0.15061, lloyds: 0.00986, rec_lloyds: 0.08498, ratio_lloyd: 15.27492, ratio_rec_lloyd: 1.77227
+gnn: 0.15790, lloyds: 0.00959, rec_lloyds: 0.09296, ratio_lloyd: 16.46971, ratio_rec_lloyd: 1.69853
+gnn: 0.15273, lloyds: 0.00944, rec_lloyds: 0.08637, ratio_lloyd: 16.17119, ratio_rec_lloyd: 1.76834
+gnn: 0.13508, lloyds: 0.00961, rec_lloyds: 0.08910, ratio_lloyd: 14.06113, ratio_rec_lloyd: 1.51599
+Model Saved.
+gnn: 0.12621, lloyds: 0.00939, rec_lloyds: 0.08633, ratio_lloyd: 13.44301, ratio_rec_lloyd: 1.46190
+gnn: 0.15290, lloyds: 0.00913, rec_lloyds: 0.08427, ratio_lloyd: 16.74026, ratio_rec_lloyd: 1.81452
+gnn: 0.12734, lloyds: 0.00968, rec_lloyds: 0.07883, ratio_lloyd: 13.14962, ratio_rec_lloyd: 1.61534
+gnn: 0.15542, lloyds: 0.00965, rec_lloyds: 0.07367, ratio_lloyd: 16.11032, ratio_rec_lloyd: 2.10963
+gnn: 0.15073, lloyds: 0.01003, rec_lloyds: 0.07550, ratio_lloyd: 15.03457, ratio_rec_lloyd: 1.99642
+gnn: 0.14349, lloyds: 0.00987, rec_lloyds: 0.08755, ratio_lloyd: 14.53495, ratio_rec_lloyd: 1.63902
+Model Saved.
+gnn: 0.13450, lloyds: 0.00951, rec_lloyds: 0.07763, ratio_lloyd: 14.14500, ratio_rec_lloyd: 1.73250
+gnn: 0.13008, lloyds: 0.00972, rec_lloyds: 0.08444, ratio_lloyd: 13.37851, ratio_rec_lloyd: 1.54047
+gnn: 0.13827, lloyds: 0.00961, rec_lloyds: 0.08767, ratio_lloyd: 14.38504, ratio_rec_lloyd: 1.57703
+gnn: 0.14188, lloyds: 0.00959, rec_lloyds: 0.08191, ratio_lloyd: 14.79748, ratio_rec_lloyd: 1.73228
+gnn: 0.12809, lloyds: 0.00912, rec_lloyds: 0.07361, ratio_lloyd: 14.04473, ratio_rec_lloyd: 1.74018
+gnn: 0.13017, lloyds: 0.00984, rec_lloyds: 0.08541, ratio_lloyd: 13.22937, ratio_rec_lloyd: 1.52407
+Model Saved.
+gnn: 0.15507, lloyds: 0.00931, rec_lloyds: 0.08446, ratio_lloyd: 16.64770, ratio_rec_lloyd: 1.83595
+gnn: 0.14464, lloyds: 0.00950, rec_lloyds: 0.08814, ratio_lloyd: 15.22340, ratio_rec_lloyd: 1.64103
+gnn: 0.12730, lloyds: 0.00975, rec_lloyds: 0.08567, ratio_lloyd: 13.05112, ratio_rec_lloyd: 1.48581
+gnn: 0.13059, lloyds: 0.00963, rec_lloyds: 0.08577, ratio_lloyd: 13.55501, ratio_rec_lloyd: 1.52258
+gnn: 0.14953, lloyds: 0.00974, rec_lloyds: 0.08573, ratio_lloyd: 15.35437, ratio_rec_lloyd: 1.74414
+gnn: 0.13650, lloyds: 0.00926, rec_lloyds: 0.08458, ratio_lloyd: 14.74743, ratio_rec_lloyd: 1.61384
+Model Saved.
+gnn: 0.12626, lloyds: 0.00946, rec_lloyds: 0.08276, ratio_lloyd: 13.34895, ratio_rec_lloyd: 1.52567
+gnn: 0.12604, lloyds: 0.00974, rec_lloyds: 0.08260, ratio_lloyd: 12.94656, ratio_rec_lloyd: 1.52599
+gnn: 0.13864, lloyds: 0.00959, rec_lloyds: 0.08366, ratio_lloyd: 14.44979, ratio_rec_lloyd: 1.65723
+gnn: 0.12466, lloyds: 0.00922, rec_lloyds: 0.08414, ratio_lloyd: 13.51518, ratio_rec_lloyd: 1.48156
+gnn: 0.13529, lloyds: 0.00929, rec_lloyds: 0.08050, ratio_lloyd: 14.56487, ratio_rec_lloyd: 1.68074
+gnn: 0.14923, lloyds: 0.00909, rec_lloyds: 0.07527, ratio_lloyd: 16.41057, ratio_rec_lloyd: 1.98252
+Model Saved.
+gnn: 0.12107, lloyds: 0.00949, rec_lloyds: 0.08912, ratio_lloyd: 12.75725, ratio_rec_lloyd: 1.35843
+gnn: 0.13778, lloyds: 0.00940, rec_lloyds: 0.09744, ratio_lloyd: 14.65393, ratio_rec_lloyd: 1.41390
+gnn: 0.13022, lloyds: 0.00958, rec_lloyds: 0.08863, ratio_lloyd: 13.59782, ratio_rec_lloyd: 1.46921
+gnn: 0.11696, lloyds: 0.00907, rec_lloyds: 0.07630, ratio_lloyd: 12.89495, ratio_rec_lloyd: 1.53302
+gnn: 0.12465, lloyds: 0.00981, rec_lloyds: 0.08417, ratio_lloyd: 12.71057, ratio_rec_lloyd: 1.48089
+gnn: 0.13386, lloyds: 0.00972, rec_lloyds: 0.08281, ratio_lloyd: 13.77239, ratio_rec_lloyd: 1.61645
+Model Saved.
+gnn: 0.12589, lloyds: 0.00956, rec_lloyds: 0.08099, ratio_lloyd: 13.17218, ratio_rec_lloyd: 1.55448
+gnn: 0.12829, lloyds: 0.00929, rec_lloyds: 0.08422, ratio_lloyd: 13.81119, ratio_rec_lloyd: 1.52327
+gnn: 0.12914, lloyds: 0.00932, rec_lloyds: 0.09224, ratio_lloyd: 13.85445, ratio_rec_lloyd: 1.40005
+gnn: 0.13736, lloyds: 0.00950, rec_lloyds: 0.08978, ratio_lloyd: 14.46460, ratio_rec_lloyd: 1.52995
+gnn: 0.13602, lloyds: 0.00935, rec_lloyds: 0.08215, ratio_lloyd: 14.54298, ratio_rec_lloyd: 1.65579
+gnn: 0.11511, lloyds: 0.00947, rec_lloyds: 0.07889, ratio_lloyd: 12.15466, ratio_rec_lloyd: 1.45908
+Model Saved.
+gnn: 0.12152, lloyds: 0.00933, rec_lloyds: 0.08503, ratio_lloyd: 13.01913, ratio_rec_lloyd: 1.42912
+gnn: 0.13039, lloyds: 0.00983, rec_lloyds: 0.08807, ratio_lloyd: 13.26131, ratio_rec_lloyd: 1.48056
+gnn: 0.13100, lloyds: 0.00932, rec_lloyds: 0.07984, ratio_lloyd: 14.06049, ratio_rec_lloyd: 1.64086
+gnn: 0.13028, lloyds: 0.01001, rec_lloyds: 0.08685, ratio_lloyd: 13.01700, ratio_rec_lloyd: 1.50012
+gnn: 0.13383, lloyds: 0.00972, rec_lloyds: 0.09000, ratio_lloyd: 13.76877, ratio_rec_lloyd: 1.48709
+gnn: 0.12241, lloyds: 0.00961, rec_lloyds: 0.08291, ratio_lloyd: 12.74257, ratio_rec_lloyd: 1.47637
+Model Saved.
+gnn: 0.12740, lloyds: 0.00961, rec_lloyds: 0.09283, ratio_lloyd: 13.25466, ratio_rec_lloyd: 1.37239
+gnn: 0.13490, lloyds: 0.00901, rec_lloyds: 0.07971, ratio_lloyd: 14.97568, ratio_rec_lloyd: 1.69252
+gnn: 0.13204, lloyds: 0.00943, rec_lloyds: 0.07909, ratio_lloyd: 14.00452, ratio_rec_lloyd: 1.66955
+gnn: 0.12410, lloyds: 0.00923, rec_lloyds: 0.07125, ratio_lloyd: 13.44333, ratio_rec_lloyd: 1.74181
+gnn: 0.11936, lloyds: 0.00974, rec_lloyds: 0.09197, ratio_lloyd: 12.25893, ratio_rec_lloyd: 1.29776
+gnn: 0.12363, lloyds: 0.00939, rec_lloyds: 0.09778, ratio_lloyd: 13.16547, ratio_rec_lloyd: 1.26442
+Model Saved.
+gnn: 0.15440, lloyds: 0.00931, rec_lloyds: 0.08688, ratio_lloyd: 16.58028, ratio_rec_lloyd: 1.77724
+gnn: 0.13579, lloyds: 0.00953, rec_lloyds: 0.07736, ratio_lloyd: 14.24618, ratio_rec_lloyd: 1.75520
+gnn: 0.12395, lloyds: 0.01000, rec_lloyds: 0.09420, ratio_lloyd: 12.39434, ratio_rec_lloyd: 1.31575
+gnn: 0.11912, lloyds: 0.00953, rec_lloyds: 0.08437, ratio_lloyd: 12.49534, ratio_rec_lloyd: 1.41188
+gnn: 0.13437, lloyds: 0.00912, rec_lloyds: 0.09321, ratio_lloyd: 14.73721, ratio_rec_lloyd: 1.44169
+gnn: 0.12235, lloyds: 0.00939, rec_lloyds: 0.07558, ratio_lloyd: 13.02833, ratio_rec_lloyd: 1.61884
+Model Saved.
+gnn: 0.12039, lloyds: 0.00948, rec_lloyds: 0.08098, ratio_lloyd: 12.69727, ratio_rec_lloyd: 1.48658
+gnn: 0.13412, lloyds: 0.00978, rec_lloyds: 0.08758, ratio_lloyd: 13.70689, ratio_rec_lloyd: 1.53135
+gnn: 0.11594, lloyds: 0.00937, rec_lloyds: 0.07347, ratio_lloyd: 12.36831, ratio_rec_lloyd: 1.57808
+gnn: 0.13290, lloyds: 0.00983, rec_lloyds: 0.08390, ratio_lloyd: 13.52378, ratio_rec_lloyd: 1.58400
+gnn: 0.10675, lloyds: 0.00954, rec_lloyds: 0.08701, ratio_lloyd: 11.18511, ratio_rec_lloyd: 1.22694
+gnn: 0.12614, lloyds: 0.00879, rec_lloyds: 0.08989, ratio_lloyd: 14.34805, ratio_rec_lloyd: 1.40327
+Model Saved.
+gnn: 0.12282, lloyds: 0.00971, rec_lloyds: 0.09423, ratio_lloyd: 12.65036, ratio_rec_lloyd: 1.30335
+gnn: 0.11797, lloyds: 0.00956, rec_lloyds: 0.08725, ratio_lloyd: 12.33960, ratio_rec_lloyd: 1.35202
+gnn: 0.12238, lloyds: 0.00957, rec_lloyds: 0.08747, ratio_lloyd: 12.79076, ratio_rec_lloyd: 1.39903
+gnn: 0.13316, lloyds: 0.00911, rec_lloyds: 0.08084, ratio_lloyd: 14.62169, ratio_rec_lloyd: 1.64718
+gnn: 0.12938, lloyds: 0.00983, rec_lloyds: 0.07540, ratio_lloyd: 13.16775, ratio_rec_lloyd: 1.71596
+gnn: 0.13575, lloyds: 0.00989, rec_lloyds: 0.08503, ratio_lloyd: 13.72428, ratio_rec_lloyd: 1.59643
+Model Saved.
+gnn: 0.11603, lloyds: 0.00965, rec_lloyds: 0.08948, ratio_lloyd: 12.02728, ratio_rec_lloyd: 1.29675
+gnn: 0.13905, lloyds: 0.01005, rec_lloyds: 0.08576, ratio_lloyd: 13.83318, ratio_rec_lloyd: 1.62140
+gnn: 0.11827, lloyds: 0.00969, rec_lloyds: 0.08730, ratio_lloyd: 12.20030, ratio_rec_lloyd: 1.35479
+gnn: 0.12699, lloyds: 0.00939, rec_lloyds: 0.08627, ratio_lloyd: 13.52364, ratio_rec_lloyd: 1.47196
+gnn: 0.14055, lloyds: 0.00940, rec_lloyds: 0.08468, ratio_lloyd: 14.95543, ratio_rec_lloyd: 1.65981
+gnn: 0.13554, lloyds: 0.00912, rec_lloyds: 0.09302, ratio_lloyd: 14.85464, ratio_rec_lloyd: 1.45705
+Model Saved.
+gnn: 0.13369, lloyds: 0.00933, rec_lloyds: 0.08363, ratio_lloyd: 14.32493, ratio_rec_lloyd: 1.59856
+gnn: 0.12919, lloyds: 0.00916, rec_lloyds: 0.08348, ratio_lloyd: 14.10980, ratio_rec_lloyd: 1.54758
+gnn: 0.13967, lloyds: 0.00922, rec_lloyds: 0.07748, ratio_lloyd: 15.14473, ratio_rec_lloyd: 1.80273
+gnn: 0.12462, lloyds: 0.00961, rec_lloyds: 0.08611, ratio_lloyd: 12.96525, ratio_rec_lloyd: 1.44717
+gnn: 0.12262, lloyds: 0.00954, rec_lloyds: 0.08122, ratio_lloyd: 12.85937, ratio_rec_lloyd: 1.50960
+gnn: 0.13264, lloyds: 0.00894, rec_lloyds: 0.09418, ratio_lloyd: 14.84385, ratio_rec_lloyd: 1.40845
+Model Saved.
+gnn: 0.12029, lloyds: 0.00969, rec_lloyds: 0.09022, ratio_lloyd: 12.41193, ratio_rec_lloyd: 1.33325
+gnn: 0.12977, lloyds: 0.00980, rec_lloyds: 0.08624, ratio_lloyd: 13.23949, ratio_rec_lloyd: 1.50465
+gnn: 0.11312, lloyds: 0.00907, rec_lloyds: 0.08933, ratio_lloyd: 12.46785, ratio_rec_lloyd: 1.26636
+gnn: 0.13242, lloyds: 0.00904, rec_lloyds: 0.08342, ratio_lloyd: 14.64226, ratio_rec_lloyd: 1.58746
+gnn: 0.14008, lloyds: 0.00941, rec_lloyds: 0.09240, ratio_lloyd: 14.88609, ratio_rec_lloyd: 1.51595
+gnn: 0.12007, lloyds: 0.00974, rec_lloyds: 0.08843, ratio_lloyd: 12.32463, ratio_rec_lloyd: 1.35778
+Model Saved.
+gnn: 0.11835, lloyds: 0.00953, rec_lloyds: 0.08732, ratio_lloyd: 12.42390, ratio_rec_lloyd: 1.35533
+gnn: 0.12208, lloyds: 0.00927, rec_lloyds: 0.08984, ratio_lloyd: 13.17226, ratio_rec_lloyd: 1.35892
+gnn: 0.11887, lloyds: 0.00946, rec_lloyds: 0.08343, ratio_lloyd: 12.56790, ratio_rec_lloyd: 1.42476
+gnn: 0.12041, lloyds: 0.00976, rec_lloyds: 0.08698, ratio_lloyd: 12.33640, ratio_rec_lloyd: 1.38442
+gnn: 0.12348, lloyds: 0.00980, rec_lloyds: 0.08048, ratio_lloyd: 12.59516, ratio_rec_lloyd: 1.53429
+gnn: 0.10759, lloyds: 0.00945, rec_lloyds: 0.06817, ratio_lloyd: 11.38937, ratio_rec_lloyd: 1.57813
+Model Saved.
+gnn: 0.10916, lloyds: 0.00957, rec_lloyds: 0.08971, ratio_lloyd: 11.40391, ratio_rec_lloyd: 1.21684
+gnn: 0.12084, lloyds: 0.00934, rec_lloyds: 0.08662, ratio_lloyd: 12.93487, ratio_rec_lloyd: 1.39511
+gnn: 0.11833, lloyds: 0.00960, rec_lloyds: 0.09554, ratio_lloyd: 12.32730, ratio_rec_lloyd: 1.23858
+gnn: 0.12137, lloyds: 0.00953, rec_lloyds: 0.08358, ratio_lloyd: 12.73516, ratio_rec_lloyd: 1.45212
+gnn: 0.13019, lloyds: 0.01002, rec_lloyds: 0.08917, ratio_lloyd: 12.98693, ratio_rec_lloyd: 1.46007
+gnn: 0.12532, lloyds: 0.00998, rec_lloyds: 0.07942, ratio_lloyd: 12.56018, ratio_rec_lloyd: 1.57797
+Model Saved.
+gnn: 0.13172, lloyds: 0.00925, rec_lloyds: 0.08857, ratio_lloyd: 14.24585, ratio_rec_lloyd: 1.48719
+gnn: 0.13763, lloyds: 0.00955, rec_lloyds: 0.08776, ratio_lloyd: 14.40411, ratio_rec_lloyd: 1.56821
+gnn: 0.12055, lloyds: 0.00942, rec_lloyds: 0.08686, ratio_lloyd: 12.80260, ratio_rec_lloyd: 1.38784
+gnn: 0.12086, lloyds: 0.00945, rec_lloyds: 0.08941, ratio_lloyd: 12.78564, ratio_rec_lloyd: 1.35174
+gnn: 0.13156, lloyds: 0.00962, rec_lloyds: 0.09004, ratio_lloyd: 13.68110, ratio_rec_lloyd: 1.46116
+gnn: 0.11047, lloyds: 0.00962, rec_lloyds: 0.08838, ratio_lloyd: 11.48190, ratio_rec_lloyd: 1.24998
+Model Saved.
+gnn: 0.12357, lloyds: 0.00943, rec_lloyds: 0.07736, ratio_lloyd: 13.10128, ratio_rec_lloyd: 1.59738
+gnn: 0.12882, lloyds: 0.00935, rec_lloyds: 0.08526, ratio_lloyd: 13.78439, ratio_rec_lloyd: 1.51087
+gnn: 0.10928, lloyds: 0.00949, rec_lloyds: 0.08074, ratio_lloyd: 11.51108, ratio_rec_lloyd: 1.35349
+gnn: 0.12671, lloyds: 0.00933, rec_lloyds: 0.08667, ratio_lloyd: 13.57526, ratio_rec_lloyd: 1.46198
+gnn: 0.12611, lloyds: 0.00945, rec_lloyds: 0.08739, ratio_lloyd: 13.33834, ratio_rec_lloyd: 1.44303
+gnn: 0.11708, lloyds: 0.00966, rec_lloyds: 0.08635, ratio_lloyd: 12.11373, ratio_rec_lloyd: 1.35581
+Model Saved.
+gnn: 0.11653, lloyds: 0.00950, rec_lloyds: 0.09183, ratio_lloyd: 12.26628, ratio_rec_lloyd: 1.26896
+gnn: 0.12655, lloyds: 0.00964, rec_lloyds: 0.09308, ratio_lloyd: 13.12884, ratio_rec_lloyd: 1.35961
+gnn: 0.11839, lloyds: 0.00960, rec_lloyds: 0.08389, ratio_lloyd: 12.33482, ratio_rec_lloyd: 1.41133
+gnn: 0.11528, lloyds: 0.00953, rec_lloyds: 0.08986, ratio_lloyd: 12.09887, ratio_rec_lloyd: 1.28283
+gnn: 0.11443, lloyds: 0.00921, rec_lloyds: 0.07778, ratio_lloyd: 12.42267, ratio_rec_lloyd: 1.47121
+gnn: 0.12523, lloyds: 0.00932, rec_lloyds: 0.09086, ratio_lloyd: 13.43811, ratio_rec_lloyd: 1.37830
+Model Saved.
+gnn: 0.12051, lloyds: 0.00928, rec_lloyds: 0.08042, ratio_lloyd: 12.98737, ratio_rec_lloyd: 1.49844
+gnn: 0.11142, lloyds: 0.00920, rec_lloyds: 0.08297, ratio_lloyd: 12.10435, ratio_rec_lloyd: 1.34289
+gnn: 0.13615, lloyds: 0.00953, rec_lloyds: 0.09097, ratio_lloyd: 14.28734, ratio_rec_lloyd: 1.49661
+gnn: 0.12492, lloyds: 0.00979, rec_lloyds: 0.08702, ratio_lloyd: 12.75862, ratio_rec_lloyd: 1.43559
+gnn: 0.12100, lloyds: 0.00967, rec_lloyds: 0.08361, ratio_lloyd: 12.51498, ratio_rec_lloyd: 1.44726
+gnn: 0.13312, lloyds: 0.00923, rec_lloyds: 0.07640, ratio_lloyd: 14.41591, ratio_rec_lloyd: 1.74233
+Model Saved.
+gnn: 0.11780, lloyds: 0.00973, rec_lloyds: 0.08710, ratio_lloyd: 12.10173, ratio_rec_lloyd: 1.35237
+gnn: 0.12757, lloyds: 0.00956, rec_lloyds: 0.08135, ratio_lloyd: 13.35069, ratio_rec_lloyd: 1.56821
+gnn: 0.10336, lloyds: 0.00892, rec_lloyds: 0.07955, ratio_lloyd: 11.58350, ratio_rec_lloyd: 1.29934
+gnn: 0.11506, lloyds: 0.00982, rec_lloyds: 0.08120, ratio_lloyd: 11.71874, ratio_rec_lloyd: 1.41704
+gnn: 0.10181, lloyds: 0.00961, rec_lloyds: 0.08506, ratio_lloyd: 10.59180, ratio_rec_lloyd: 1.19695
+gnn: 0.11905, lloyds: 0.00960, rec_lloyds: 0.08196, ratio_lloyd: 12.40287, ratio_rec_lloyd: 1.45252
+Model Saved.
+gnn: 0.12086, lloyds: 0.00892, rec_lloyds: 0.08361, ratio_lloyd: 13.55213, ratio_rec_lloyd: 1.44558
+gnn: 0.10454, lloyds: 0.01013, rec_lloyds: 0.08158, ratio_lloyd: 10.31874, ratio_rec_lloyd: 1.28144
+gnn: 0.09708, lloyds: 0.00871, rec_lloyds: 0.08273, ratio_lloyd: 11.14556, ratio_rec_lloyd: 1.17349
+gnn: 0.10625, lloyds: 0.00931, rec_lloyds: 0.08806, ratio_lloyd: 11.41414, ratio_rec_lloyd: 1.20646
+gnn: 0.12742, lloyds: 0.00977, rec_lloyds: 0.08440, ratio_lloyd: 13.03559, ratio_rec_lloyd: 1.50977
+gnn: 0.10544, lloyds: 0.00943, rec_lloyds: 0.07965, ratio_lloyd: 11.18582, ratio_rec_lloyd: 1.32384
+Model Saved.
+gnn: 0.11067, lloyds: 0.00956, rec_lloyds: 0.08542, ratio_lloyd: 11.57436, ratio_rec_lloyd: 1.29559
+gnn: 0.10954, lloyds: 0.00978, rec_lloyds: 0.08132, ratio_lloyd: 11.19586, ratio_rec_lloyd: 1.34694
+gnn: 0.10893, lloyds: 0.00936, rec_lloyds: 0.07851, ratio_lloyd: 11.64071, ratio_rec_lloyd: 1.38750
+gnn: 0.11011, lloyds: 0.00974, rec_lloyds: 0.08168, ratio_lloyd: 11.29898, ratio_rec_lloyd: 1.34796
+gnn: 0.12585, lloyds: 0.00965, rec_lloyds: 0.08405, ratio_lloyd: 13.04846, ratio_rec_lloyd: 1.49728
+gnn: 0.10860, lloyds: 0.00952, rec_lloyds: 0.07636, ratio_lloyd: 11.40802, ratio_rec_lloyd: 1.42213
+Model Saved.
+gnn: 0.11624, lloyds: 0.00960, rec_lloyds: 0.09196, ratio_lloyd: 12.10385, ratio_rec_lloyd: 1.26410
+gnn: 0.12312, lloyds: 0.00990, rec_lloyds: 0.08719, ratio_lloyd: 12.43403, ratio_rec_lloyd: 1.41215
+gnn: 0.11324, lloyds: 0.00931, rec_lloyds: 0.08223, ratio_lloyd: 12.16177, ratio_rec_lloyd: 1.37714
+gnn: 0.11468, lloyds: 0.00915, rec_lloyds: 0.08863, ratio_lloyd: 12.52882, ratio_rec_lloyd: 1.29386
+gnn: 0.10810, lloyds: 0.00915, rec_lloyds: 0.09657, ratio_lloyd: 11.80846, ratio_rec_lloyd: 1.11942
+gnn: 0.11660, lloyds: 0.00945, rec_lloyds: 0.08834, ratio_lloyd: 12.33784, ratio_rec_lloyd: 1.31996
+Model Saved.
+gnn: 0.10940, lloyds: 0.00971, rec_lloyds: 0.08629, ratio_lloyd: 11.26364, ratio_rec_lloyd: 1.26779
+gnn: 0.10938, lloyds: 0.00967, rec_lloyds: 0.08292, ratio_lloyd: 11.31107, ratio_rec_lloyd: 1.31898
+gnn: 0.11004, lloyds: 0.00932, rec_lloyds: 0.08901, ratio_lloyd: 11.80642, ratio_rec_lloyd: 1.23626
+gnn: 0.12859, lloyds: 0.00990, rec_lloyds: 0.09369, ratio_lloyd: 12.99007, ratio_rec_lloyd: 1.37253
+gnn: 0.10995, lloyds: 0.00940, rec_lloyds: 0.08295, ratio_lloyd: 11.69719, ratio_rec_lloyd: 1.32551
+gnn: 0.11794, lloyds: 0.00985, rec_lloyds: 0.08045, ratio_lloyd: 11.96809, ratio_rec_lloyd: 1.46602
+Model Saved.
+gnn: 0.11849, lloyds: 0.00941, rec_lloyds: 0.07392, ratio_lloyd: 12.58979, ratio_rec_lloyd: 1.60291
+gnn: 0.12425, lloyds: 0.00975, rec_lloyds: 0.08520, ratio_lloyd: 12.74648, ratio_rec_lloyd: 1.45831
+gnn: 0.12042, lloyds: 0.00918, rec_lloyds: 0.08217, ratio_lloyd: 13.11506, ratio_rec_lloyd: 1.46540
+gnn: 0.12198, lloyds: 0.00941, rec_lloyds: 0.09330, ratio_lloyd: 12.96475, ratio_rec_lloyd: 1.30741
+gnn: 0.11961, lloyds: 0.00967, rec_lloyds: 0.08159, ratio_lloyd: 12.36467, ratio_rec_lloyd: 1.46601
+gnn: 0.13025, lloyds: 0.00966, rec_lloyds: 0.09205, ratio_lloyd: 13.48797, ratio_rec_lloyd: 1.41512
+Model Saved.
+gnn: 0.10611, lloyds: 0.00969, rec_lloyds: 0.08571, ratio_lloyd: 10.95538, ratio_rec_lloyd: 1.23807
+gnn: 0.12225, lloyds: 0.00920, rec_lloyds: 0.08179, ratio_lloyd: 13.28817, ratio_rec_lloyd: 1.49472
+gnn: 0.13799, lloyds: 0.00991, rec_lloyds: 0.08748, ratio_lloyd: 13.92731, ratio_rec_lloyd: 1.57731
+gnn: 0.13716, lloyds: 0.00981, rec_lloyds: 0.09088, ratio_lloyd: 13.98270, ratio_rec_lloyd: 1.50934
+gnn: 0.12283, lloyds: 0.00925, rec_lloyds: 0.09191, ratio_lloyd: 13.27598, ratio_rec_lloyd: 1.33640
+gnn: 0.12074, lloyds: 0.00900, rec_lloyds: 0.08270, ratio_lloyd: 13.41185, ratio_rec_lloyd: 1.45991
+Model Saved.
+gnn: 0.11794, lloyds: 0.00898, rec_lloyds: 0.08957, ratio_lloyd: 13.13866, ratio_rec_lloyd: 1.31673
+gnn: 0.11718, lloyds: 0.00987, rec_lloyds: 0.08239, ratio_lloyd: 11.86910, ratio_rec_lloyd: 1.42238
+gnn: 0.11635, lloyds: 0.00942, rec_lloyds: 0.09147, ratio_lloyd: 12.35366, ratio_rec_lloyd: 1.27208
+gnn: 0.13737, lloyds: 0.00886, rec_lloyds: 0.08563, ratio_lloyd: 15.50275, ratio_rec_lloyd: 1.60424
+gnn: 0.13093, lloyds: 0.00934, rec_lloyds: 0.08391, ratio_lloyd: 14.01114, ratio_rec_lloyd: 1.56028
+gnn: 0.12246, lloyds: 0.00955, rec_lloyds: 0.08184, ratio_lloyd: 12.82495, ratio_rec_lloyd: 1.49631
+Model Saved.
+gnn: 0.12185, lloyds: 0.00973, rec_lloyds: 0.08436, ratio_lloyd: 12.51829, ratio_rec_lloyd: 1.44449
+gnn: 0.11347, lloyds: 0.00940, rec_lloyds: 0.08677, ratio_lloyd: 12.06608, ratio_rec_lloyd: 1.30778
+gnn: 0.12474, lloyds: 0.00985, rec_lloyds: 0.08926, ratio_lloyd: 12.66275, ratio_rec_lloyd: 1.39756
+gnn: 0.11316, lloyds: 0.00979, rec_lloyds: 0.08188, ratio_lloyd: 11.56381, ratio_rec_lloyd: 1.38194
+gnn: 0.12022, lloyds: 0.00965, rec_lloyds: 0.08719, ratio_lloyd: 12.45335, ratio_rec_lloyd: 1.37881
+gnn: 0.11308, lloyds: 0.00996, rec_lloyds: 0.08199, ratio_lloyd: 11.35493, ratio_rec_lloyd: 1.37916
+Model Saved.
+gnn: 0.11778, lloyds: 0.00984, rec_lloyds: 0.08566, ratio_lloyd: 11.97436, ratio_rec_lloyd: 1.37509
+gnn: 0.10248, lloyds: 0.00952, rec_lloyds: 0.08587, ratio_lloyd: 10.76777, ratio_rec_lloyd: 1.19338
+gnn: 0.11798, lloyds: 0.00981, rec_lloyds: 0.08832, ratio_lloyd: 12.02947, ratio_rec_lloyd: 1.33587
+gnn: 0.11881, lloyds: 0.00938, rec_lloyds: 0.08696, ratio_lloyd: 12.67213, ratio_rec_lloyd: 1.36616
+gnn: 0.12191, lloyds: 0.00940, rec_lloyds: 0.08963, ratio_lloyd: 12.96590, ratio_rec_lloyd: 1.36008
+gnn: 0.13326, lloyds: 0.00920, rec_lloyds: 0.08350, ratio_lloyd: 14.48083, ratio_rec_lloyd: 1.59597
+Model Saved.
+gnn: 0.13996, lloyds: 0.00932, rec_lloyds: 0.07877, ratio_lloyd: 15.01540, ratio_rec_lloyd: 1.77678
+gnn: 0.10867, lloyds: 0.00945, rec_lloyds: 0.09030, ratio_lloyd: 11.50498, ratio_rec_lloyd: 1.20348
+gnn: 0.12214, lloyds: 0.00921, rec_lloyds: 0.08131, ratio_lloyd: 13.26030, ratio_rec_lloyd: 1.50219
+gnn: 0.12255, lloyds: 0.00965, rec_lloyds: 0.08533, ratio_lloyd: 12.69446, ratio_rec_lloyd: 1.43622
+gnn: 0.12190, lloyds: 0.00978, rec_lloyds: 0.09093, ratio_lloyd: 12.45904, ratio_rec_lloyd: 1.34057
+gnn: 0.10708, lloyds: 0.00987, rec_lloyds: 0.08344, ratio_lloyd: 10.85221, ratio_rec_lloyd: 1.28327
+Model Saved.
+gnn: 0.10825, lloyds: 0.00950, rec_lloyds: 0.09210, ratio_lloyd: 11.39973, ratio_rec_lloyd: 1.17536
+gnn: 0.11485, lloyds: 0.00972, rec_lloyds: 0.08761, ratio_lloyd: 11.81371, ratio_rec_lloyd: 1.31096
+gnn: 0.12320, lloyds: 0.00952, rec_lloyds: 0.08139, ratio_lloyd: 12.94651, ratio_rec_lloyd: 1.51362
+gnn: 0.09993, lloyds: 0.00995, rec_lloyds: 0.08600, ratio_lloyd: 10.04575, ratio_rec_lloyd: 1.16192
+gnn: 0.12436, lloyds: 0.00947, rec_lloyds: 0.08310, ratio_lloyd: 13.13410, ratio_rec_lloyd: 1.49646
+gnn: 0.12231, lloyds: 0.00964, rec_lloyds: 0.08644, ratio_lloyd: 12.69365, ratio_rec_lloyd: 1.41507
+Model Saved.
+gnn: 0.12726, lloyds: 0.00960, rec_lloyds: 0.08932, ratio_lloyd: 13.25999, ratio_rec_lloyd: 1.42481
+gnn: 0.12214, lloyds: 0.00933, rec_lloyds: 0.07950, ratio_lloyd: 13.08382, ratio_rec_lloyd: 1.53629
+gnn: 0.10514, lloyds: 0.00971, rec_lloyds: 0.08137, ratio_lloyd: 10.83087, ratio_rec_lloyd: 1.29212
+gnn: 0.12008, lloyds: 0.00930, rec_lloyds: 0.07789, ratio_lloyd: 12.90724, ratio_rec_lloyd: 1.54175
+gnn: 0.12684, lloyds: 0.00987, rec_lloyds: 0.08755, ratio_lloyd: 12.85634, ratio_rec_lloyd: 1.44888
+gnn: 0.12301, lloyds: 0.00935, rec_lloyds: 0.08349, ratio_lloyd: 13.15268, ratio_rec_lloyd: 1.47340
+Model Saved.
+gnn: 0.12847, lloyds: 0.00948, rec_lloyds: 0.08213, ratio_lloyd: 13.55892, ratio_rec_lloyd: 1.56418
+gnn: 0.13061, lloyds: 0.00913, rec_lloyds: 0.09180, ratio_lloyd: 14.31117, ratio_rec_lloyd: 1.42283
+gnn: 0.11228, lloyds: 0.00964, rec_lloyds: 0.09027, ratio_lloyd: 11.64670, ratio_rec_lloyd: 1.24383
+gnn: 0.11157, lloyds: 0.00929, rec_lloyds: 0.08250, ratio_lloyd: 12.01418, ratio_rec_lloyd: 1.35236
+gnn: 0.12782, lloyds: 0.00964, rec_lloyds: 0.08502, ratio_lloyd: 13.25734, ratio_rec_lloyd: 1.50351
+gnn: 0.12154, lloyds: 0.00955, rec_lloyds: 0.07381, ratio_lloyd: 12.72579, ratio_rec_lloyd: 1.64666
+Model Saved.
+gnn: 0.12290, lloyds: 0.00972, rec_lloyds: 0.08184, ratio_lloyd: 12.64836, ratio_rec_lloyd: 1.50179
+gnn: 0.12295, lloyds: 0.00937, rec_lloyds: 0.09082, ratio_lloyd: 13.12587, ratio_rec_lloyd: 1.35385
+gnn: 0.12476, lloyds: 0.00946, rec_lloyds: 0.08169, ratio_lloyd: 13.18912, ratio_rec_lloyd: 1.52729
+gnn: 0.13560, lloyds: 0.00945, rec_lloyds: 0.08350, ratio_lloyd: 14.35431, ratio_rec_lloyd: 1.62389
+gnn: 0.12916, lloyds: 0.01001, rec_lloyds: 0.08907, ratio_lloyd: 12.90924, ratio_rec_lloyd: 1.45022
+gnn: 0.11532, lloyds: 0.00923, rec_lloyds: 0.08665, ratio_lloyd: 12.48958, ratio_rec_lloyd: 1.33080
+Model Saved.
+gnn: 0.10692, lloyds: 0.00955, rec_lloyds: 0.08202, ratio_lloyd: 11.20094, ratio_rec_lloyd: 1.30351
+gnn: 0.10479, lloyds: 0.00917, rec_lloyds: 0.08205, ratio_lloyd: 11.42519, ratio_rec_lloyd: 1.27718
+gnn: 0.11864, lloyds: 0.00945, rec_lloyds: 0.08435, ratio_lloyd: 12.54897, ratio_rec_lloyd: 1.40652
+gnn: 0.12312, lloyds: 0.00935, rec_lloyds: 0.08246, ratio_lloyd: 13.16690, ratio_rec_lloyd: 1.49314
+gnn: 0.11654, lloyds: 0.00971, rec_lloyds: 0.08767, ratio_lloyd: 12.00844, ratio_rec_lloyd: 1.32936
+gnn: 0.11919, lloyds: 0.00965, rec_lloyds: 0.08702, ratio_lloyd: 12.34681, ratio_rec_lloyd: 1.36969
+Model Saved.
+gnn: 0.13553, lloyds: 0.00954, rec_lloyds: 0.09623, ratio_lloyd: 14.20398, ratio_rec_lloyd: 1.40848
+gnn: 0.10323, lloyds: 0.00971, rec_lloyds: 0.09101, ratio_lloyd: 10.63036, ratio_rec_lloyd: 1.13428
+gnn: 0.10491, lloyds: 0.00949, rec_lloyds: 0.08185, ratio_lloyd: 11.05620, ratio_rec_lloyd: 1.28171
+gnn: 0.12278, lloyds: 0.00924, rec_lloyds: 0.07952, ratio_lloyd: 13.28210, ratio_rec_lloyd: 1.54399
+gnn: 0.11926, lloyds: 0.00957, rec_lloyds: 0.08227, ratio_lloyd: 12.46185, ratio_rec_lloyd: 1.44958
+gnn: 0.14583, lloyds: 0.00941, rec_lloyds: 0.08307, ratio_lloyd: 15.49783, ratio_rec_lloyd: 1.75550
+Model Saved.
+gnn: 0.12824, lloyds: 0.00917, rec_lloyds: 0.08181, ratio_lloyd: 13.98162, ratio_rec_lloyd: 1.56748
+gnn: 0.13429, lloyds: 0.00956, rec_lloyds: 0.08482, ratio_lloyd: 14.04194, ratio_rec_lloyd: 1.58333
+gnn: 0.12864, lloyds: 0.00962, rec_lloyds: 0.07937, ratio_lloyd: 13.37681, ratio_rec_lloyd: 1.62077
+gnn: 0.14097, lloyds: 0.00972, rec_lloyds: 0.08936, ratio_lloyd: 14.50876, ratio_rec_lloyd: 1.57764
+gnn: 0.13949, lloyds: 0.00950, rec_lloyds: 0.08799, ratio_lloyd: 14.68244, ratio_rec_lloyd: 1.58536
+gnn: 0.13115, lloyds: 0.00961, rec_lloyds: 0.08724, ratio_lloyd: 13.64094, ratio_rec_lloyd: 1.50336
+Model Saved.
+gnn: 0.15302, lloyds: 0.00941, rec_lloyds: 0.08320, ratio_lloyd: 16.26459, ratio_rec_lloyd: 1.83916
+gnn: 0.13089, lloyds: 0.00993, rec_lloyds: 0.07881, ratio_lloyd: 13.18085, ratio_rec_lloyd: 1.66080
+gnn: 0.14261, lloyds: 0.00948, rec_lloyds: 0.08919, ratio_lloyd: 15.03719, ratio_rec_lloyd: 1.59882
+gnn: 0.14327, lloyds: 0.00966, rec_lloyds: 0.08883, ratio_lloyd: 14.82935, ratio_rec_lloyd: 1.61280
+gnn: 0.14055, lloyds: 0.00942, rec_lloyds: 0.08057, ratio_lloyd: 14.91523, ratio_rec_lloyd: 1.74440
+gnn: 0.13777, lloyds: 0.00943, rec_lloyds: 0.08082, ratio_lloyd: 14.60756, ratio_rec_lloyd: 1.70462
+Model Saved.
+gnn: 0.15091, lloyds: 0.00964, rec_lloyds: 0.08404, ratio_lloyd: 15.65705, ratio_rec_lloyd: 1.79557
+gnn: 0.13145, lloyds: 0.00945, rec_lloyds: 0.08614, ratio_lloyd: 13.90498, ratio_rec_lloyd: 1.52603
+gnn: 0.14429, lloyds: 0.00956, rec_lloyds: 0.09467, ratio_lloyd: 15.08964, ratio_rec_lloyd: 1.52417
+gnn: 0.13403, lloyds: 0.00958, rec_lloyds: 0.08857, ratio_lloyd: 13.98350, ratio_rec_lloyd: 1.51323
+gnn: 0.13698, lloyds: 0.00964, rec_lloyds: 0.07839, ratio_lloyd: 14.21295, ratio_rec_lloyd: 1.74744
+gnn: 0.13171, lloyds: 0.00953, rec_lloyds: 0.08034, ratio_lloyd: 13.81325, ratio_rec_lloyd: 1.63931
+Model Saved.
+gnn: 0.12396, lloyds: 0.00942, rec_lloyds: 0.08592, ratio_lloyd: 13.15553, ratio_rec_lloyd: 1.44278
+gnn: 0.11756, lloyds: 0.00964, rec_lloyds: 0.07645, ratio_lloyd: 12.19695, ratio_rec_lloyd: 1.53769
+gnn: 0.14376, lloyds: 0.00921, rec_lloyds: 0.08885, ratio_lloyd: 15.61506, ratio_rec_lloyd: 1.61811
+gnn: 0.14118, lloyds: 0.00929, rec_lloyds: 0.09286, ratio_lloyd: 15.20109, ratio_rec_lloyd: 1.52038
+gnn: 0.13688, lloyds: 0.00982, rec_lloyds: 0.08632, ratio_lloyd: 13.93846, ratio_rec_lloyd: 1.58586
+gnn: 0.12864, lloyds: 0.00969, rec_lloyds: 0.09194, ratio_lloyd: 13.27736, ratio_rec_lloyd: 1.39924
+Model Saved.
+gnn: 0.12550, lloyds: 0.00968, rec_lloyds: 0.08922, ratio_lloyd: 12.96246, ratio_rec_lloyd: 1.40662
+gnn: 0.13357, lloyds: 0.00951, rec_lloyds: 0.09310, ratio_lloyd: 14.04600, ratio_rec_lloyd: 1.43475
+gnn: 0.13643, lloyds: 0.00942, rec_lloyds: 0.08735, ratio_lloyd: 14.47525, ratio_rec_lloyd: 1.56186
+gnn: 0.13888, lloyds: 0.00988, rec_lloyds: 0.08358, ratio_lloyd: 14.06149, ratio_rec_lloyd: 1.66172
+gnn: 0.14847, lloyds: 0.00935, rec_lloyds: 0.08169, ratio_lloyd: 15.87519, ratio_rec_lloyd: 1.81738
+gnn: 0.14906, lloyds: 0.00948, rec_lloyds: 0.08080, ratio_lloyd: 15.72904, ratio_rec_lloyd: 1.84482
+Model Saved.
+gnn: 0.16003, lloyds: 0.00947, rec_lloyds: 0.08532, ratio_lloyd: 16.90005, ratio_rec_lloyd: 1.87563
+gnn: 0.16359, lloyds: 0.00936, rec_lloyds: 0.07937, ratio_lloyd: 17.48436, ratio_rec_lloyd: 2.06110
+gnn: 0.14815, lloyds: 0.00966, rec_lloyds: 0.08453, ratio_lloyd: 15.34013, ratio_rec_lloyd: 1.75268
+gnn: 0.14189, lloyds: 0.00933, rec_lloyds: 0.07978, ratio_lloyd: 15.20248, ratio_rec_lloyd: 1.77854
+gnn: 0.15083, lloyds: 0.00943, rec_lloyds: 0.07894, ratio_lloyd: 15.99838, ratio_rec_lloyd: 1.91064
+gnn: 0.15209, lloyds: 0.00924, rec_lloyds: 0.07743, ratio_lloyd: 16.45226, ratio_rec_lloyd: 1.96430
+Model Saved.
+gnn: 0.16949, lloyds: 0.00969, rec_lloyds: 0.07943, ratio_lloyd: 17.48398, ratio_rec_lloyd: 2.13375
+gnn: 0.14932, lloyds: 0.00964, rec_lloyds: 0.09208, ratio_lloyd: 15.48691, ratio_rec_lloyd: 1.62162
+gnn: 0.15213, lloyds: 0.00949, rec_lloyds: 0.07986, ratio_lloyd: 16.03830, ratio_rec_lloyd: 1.90496
+gnn: 0.14201, lloyds: 0.00951, rec_lloyds: 0.09103, ratio_lloyd: 14.93412, ratio_rec_lloyd: 1.56012
+gnn: 0.14901, lloyds: 0.00944, rec_lloyds: 0.08551, ratio_lloyd: 15.77685, ratio_rec_lloyd: 1.74250
+gnn: 0.14615, lloyds: 0.00964, rec_lloyds: 0.09594, ratio_lloyd: 15.16074, ratio_rec_lloyd: 1.52338
+Model Saved.
+gnn: 0.12347, lloyds: 0.00957, rec_lloyds: 0.07856, ratio_lloyd: 12.90216, ratio_rec_lloyd: 1.57168
+gnn: 0.12457, lloyds: 0.00936, rec_lloyds: 0.07726, ratio_lloyd: 13.31486, ratio_rec_lloyd: 1.61240
+gnn: 0.13079, lloyds: 0.00990, rec_lloyds: 0.08200, ratio_lloyd: 13.21793, ratio_rec_lloyd: 1.59512
+gnn: 0.12879, lloyds: 0.00974, rec_lloyds: 0.08450, ratio_lloyd: 13.22532, ratio_rec_lloyd: 1.52417
+gnn: 0.13439, lloyds: 0.00947, rec_lloyds: 0.07924, ratio_lloyd: 14.19126, ratio_rec_lloyd: 1.69586
+gnn: 0.12954, lloyds: 0.00926, rec_lloyds: 0.09673, ratio_lloyd: 13.99592, ratio_rec_lloyd: 1.33922
+Model Saved.
+gnn: 0.12229, lloyds: 0.00953, rec_lloyds: 0.07703, ratio_lloyd: 12.83662, ratio_rec_lloyd: 1.58751
+gnn: 0.13626, lloyds: 0.00913, rec_lloyds: 0.08300, ratio_lloyd: 14.92089, ratio_rec_lloyd: 1.64178
+gnn: 0.12906, lloyds: 0.00928, rec_lloyds: 0.08793, ratio_lloyd: 13.90598, ratio_rec_lloyd: 1.46773
+gnn: 0.15640, lloyds: 0.00952, rec_lloyds: 0.08482, ratio_lloyd: 16.43587, ratio_rec_lloyd: 1.84397
+gnn: 0.13214, lloyds: 0.00965, rec_lloyds: 0.08073, ratio_lloyd: 13.69447, ratio_rec_lloyd: 1.63681
+gnn: 0.13175, lloyds: 0.00934, rec_lloyds: 0.08274, ratio_lloyd: 14.10677, ratio_rec_lloyd: 1.59232
+Model Saved.
+gnn: 0.14060, lloyds: 0.00954, rec_lloyds: 0.08242, ratio_lloyd: 14.73839, ratio_rec_lloyd: 1.70599
+gnn: 0.13860, lloyds: 0.00955, rec_lloyds: 0.08239, ratio_lloyd: 14.51411, ratio_rec_lloyd: 1.68229
+gnn: 0.13824, lloyds: 0.00938, rec_lloyds: 0.08423, ratio_lloyd: 14.74417, ratio_rec_lloyd: 1.64127
+gnn: 0.13081, lloyds: 0.00948, rec_lloyds: 0.08383, ratio_lloyd: 13.79728, ratio_rec_lloyd: 1.56045
+gnn: 0.14195, lloyds: 0.00933, rec_lloyds: 0.08712, ratio_lloyd: 15.22245, ratio_rec_lloyd: 1.62945
+gnn: 0.11917, lloyds: 0.00969, rec_lloyds: 0.07981, ratio_lloyd: 12.29718, ratio_rec_lloyd: 1.49324
+Model Saved.
+gnn: 0.13528, lloyds: 0.00940, rec_lloyds: 0.08620, ratio_lloyd: 14.39771, ratio_rec_lloyd: 1.56947
+gnn: 0.13337, lloyds: 0.00958, rec_lloyds: 0.08934, ratio_lloyd: 13.92085, ratio_rec_lloyd: 1.49278
+gnn: 0.13802, lloyds: 0.00962, rec_lloyds: 0.08900, ratio_lloyd: 14.34974, ratio_rec_lloyd: 1.55081
+gnn: 0.14828, lloyds: 0.00939, rec_lloyds: 0.07703, ratio_lloyd: 15.79080, ratio_rec_lloyd: 1.92505
+gnn: 0.14288, lloyds: 0.00969, rec_lloyds: 0.09078, ratio_lloyd: 14.74420, ratio_rec_lloyd: 1.57391
+gnn: 0.16271, lloyds: 0.00895, rec_lloyds: 0.08848, ratio_lloyd: 18.18247, ratio_rec_lloyd: 1.83894
+Model Saved.
+gnn: 0.14362, lloyds: 0.00937, rec_lloyds: 0.07241, ratio_lloyd: 15.33357, ratio_rec_lloyd: 1.98349
+gnn: 0.14496, lloyds: 0.00969, rec_lloyds: 0.08871, ratio_lloyd: 14.96373, ratio_rec_lloyd: 1.63401
+gnn: 0.13119, lloyds: 0.00958, rec_lloyds: 0.08455, ratio_lloyd: 13.69225, ratio_rec_lloyd: 1.55165
+gnn: 0.13426, lloyds: 0.00920, rec_lloyds: 0.07669, ratio_lloyd: 14.59369, ratio_rec_lloyd: 1.75072
+gnn: 0.12191, lloyds: 0.00886, rec_lloyds: 0.08479, ratio_lloyd: 13.75885, ratio_rec_lloyd: 1.43765
+gnn: 0.12330, lloyds: 0.00908, rec_lloyds: 0.09592, ratio_lloyd: 13.57372, ratio_rec_lloyd: 1.28552
+Model Saved.
+gnn: 0.12326, lloyds: 0.00953, rec_lloyds: 0.07789, ratio_lloyd: 12.94016, ratio_rec_lloyd: 1.58261
+gnn: 0.13362, lloyds: 0.00936, rec_lloyds: 0.08457, ratio_lloyd: 14.27789, ratio_rec_lloyd: 1.58004
+gnn: 0.11368, lloyds: 0.00916, rec_lloyds: 0.08539, ratio_lloyd: 12.41267, ratio_rec_lloyd: 1.33122
+gnn: 0.11539, lloyds: 0.00972, rec_lloyds: 0.08571, ratio_lloyd: 11.86630, ratio_rec_lloyd: 1.34625
+gnn: 0.12568, lloyds: 0.00959, rec_lloyds: 0.09273, ratio_lloyd: 13.10867, ratio_rec_lloyd: 1.35534
+gnn: 0.12199, lloyds: 0.00939, rec_lloyds: 0.08383, ratio_lloyd: 12.98467, ratio_rec_lloyd: 1.45517
+Model Saved.
+gnn: 0.13265, lloyds: 0.00976, rec_lloyds: 0.07779, ratio_lloyd: 13.59307, ratio_rec_lloyd: 1.70533
+gnn: 0.13743, lloyds: 0.00929, rec_lloyds: 0.08651, ratio_lloyd: 14.80010, ratio_rec_lloyd: 1.58853
+gnn: 0.12928, lloyds: 0.00955, rec_lloyds: 0.09212, ratio_lloyd: 13.53177, ratio_rec_lloyd: 1.40342
+gnn: 0.13947, lloyds: 0.00950, rec_lloyds: 0.08582, ratio_lloyd: 14.68568, ratio_rec_lloyd: 1.62506
+gnn: 0.12053, lloyds: 0.00946, rec_lloyds: 0.08572, ratio_lloyd: 12.73666, ratio_rec_lloyd: 1.40609
+gnn: 0.13474, lloyds: 0.00943, rec_lloyds: 0.07621, ratio_lloyd: 14.28811, ratio_rec_lloyd: 1.76800
+Model Saved.
+gnn: 0.11583, lloyds: 0.00962, rec_lloyds: 0.07551, ratio_lloyd: 12.04510, ratio_rec_lloyd: 1.53392
+gnn: 0.13161, lloyds: 0.00915, rec_lloyds: 0.08687, ratio_lloyd: 14.38844, ratio_rec_lloyd: 1.51495
+gnn: 0.11470, lloyds: 0.00934, rec_lloyds: 0.09158, ratio_lloyd: 12.27785, ratio_rec_lloyd: 1.25244
+gnn: 0.12952, lloyds: 0.00970, rec_lloyds: 0.08320, ratio_lloyd: 13.35763, ratio_rec_lloyd: 1.55677
+gnn: 0.12547, lloyds: 0.00953, rec_lloyds: 0.08575, ratio_lloyd: 13.16916, ratio_rec_lloyd: 1.46323
+gnn: 0.13300, lloyds: 0.00962, rec_lloyds: 0.08251, ratio_lloyd: 13.81912, ratio_rec_lloyd: 1.61202
+Model Saved.
+gnn: 0.11314, lloyds: 0.00918, rec_lloyds: 0.07915, ratio_lloyd: 12.32152, ratio_rec_lloyd: 1.42947
+gnn: 0.13621, lloyds: 0.00958, rec_lloyds: 0.08130, ratio_lloyd: 14.22333, ratio_rec_lloyd: 1.67552
+gnn: 0.12327, lloyds: 0.00931, rec_lloyds: 0.08176, ratio_lloyd: 13.24660, ratio_rec_lloyd: 1.50784
+gnn: 0.12212, lloyds: 0.00946, rec_lloyds: 0.08539, ratio_lloyd: 12.90440, ratio_rec_lloyd: 1.43014
+gnn: 0.13266, lloyds: 0.00935, rec_lloyds: 0.08372, ratio_lloyd: 14.19162, ratio_rec_lloyd: 1.58460
+gnn: 0.13129, lloyds: 0.00931, rec_lloyds: 0.08086, ratio_lloyd: 14.10254, ratio_rec_lloyd: 1.62366
+Model Saved.
+gnn: 0.12324, lloyds: 0.00967, rec_lloyds: 0.09061, ratio_lloyd: 12.74782, ratio_rec_lloyd: 1.36016
+gnn: 0.13140, lloyds: 0.00882, rec_lloyds: 0.08963, ratio_lloyd: 14.90467, ratio_rec_lloyd: 1.46602
+gnn: 0.11948, lloyds: 0.00962, rec_lloyds: 0.08259, ratio_lloyd: 12.42252, ratio_rec_lloyd: 1.44663
+gnn: 0.11367, lloyds: 0.00923, rec_lloyds: 0.07986, ratio_lloyd: 12.30902, ratio_rec_lloyd: 1.42339
+gnn: 0.12586, lloyds: 0.00919, rec_lloyds: 0.08125, ratio_lloyd: 13.69859, ratio_rec_lloyd: 1.54902
+gnn: 0.12052, lloyds: 0.00912, rec_lloyds: 0.08099, ratio_lloyd: 13.21779, ratio_rec_lloyd: 1.48814
+Model Saved.
+gnn: 0.12172, lloyds: 0.00957, rec_lloyds: 0.08511, ratio_lloyd: 12.71672, ratio_rec_lloyd: 1.43018
+gnn: 0.12753, lloyds: 0.00971, rec_lloyds: 0.08199, ratio_lloyd: 13.13790, ratio_rec_lloyd: 1.55545
+gnn: 0.12213, lloyds: 0.00953, rec_lloyds: 0.08378, ratio_lloyd: 12.81686, ratio_rec_lloyd: 1.45779
+gnn: 0.13041, lloyds: 0.00958, rec_lloyds: 0.09103, ratio_lloyd: 13.60695, ratio_rec_lloyd: 1.43249
+gnn: 0.13825, lloyds: 0.00990, rec_lloyds: 0.09048, ratio_lloyd: 13.96042, ratio_rec_lloyd: 1.52792
+gnn: 0.12204, lloyds: 0.00897, rec_lloyds: 0.08086, ratio_lloyd: 13.59958, ratio_rec_lloyd: 1.50923
+Model Saved.
+gnn: 0.13339, lloyds: 0.00928, rec_lloyds: 0.08659, ratio_lloyd: 14.37336, ratio_rec_lloyd: 1.54041
+gnn: 0.10988, lloyds: 0.01012, rec_lloyds: 0.08330, ratio_lloyd: 10.85765, ratio_rec_lloyd: 1.31909
+gnn: 0.11598, lloyds: 0.00937, rec_lloyds: 0.07670, ratio_lloyd: 12.38061, ratio_rec_lloyd: 1.51220
+gnn: 0.12814, lloyds: 0.00949, rec_lloyds: 0.08545, ratio_lloyd: 13.50025, ratio_rec_lloyd: 1.49961
+gnn: 0.11347, lloyds: 0.00941, rec_lloyds: 0.08704, ratio_lloyd: 12.05215, ratio_rec_lloyd: 1.30368
+gnn: 0.12035, lloyds: 0.00937, rec_lloyds: 0.08772, ratio_lloyd: 12.84072, ratio_rec_lloyd: 1.37202
+Model Saved.
+gnn: 0.12460, lloyds: 0.00974, rec_lloyds: 0.07476, ratio_lloyd: 12.79299, ratio_rec_lloyd: 1.66659
+gnn: 0.11799, lloyds: 0.00934, rec_lloyds: 0.08947, ratio_lloyd: 12.63404, ratio_rec_lloyd: 1.31871
+gnn: 0.12628, lloyds: 0.00942, rec_lloyds: 0.08349, ratio_lloyd: 13.41124, ratio_rec_lloyd: 1.51255
+gnn: 0.12469, lloyds: 0.00890, rec_lloyds: 0.07340, ratio_lloyd: 14.01118, ratio_rec_lloyd: 1.69884
+gnn: 0.11256, lloyds: 0.00911, rec_lloyds: 0.08627, ratio_lloyd: 12.36163, ratio_rec_lloyd: 1.30467
+gnn: 0.12878, lloyds: 0.00913, rec_lloyds: 0.08495, ratio_lloyd: 14.09826, ratio_rec_lloyd: 1.51600
+Model Saved.
+gnn: 0.13176, lloyds: 0.00962, rec_lloyds: 0.07257, ratio_lloyd: 13.68983, ratio_rec_lloyd: 1.81559
+gnn: 0.11599, lloyds: 0.00958, rec_lloyds: 0.08676, ratio_lloyd: 12.11264, ratio_rec_lloyd: 1.33689
+gnn: 0.14742, lloyds: 0.00955, rec_lloyds: 0.07051, ratio_lloyd: 15.43274, ratio_rec_lloyd: 2.09074
+gnn: 0.13998, lloyds: 0.00928, rec_lloyds: 0.08080, ratio_lloyd: 15.08205, ratio_rec_lloyd: 1.73239
+gnn: 0.13533, lloyds: 0.00963, rec_lloyds: 0.08242, ratio_lloyd: 14.04812, ratio_rec_lloyd: 1.64203
+gnn: 0.14772, lloyds: 0.00952, rec_lloyds: 0.07873, ratio_lloyd: 15.51641, ratio_rec_lloyd: 1.87630
+Model Saved.
+gnn: 0.14545, lloyds: 0.00962, rec_lloyds: 0.09549, ratio_lloyd: 15.11375, ratio_rec_lloyd: 1.52325
+gnn: 0.12922, lloyds: 0.00993, rec_lloyds: 0.08722, ratio_lloyd: 13.00726, ratio_rec_lloyd: 1.48165
+gnn: 0.13037, lloyds: 0.00944, rec_lloyds: 0.08641, ratio_lloyd: 13.81657, ratio_rec_lloyd: 1.50873
+gnn: 0.13520, lloyds: 0.00924, rec_lloyds: 0.09351, ratio_lloyd: 14.62989, ratio_rec_lloyd: 1.44584
+gnn: 0.11540, lloyds: 0.00930, rec_lloyds: 0.08023, ratio_lloyd: 12.40613, ratio_rec_lloyd: 1.43830
+gnn: 0.12417, lloyds: 0.00951, rec_lloyds: 0.07316, ratio_lloyd: 13.05898, ratio_rec_lloyd: 1.69722
+Model Saved.
+gnn: 0.11990, lloyds: 0.00966, rec_lloyds: 0.08728, ratio_lloyd: 12.40863, ratio_rec_lloyd: 1.37375
+gnn: 0.11618, lloyds: 0.00990, rec_lloyds: 0.07461, ratio_lloyd: 11.72963, ratio_rec_lloyd: 1.55726
+gnn: 0.13140, lloyds: 0.00952, rec_lloyds: 0.08486, ratio_lloyd: 13.79682, ratio_rec_lloyd: 1.54848
+gnn: 0.12341, lloyds: 0.00947, rec_lloyds: 0.09474, ratio_lloyd: 13.03837, ratio_rec_lloyd: 1.30261
+gnn: 0.13248, lloyds: 0.00915, rec_lloyds: 0.08284, ratio_lloyd: 14.47325, ratio_rec_lloyd: 1.59930
+gnn: 0.10699, lloyds: 0.00887, rec_lloyds: 0.08963, ratio_lloyd: 12.06227, ratio_rec_lloyd: 1.19360
+Model Saved.
+gnn: 0.13415, lloyds: 0.00929, rec_lloyds: 0.08941, ratio_lloyd: 14.44481, ratio_rec_lloyd: 1.50049
+gnn: 0.11192, lloyds: 0.00921, rec_lloyds: 0.07777, ratio_lloyd: 12.14909, ratio_rec_lloyd: 1.43911
+gnn: 0.10488, lloyds: 0.00940, rec_lloyds: 0.07565, ratio_lloyd: 11.15669, ratio_rec_lloyd: 1.38645
+gnn: 0.11217, lloyds: 0.00932, rec_lloyds: 0.08396, ratio_lloyd: 12.03934, ratio_rec_lloyd: 1.33595
+gnn: 0.11781, lloyds: 0.00982, rec_lloyds: 0.09210, ratio_lloyd: 11.99405, ratio_rec_lloyd: 1.27922
+gnn: 0.10847, lloyds: 0.00951, rec_lloyds: 0.09041, ratio_lloyd: 11.40793, ratio_rec_lloyd: 1.19986
+Model Saved.
+gnn: 0.11639, lloyds: 0.00942, rec_lloyds: 0.07954, ratio_lloyd: 12.35370, ratio_rec_lloyd: 1.46336
+gnn: 0.12336, lloyds: 0.00959, rec_lloyds: 0.07471, ratio_lloyd: 12.86871, ratio_rec_lloyd: 1.65123
+gnn: 0.13433, lloyds: 0.00953, rec_lloyds: 0.07928, ratio_lloyd: 14.09040, ratio_rec_lloyd: 1.69443
+gnn: 0.12176, lloyds: 0.00952, rec_lloyds: 0.08285, ratio_lloyd: 12.79621, ratio_rec_lloyd: 1.46959
+gnn: 0.12662, lloyds: 0.00992, rec_lloyds: 0.07739, ratio_lloyd: 12.76672, ratio_rec_lloyd: 1.63606
+gnn: 0.11228, lloyds: 0.00972, rec_lloyds: 0.08530, ratio_lloyd: 11.54685, ratio_rec_lloyd: 1.31617
+Model Saved.
+gnn: 0.13159, lloyds: 0.00947, rec_lloyds: 0.08813, ratio_lloyd: 13.89426, ratio_rec_lloyd: 1.49306
+gnn: 0.11734, lloyds: 0.00979, rec_lloyds: 0.08863, ratio_lloyd: 11.98879, ratio_rec_lloyd: 1.32399
+gnn: 0.11986, lloyds: 0.00984, rec_lloyds: 0.08156, ratio_lloyd: 12.18117, ratio_rec_lloyd: 1.46967
+gnn: 0.12570, lloyds: 0.00956, rec_lloyds: 0.08992, ratio_lloyd: 13.15087, ratio_rec_lloyd: 1.39798
+gnn: 0.13789, lloyds: 0.00920, rec_lloyds: 0.09031, ratio_lloyd: 14.98554, ratio_rec_lloyd: 1.52688
+gnn: 0.11974, lloyds: 0.00972, rec_lloyds: 0.08226, ratio_lloyd: 12.32067, ratio_rec_lloyd: 1.45555
+Model Saved.
+gnn: 0.12384, lloyds: 0.00911, rec_lloyds: 0.08513, ratio_lloyd: 13.59552, ratio_rec_lloyd: 1.45479
+gnn: 0.12079, lloyds: 0.00943, rec_lloyds: 0.08432, ratio_lloyd: 12.80882, ratio_rec_lloyd: 1.43259
+gnn: 0.11913, lloyds: 0.00961, rec_lloyds: 0.09285, ratio_lloyd: 12.40103, ratio_rec_lloyd: 1.28307
+gnn: 0.12444, lloyds: 0.00947, rec_lloyds: 0.08454, ratio_lloyd: 13.14456, ratio_rec_lloyd: 1.47202
+gnn: 0.13237, lloyds: 0.00962, rec_lloyds: 0.08514, ratio_lloyd: 13.75382, ratio_rec_lloyd: 1.55471
+gnn: 0.13625, lloyds: 0.00968, rec_lloyds: 0.08866, ratio_lloyd: 14.07838, ratio_rec_lloyd: 1.53669
+Model Saved.
+gnn: 0.12745, lloyds: 0.00988, rec_lloyds: 0.08281, ratio_lloyd: 12.90538, ratio_rec_lloyd: 1.53905
+gnn: 0.12463, lloyds: 0.00936, rec_lloyds: 0.08781, ratio_lloyd: 13.31477, ratio_rec_lloyd: 1.41933
+gnn: 0.12414, lloyds: 0.00949, rec_lloyds: 0.08233, ratio_lloyd: 13.08640, ratio_rec_lloyd: 1.50790
+gnn: 0.12827, lloyds: 0.00970, rec_lloyds: 0.08676, ratio_lloyd: 13.22989, ratio_rec_lloyd: 1.47846
+gnn: 0.13310, lloyds: 0.00985, rec_lloyds: 0.08174, ratio_lloyd: 13.51479, ratio_rec_lloyd: 1.62838
+gnn: 0.14439, lloyds: 0.00947, rec_lloyds: 0.08201, ratio_lloyd: 15.24171, ratio_rec_lloyd: 1.76068
+Model Saved.
+gnn: 0.12415, lloyds: 0.00964, rec_lloyds: 0.07784, ratio_lloyd: 12.87187, ratio_rec_lloyd: 1.59490
+gnn: 0.11410, lloyds: 0.00971, rec_lloyds: 0.08466, ratio_lloyd: 11.75191, ratio_rec_lloyd: 1.34785
+gnn: 0.11372, lloyds: 0.00947, rec_lloyds: 0.09599, ratio_lloyd: 12.00953, ratio_rec_lloyd: 1.18465
+gnn: 0.12274, lloyds: 0.00970, rec_lloyds: 0.08000, ratio_lloyd: 12.64894, ratio_rec_lloyd: 1.53420
+gnn: 0.12402, lloyds: 0.00959, rec_lloyds: 0.08052, ratio_lloyd: 12.92544, ratio_rec_lloyd: 1.54023
+gnn: 0.13159, lloyds: 0.00950, rec_lloyds: 0.08950, ratio_lloyd: 13.85268, ratio_rec_lloyd: 1.47039
+Model Saved.
+gnn: 0.10978, lloyds: 0.00993, rec_lloyds: 0.08219, ratio_lloyd: 11.05112, ratio_rec_lloyd: 1.33568
+gnn: 0.11538, lloyds: 0.00952, rec_lloyds: 0.08137, ratio_lloyd: 12.11456, ratio_rec_lloyd: 1.41790
+gnn: 0.12270, lloyds: 0.00951, rec_lloyds: 0.09547, ratio_lloyd: 12.90396, ratio_rec_lloyd: 1.28518
+gnn: 0.11785, lloyds: 0.00963, rec_lloyds: 0.09883, ratio_lloyd: 12.24218, ratio_rec_lloyd: 1.19253
+gnn: 0.13091, lloyds: 0.00930, rec_lloyds: 0.09474, ratio_lloyd: 14.07460, ratio_rec_lloyd: 1.38172
+gnn: 0.13844, lloyds: 0.00967, rec_lloyds: 0.09018, ratio_lloyd: 14.31393, ratio_rec_lloyd: 1.53510
+Model Saved.
+gnn: 0.12686, lloyds: 0.00982, rec_lloyds: 0.09233, ratio_lloyd: 12.91577, ratio_rec_lloyd: 1.37397
+gnn: 0.11956, lloyds: 0.00931, rec_lloyds: 0.08246, ratio_lloyd: 12.84454, ratio_rec_lloyd: 1.44997
+gnn: 0.12389, lloyds: 0.00981, rec_lloyds: 0.08256, ratio_lloyd: 12.63509, ratio_rec_lloyd: 1.50064
+gnn: 0.12274, lloyds: 0.00972, rec_lloyds: 0.08142, ratio_lloyd: 12.63165, ratio_rec_lloyd: 1.50751
+gnn: 0.12124, lloyds: 0.00980, rec_lloyds: 0.08691, ratio_lloyd: 12.37202, ratio_rec_lloyd: 1.39498
+gnn: 0.11945, lloyds: 0.00954, rec_lloyds: 0.08240, ratio_lloyd: 12.52537, ratio_rec_lloyd: 1.44954
+Model Saved.
+gnn: 0.11887, lloyds: 0.00931, rec_lloyds: 0.08459, ratio_lloyd: 12.76244, ratio_rec_lloyd: 1.40530
+gnn: 0.11654, lloyds: 0.00959, rec_lloyds: 0.07032, ratio_lloyd: 12.15152, ratio_rec_lloyd: 1.65717
+gnn: 0.12248, lloyds: 0.00972, rec_lloyds: 0.08624, ratio_lloyd: 12.59664, ratio_rec_lloyd: 1.42013
+gnn: 0.11041, lloyds: 0.00938, rec_lloyds: 0.08535, ratio_lloyd: 11.76582, ratio_rec_lloyd: 1.29363
+gnn: 0.11887, lloyds: 0.00984, rec_lloyds: 0.08271, ratio_lloyd: 12.08555, ratio_rec_lloyd: 1.43716
+gnn: 0.11000, lloyds: 0.00950, rec_lloyds: 0.08059, ratio_lloyd: 11.58435, ratio_rec_lloyd: 1.36501
+Model Saved.
+gnn: 0.12546, lloyds: 0.00968, rec_lloyds: 0.08142, ratio_lloyd: 12.96635, ratio_rec_lloyd: 1.54078
+gnn: 0.11782, lloyds: 0.00970, rec_lloyds: 0.07331, ratio_lloyd: 12.14742, ratio_rec_lloyd: 1.60719
+gnn: 0.12097, lloyds: 0.00957, rec_lloyds: 0.08723, ratio_lloyd: 12.63598, ratio_rec_lloyd: 1.38683
+gnn: 0.11445, lloyds: 0.00930, rec_lloyds: 0.08163, ratio_lloyd: 12.30796, ratio_rec_lloyd: 1.40207
+gnn: 0.11630, lloyds: 0.00974, rec_lloyds: 0.08571, ratio_lloyd: 11.93860, ratio_rec_lloyd: 1.35695
+gnn: 0.11685, lloyds: 0.00976, rec_lloyds: 0.08272, ratio_lloyd: 11.96741, ratio_rec_lloyd: 1.41272
+Model Saved.
+gnn: 0.11596, lloyds: 0.00987, rec_lloyds: 0.08291, ratio_lloyd: 11.74519, ratio_rec_lloyd: 1.39863
+gnn: 0.12949, lloyds: 0.00966, rec_lloyds: 0.08917, ratio_lloyd: 13.40319, ratio_rec_lloyd: 1.45210
+gnn: 0.11898, lloyds: 0.00942, rec_lloyds: 0.08353, ratio_lloyd: 12.63278, ratio_rec_lloyd: 1.42432
+gnn: 0.12079, lloyds: 0.00992, rec_lloyds: 0.08384, ratio_lloyd: 12.18092, ratio_rec_lloyd: 1.44078
+gnn: 0.12144, lloyds: 0.00974, rec_lloyds: 0.07605, ratio_lloyd: 12.46210, ratio_rec_lloyd: 1.59684
+gnn: 0.11578, lloyds: 0.00972, rec_lloyds: 0.08137, ratio_lloyd: 11.91383, ratio_rec_lloyd: 1.42299
+Model Saved.
+gnn: 0.12758, lloyds: 0.00956, rec_lloyds: 0.08157, ratio_lloyd: 13.34213, ratio_rec_lloyd: 1.56395
+gnn: 0.11794, lloyds: 0.00994, rec_lloyds: 0.07580, ratio_lloyd: 11.87097, ratio_rec_lloyd: 1.55599
+gnn: 0.12096, lloyds: 0.00902, rec_lloyds: 0.09198, ratio_lloyd: 13.40821, ratio_rec_lloyd: 1.31505
+gnn: 0.12739, lloyds: 0.00927, rec_lloyds: 0.07415, ratio_lloyd: 13.74496, ratio_rec_lloyd: 1.71807
+gnn: 0.11769, lloyds: 0.00972, rec_lloyds: 0.08820, ratio_lloyd: 12.10810, ratio_rec_lloyd: 1.33427
+gnn: 0.12465, lloyds: 0.00933, rec_lloyds: 0.08967, ratio_lloyd: 13.35538, ratio_rec_lloyd: 1.39013
+Model Saved.
+gnn: 0.13144, lloyds: 0.01005, rec_lloyds: 0.09059, ratio_lloyd: 13.08097, ratio_rec_lloyd: 1.45098
+gnn: 0.12417, lloyds: 0.00904, rec_lloyds: 0.07830, ratio_lloyd: 13.73915, ratio_rec_lloyd: 1.58577
+gnn: 0.11468, lloyds: 0.00927, rec_lloyds: 0.07993, ratio_lloyd: 12.37359, ratio_rec_lloyd: 1.43478
+gnn: 0.13139, lloyds: 0.00971, rec_lloyds: 0.09403, ratio_lloyd: 13.52854, ratio_rec_lloyd: 1.39734
+gnn: 0.12457, lloyds: 0.00932, rec_lloyds: 0.08851, ratio_lloyd: 13.36212, ratio_rec_lloyd: 1.40738
+gnn: 0.13516, lloyds: 0.00955, rec_lloyds: 0.08498, ratio_lloyd: 14.15795, ratio_rec_lloyd: 1.59037
+Model Saved.
+gnn: 0.11327, lloyds: 0.00898, rec_lloyds: 0.07886, ratio_lloyd: 12.62058, ratio_rec_lloyd: 1.43638
+gnn: 0.14099, lloyds: 0.00993, rec_lloyds: 0.09418, ratio_lloyd: 14.19259, ratio_rec_lloyd: 1.49698
+gnn: 0.12431, lloyds: 0.00943, rec_lloyds: 0.08838, ratio_lloyd: 13.17598, ratio_rec_lloyd: 1.40660
+gnn: 0.11674, lloyds: 0.00928, rec_lloyds: 0.08903, ratio_lloyd: 12.57976, ratio_rec_lloyd: 1.31126
+gnn: 0.11925, lloyds: 0.00926, rec_lloyds: 0.08271, ratio_lloyd: 12.88016, ratio_rec_lloyd: 1.44186
+gnn: 0.11917, lloyds: 0.00910, rec_lloyds: 0.08249, ratio_lloyd: 13.09452, ratio_rec_lloyd: 1.44457
+Model Saved.
+gnn: 0.11260, lloyds: 0.00947, rec_lloyds: 0.09031, ratio_lloyd: 11.88807, ratio_rec_lloyd: 1.24684
+gnn: 0.13048, lloyds: 0.00921, rec_lloyds: 0.09294, ratio_lloyd: 14.16638, ratio_rec_lloyd: 1.40404
+gnn: 0.12428, lloyds: 0.00886, rec_lloyds: 0.09253, ratio_lloyd: 14.03331, ratio_rec_lloyd: 1.34307
+gnn: 0.12528, lloyds: 0.00916, rec_lloyds: 0.08412, ratio_lloyd: 13.66924, ratio_rec_lloyd: 1.48933
+gnn: 0.11865, lloyds: 0.00941, rec_lloyds: 0.08294, ratio_lloyd: 12.60260, ratio_rec_lloyd: 1.43053
+gnn: 0.12761, lloyds: 0.00975, rec_lloyds: 0.07986, ratio_lloyd: 13.08920, ratio_rec_lloyd: 1.59792
+Model Saved.
+gnn: 0.11709, lloyds: 0.00977, rec_lloyds: 0.08894, ratio_lloyd: 11.98051, ratio_rec_lloyd: 1.31652
+gnn: 0.12992, lloyds: 0.00979, rec_lloyds: 0.08329, ratio_lloyd: 13.27323, ratio_rec_lloyd: 1.55982
+gnn: 0.12489, lloyds: 0.00920, rec_lloyds: 0.07744, ratio_lloyd: 13.58063, ratio_rec_lloyd: 1.61279
+gnn: 0.12313, lloyds: 0.00960, rec_lloyds: 0.07965, ratio_lloyd: 12.82957, ratio_rec_lloyd: 1.54590
+gnn: 0.11762, lloyds: 0.00953, rec_lloyds: 0.09288, ratio_lloyd: 12.33613, ratio_rec_lloyd: 1.26639
+gnn: 0.12446, lloyds: 0.00969, rec_lloyds: 0.08472, ratio_lloyd: 12.84099, ratio_rec_lloyd: 1.46906
+Model Saved.
+gnn: 0.11479, lloyds: 0.00923, rec_lloyds: 0.08562, ratio_lloyd: 12.43622, ratio_rec_lloyd: 1.34073
+gnn: 0.13948, lloyds: 0.00997, rec_lloyds: 0.08321, ratio_lloyd: 13.98365, ratio_rec_lloyd: 1.67632
+gnn: 0.13611, lloyds: 0.00992, rec_lloyds: 0.08358, ratio_lloyd: 13.72222, ratio_rec_lloyd: 1.62840
+gnn: 0.12177, lloyds: 0.00965, rec_lloyds: 0.08662, ratio_lloyd: 12.61945, ratio_rec_lloyd: 1.40583
+gnn: 0.12314, lloyds: 0.00971, rec_lloyds: 0.08528, ratio_lloyd: 12.67868, ratio_rec_lloyd: 1.44393
+gnn: 0.11876, lloyds: 0.00946, rec_lloyds: 0.08944, ratio_lloyd: 12.55896, ratio_rec_lloyd: 1.32780
+Model Saved.
+gnn: 0.11317, lloyds: 0.00933, rec_lloyds: 0.07446, ratio_lloyd: 12.13396, ratio_rec_lloyd: 1.51977
+gnn: 0.11151, lloyds: 0.00946, rec_lloyds: 0.08109, ratio_lloyd: 11.78879, ratio_rec_lloyd: 1.37506
+gnn: 0.12052, lloyds: 0.00940, rec_lloyds: 0.07740, ratio_lloyd: 12.81475, ratio_rec_lloyd: 1.55711
+gnn: 0.12757, lloyds: 0.00976, rec_lloyds: 0.08144, ratio_lloyd: 13.06635, ratio_rec_lloyd: 1.56653
+gnn: 0.10768, lloyds: 0.00968, rec_lloyds: 0.07659, ratio_lloyd: 11.11902, ratio_rec_lloyd: 1.40601
+gnn: 0.12078, lloyds: 0.00953, rec_lloyds: 0.08221, ratio_lloyd: 12.67882, ratio_rec_lloyd: 1.46925
+Model Saved.
+gnn: 0.11039, lloyds: 0.00948, rec_lloyds: 0.08001, ratio_lloyd: 11.64689, ratio_rec_lloyd: 1.37982
+gnn: 0.12408, lloyds: 0.00970, rec_lloyds: 0.07931, ratio_lloyd: 12.79621, ratio_rec_lloyd: 1.56451
+gnn: 0.12194, lloyds: 0.00923, rec_lloyds: 0.07509, ratio_lloyd: 13.20789, ratio_rec_lloyd: 1.62405
+gnn: 0.11737, lloyds: 0.00995, rec_lloyds: 0.08733, ratio_lloyd: 11.80193, ratio_rec_lloyd: 1.34396
+gnn: 0.11759, lloyds: 0.00952, rec_lloyds: 0.07890, ratio_lloyd: 12.35000, ratio_rec_lloyd: 1.49038
+gnn: 0.13907, lloyds: 0.00939, rec_lloyds: 0.07971, ratio_lloyd: 14.81539, ratio_rec_lloyd: 1.74464
+Model Saved.
+gnn: 0.12345, lloyds: 0.00943, rec_lloyds: 0.08429, ratio_lloyd: 13.08666, ratio_rec_lloyd: 1.46449
+gnn: 0.11077, lloyds: 0.00926, rec_lloyds: 0.08842, ratio_lloyd: 11.96654, ratio_rec_lloyd: 1.25278
+gnn: 0.11901, lloyds: 0.00922, rec_lloyds: 0.09313, ratio_lloyd: 12.90620, ratio_rec_lloyd: 1.27782
+gnn: 0.10889, lloyds: 0.00945, rec_lloyds: 0.07846, ratio_lloyd: 11.52258, ratio_rec_lloyd: 1.38780
+gnn: 0.12684, lloyds: 0.00988, rec_lloyds: 0.08312, ratio_lloyd: 12.83489, ratio_rec_lloyd: 1.52606
+gnn: 0.12552, lloyds: 0.00956, rec_lloyds: 0.08443, ratio_lloyd: 13.13019, ratio_rec_lloyd: 1.48668
+Model Saved.
+gnn: 0.12005, lloyds: 0.00923, rec_lloyds: 0.07562, ratio_lloyd: 13.01306, ratio_rec_lloyd: 1.58760
+gnn: 0.12350, lloyds: 0.00961, rec_lloyds: 0.08182, ratio_lloyd: 12.85183, ratio_rec_lloyd: 1.50937
+gnn: 0.12958, lloyds: 0.00982, rec_lloyds: 0.08949, ratio_lloyd: 13.19372, ratio_rec_lloyd: 1.44801
+gnn: 0.12787, lloyds: 0.00936, rec_lloyds: 0.07980, ratio_lloyd: 13.65423, ratio_rec_lloyd: 1.60237
+gnn: 0.11672, lloyds: 0.00934, rec_lloyds: 0.07690, ratio_lloyd: 12.49232, ratio_rec_lloyd: 1.51771
+gnn: 0.12301, lloyds: 0.00993, rec_lloyds: 0.08312, ratio_lloyd: 12.38601, ratio_rec_lloyd: 1.47988
+Model Saved.
+gnn: 0.11941, lloyds: 0.00933, rec_lloyds: 0.08446, ratio_lloyd: 12.79467, ratio_rec_lloyd: 1.41379
+gnn: 0.11642, lloyds: 0.00920, rec_lloyds: 0.08346, ratio_lloyd: 12.66140, ratio_rec_lloyd: 1.39491
+gnn: 0.12406, lloyds: 0.00939, rec_lloyds: 0.08489, ratio_lloyd: 13.20675, ratio_rec_lloyd: 1.46140
+gnn: 0.10819, lloyds: 0.00944, rec_lloyds: 0.08151, ratio_lloyd: 11.45923, ratio_rec_lloyd: 1.32737
+gnn: 0.11451, lloyds: 0.00932, rec_lloyds: 0.08663, ratio_lloyd: 12.28279, ratio_rec_lloyd: 1.32176
+gnn: 0.11099, lloyds: 0.00952, rec_lloyds: 0.08348, ratio_lloyd: 11.66091, ratio_rec_lloyd: 1.32956
+Model Saved.
+gnn: 0.13073, lloyds: 0.00925, rec_lloyds: 0.09095, ratio_lloyd: 14.13380, ratio_rec_lloyd: 1.43738
+gnn: 0.12514, lloyds: 0.00976, rec_lloyds: 0.08963, ratio_lloyd: 12.82524, ratio_rec_lloyd: 1.39614
+gnn: 0.11953, lloyds: 0.00953, rec_lloyds: 0.08623, ratio_lloyd: 12.54404, ratio_rec_lloyd: 1.38621
+gnn: 0.11680, lloyds: 0.00983, rec_lloyds: 0.08453, ratio_lloyd: 11.88192, ratio_rec_lloyd: 1.38164
+gnn: 0.12319, lloyds: 0.00959, rec_lloyds: 0.09756, ratio_lloyd: 12.83887, ratio_rec_lloyd: 1.26275
+gnn: 0.11424, lloyds: 0.00939, rec_lloyds: 0.07683, ratio_lloyd: 12.16862, ratio_rec_lloyd: 1.48691
+Model Saved.
+gnn: 0.12033, lloyds: 0.00932, rec_lloyds: 0.08320, ratio_lloyd: 12.90915, ratio_rec_lloyd: 1.44624
+gnn: 0.10934, lloyds: 0.00952, rec_lloyds: 0.08514, ratio_lloyd: 11.49126, ratio_rec_lloyd: 1.28425
+gnn: 0.10865, lloyds: 0.00978, rec_lloyds: 0.08344, ratio_lloyd: 11.11087, ratio_rec_lloyd: 1.30206
+gnn: 0.11673, lloyds: 0.00918, rec_lloyds: 0.07183, ratio_lloyd: 12.72186, ratio_rec_lloyd: 1.62505
+gnn: 0.12969, lloyds: 0.00962, rec_lloyds: 0.08574, ratio_lloyd: 13.48810, ratio_rec_lloyd: 1.51266
+gnn: 0.11638, lloyds: 0.01019, rec_lloyds: 0.08227, ratio_lloyd: 11.41987, ratio_rec_lloyd: 1.41462
+Model Saved.
+gnn: 0.11420, lloyds: 0.00915, rec_lloyds: 0.07640, ratio_lloyd: 12.47507, ratio_rec_lloyd: 1.49483
+gnn: 0.11690, lloyds: 0.00965, rec_lloyds: 0.08181, ratio_lloyd: 12.11605, ratio_rec_lloyd: 1.42890
+gnn: 0.11517, lloyds: 0.00987, rec_lloyds: 0.07868, ratio_lloyd: 11.66914, ratio_rec_lloyd: 1.46373
+gnn: 0.12283, lloyds: 0.00954, rec_lloyds: 0.08437, ratio_lloyd: 12.87833, ratio_rec_lloyd: 1.45579
+gnn: 0.17329, lloyds: 0.00941, rec_lloyds: 0.08262, ratio_lloyd: 18.41386, ratio_rec_lloyd: 2.09758
+gnn: 0.14537, lloyds: 0.00967, rec_lloyds: 0.07586, ratio_lloyd: 15.03738, ratio_rec_lloyd: 1.91628
+Model Saved.
+gnn: 0.14825, lloyds: 0.00995, rec_lloyds: 0.08484, ratio_lloyd: 14.89440, ratio_rec_lloyd: 1.74745
+gnn: 0.14402, lloyds: 0.00950, rec_lloyds: 0.08269, ratio_lloyd: 15.16705, ratio_rec_lloyd: 1.74173
+gnn: 0.13394, lloyds: 0.00916, rec_lloyds: 0.08391, ratio_lloyd: 14.61972, ratio_rec_lloyd: 1.59617
+gnn: 0.13131, lloyds: 0.01004, rec_lloyds: 0.08253, ratio_lloyd: 13.08179, ratio_rec_lloyd: 1.59107
+gnn: 0.12971, lloyds: 0.00944, rec_lloyds: 0.09461, ratio_lloyd: 13.74428, ratio_rec_lloyd: 1.37092
+gnn: 0.15393, lloyds: 0.00955, rec_lloyds: 0.08988, ratio_lloyd: 16.11973, ratio_rec_lloyd: 1.71266
+Model Saved.
+gnn: 0.13503, lloyds: 0.00978, rec_lloyds: 0.07171, ratio_lloyd: 13.81334, ratio_rec_lloyd: 1.88288
+gnn: 0.14073, lloyds: 0.00972, rec_lloyds: 0.08015, ratio_lloyd: 14.48223, ratio_rec_lloyd: 1.75578
+gnn: 0.13668, lloyds: 0.00956, rec_lloyds: 0.07906, ratio_lloyd: 14.29306, ratio_rec_lloyd: 1.72889
+gnn: 0.12887, lloyds: 0.00928, rec_lloyds: 0.08219, ratio_lloyd: 13.88344, ratio_rec_lloyd: 1.56795
+gnn: 0.13337, lloyds: 0.00974, rec_lloyds: 0.08388, ratio_lloyd: 13.70000, ratio_rec_lloyd: 1.59000
+gnn: 0.13207, lloyds: 0.00940, rec_lloyds: 0.08014, ratio_lloyd: 14.04863, ratio_rec_lloyd: 1.64787
+Model Saved.
+gnn: 0.12499, lloyds: 0.00936, rec_lloyds: 0.07614, ratio_lloyd: 13.35376, ratio_rec_lloyd: 1.64170
+gnn: 0.12735, lloyds: 0.00949, rec_lloyds: 0.08973, ratio_lloyd: 13.41700, ratio_rec_lloyd: 1.41923
+gnn: 0.12259, lloyds: 0.00977, rec_lloyds: 0.09160, ratio_lloyd: 12.54134, ratio_rec_lloyd: 1.33820
+gnn: 0.13324, lloyds: 0.00904, rec_lloyds: 0.08185, ratio_lloyd: 14.74061, ratio_rec_lloyd: 1.62791
+gnn: 0.11875, lloyds: 0.00941, rec_lloyds: 0.08312, ratio_lloyd: 12.61494, ratio_rec_lloyd: 1.42852
+gnn: 0.13265, lloyds: 0.00957, rec_lloyds: 0.08174, ratio_lloyd: 13.86058, ratio_rec_lloyd: 1.62281
+Model Saved.
+gnn: 0.12537, lloyds: 0.00917, rec_lloyds: 0.09418, ratio_lloyd: 13.67106, ratio_rec_lloyd: 1.33121
+gnn: 0.11875, lloyds: 0.00935, rec_lloyds: 0.08518, ratio_lloyd: 12.69767, ratio_rec_lloyd: 1.39406
+gnn: 0.11959, lloyds: 0.00929, rec_lloyds: 0.09365, ratio_lloyd: 12.87987, ratio_rec_lloyd: 1.27702
+gnn: 0.11569, lloyds: 0.00939, rec_lloyds: 0.08641, ratio_lloyd: 12.32501, ratio_rec_lloyd: 1.33889
+gnn: 0.13903, lloyds: 0.00961, rec_lloyds: 0.08095, ratio_lloyd: 14.46942, ratio_rec_lloyd: 1.71750
+gnn: 0.12541, lloyds: 0.00956, rec_lloyds: 0.08093, ratio_lloyd: 13.11730, ratio_rec_lloyd: 1.54954
+Model Saved.
+gnn: 0.12329, lloyds: 0.00915, rec_lloyds: 0.07946, ratio_lloyd: 13.47128, ratio_rec_lloyd: 1.55164
+gnn: 0.12959, lloyds: 0.00967, rec_lloyds: 0.08757, ratio_lloyd: 13.40680, ratio_rec_lloyd: 1.47985
+gnn: 0.14082, lloyds: 0.00915, rec_lloyds: 0.07847, ratio_lloyd: 15.38332, ratio_rec_lloyd: 1.79466
+gnn: 0.13066, lloyds: 0.00977, rec_lloyds: 0.08264, ratio_lloyd: 13.36850, ratio_rec_lloyd: 1.58097
+gnn: 0.13111, lloyds: 0.00932, rec_lloyds: 0.09045, ratio_lloyd: 14.06108, ratio_rec_lloyd: 1.44952
+gnn: 0.13393, lloyds: 0.00949, rec_lloyds: 0.09647, ratio_lloyd: 14.11881, ratio_rec_lloyd: 1.38830
+Model Saved.
+gnn: 0.11452, lloyds: 0.00976, rec_lloyds: 0.09390, ratio_lloyd: 11.73725, ratio_rec_lloyd: 1.21954
+gnn: 0.11432, lloyds: 0.00975, rec_lloyds: 0.07907, ratio_lloyd: 11.72898, ratio_rec_lloyd: 1.44571
+gnn: 0.12475, lloyds: 0.00958, rec_lloyds: 0.08556, ratio_lloyd: 13.02121, ratio_rec_lloyd: 1.45795
+gnn: 0.11643, lloyds: 0.00980, rec_lloyds: 0.07866, ratio_lloyd: 11.87573, ratio_rec_lloyd: 1.48012
+gnn: 0.12396, lloyds: 0.00929, rec_lloyds: 0.07744, ratio_lloyd: 13.34352, ratio_rec_lloyd: 1.60065
+gnn: 0.12062, lloyds: 0.00931, rec_lloyds: 0.07882, ratio_lloyd: 12.95902, ratio_rec_lloyd: 1.53036
+Model Saved.
+gnn: 0.10827, lloyds: 0.00939, rec_lloyds: 0.08174, ratio_lloyd: 11.52563, ratio_rec_lloyd: 1.32462
+gnn: 0.10468, lloyds: 0.00951, rec_lloyds: 0.08246, ratio_lloyd: 11.00298, ratio_rec_lloyd: 1.26942
+gnn: 0.12576, lloyds: 0.00986, rec_lloyds: 0.08336, ratio_lloyd: 12.75587, ratio_rec_lloyd: 1.50867
+gnn: 0.11616, lloyds: 0.00957, rec_lloyds: 0.08075, ratio_lloyd: 12.13993, ratio_rec_lloyd: 1.43858
+gnn: 0.11738, lloyds: 0.00968, rec_lloyds: 0.08831, ratio_lloyd: 12.12333, ratio_rec_lloyd: 1.32912
+gnn: 0.11403, lloyds: 0.00967, rec_lloyds: 0.08451, ratio_lloyd: 11.79330, ratio_rec_lloyd: 1.34931
+Model Saved.
+gnn: 0.11731, lloyds: 0.00975, rec_lloyds: 0.08668, ratio_lloyd: 12.02731, ratio_rec_lloyd: 1.35331
+gnn: 0.10524, lloyds: 0.00918, rec_lloyds: 0.07898, ratio_lloyd: 11.46242, ratio_rec_lloyd: 1.33257
+gnn: 0.11242, lloyds: 0.00935, rec_lloyds: 0.08347, ratio_lloyd: 12.02831, ratio_rec_lloyd: 1.34679
+gnn: 0.11828, lloyds: 0.00946, rec_lloyds: 0.08432, ratio_lloyd: 12.50519, ratio_rec_lloyd: 1.40279
+gnn: 0.12036, lloyds: 0.00993, rec_lloyds: 0.08946, ratio_lloyd: 12.11635, ratio_rec_lloyd: 1.34542
+gnn: 0.12443, lloyds: 0.00946, rec_lloyds: 0.08219, ratio_lloyd: 13.14831, ratio_rec_lloyd: 1.51382
+Model Saved.
+gnn: 0.10771, lloyds: 0.00918, rec_lloyds: 0.08707, ratio_lloyd: 11.72915, ratio_rec_lloyd: 1.23699
+gnn: 0.11126, lloyds: 0.00974, rec_lloyds: 0.08354, ratio_lloyd: 11.42061, ratio_rec_lloyd: 1.33172
+gnn: 0.12536, lloyds: 0.00987, rec_lloyds: 0.08973, ratio_lloyd: 12.69620, ratio_rec_lloyd: 1.39708
+gnn: 0.12295, lloyds: 0.00929, rec_lloyds: 0.08511, ratio_lloyd: 13.23084, ratio_rec_lloyd: 1.44453
+gnn: 0.12212, lloyds: 0.00906, rec_lloyds: 0.09140, ratio_lloyd: 13.48551, ratio_rec_lloyd: 1.33616
+gnn: 0.11588, lloyds: 0.00959, rec_lloyds: 0.09246, ratio_lloyd: 12.08019, ratio_rec_lloyd: 1.25325
+Model Saved.
+gnn: 0.10435, lloyds: 0.00943, rec_lloyds: 0.08098, ratio_lloyd: 11.06075, ratio_rec_lloyd: 1.28870
+gnn: 0.11604, lloyds: 0.00912, rec_lloyds: 0.08400, ratio_lloyd: 12.72128, ratio_rec_lloyd: 1.38140
+gnn: 0.12142, lloyds: 0.00952, rec_lloyds: 0.08481, ratio_lloyd: 12.75960, ratio_rec_lloyd: 1.43165
+gnn: 0.12698, lloyds: 0.00938, rec_lloyds: 0.08600, ratio_lloyd: 13.54242, ratio_rec_lloyd: 1.47646
+gnn: 0.11377, lloyds: 0.00936, rec_lloyds: 0.08355, ratio_lloyd: 12.16022, ratio_rec_lloyd: 1.36168
+gnn: 0.10888, lloyds: 0.00976, rec_lloyds: 0.08704, ratio_lloyd: 11.15178, ratio_rec_lloyd: 1.25093
+Model Saved.
+gnn: 0.11207, lloyds: 0.00995, rec_lloyds: 0.09626, ratio_lloyd: 11.26089, ratio_rec_lloyd: 1.16425
+gnn: 0.11166, lloyds: 0.00946, rec_lloyds: 0.08840, ratio_lloyd: 11.80178, ratio_rec_lloyd: 1.26303
+gnn: 0.10927, lloyds: 0.00920, rec_lloyds: 0.08089, ratio_lloyd: 11.87719, ratio_rec_lloyd: 1.35087
+gnn: 0.11336, lloyds: 0.00994, rec_lloyds: 0.08468, ratio_lloyd: 11.40928, ratio_rec_lloyd: 1.33874
+gnn: 0.10293, lloyds: 0.00959, rec_lloyds: 0.08691, ratio_lloyd: 10.72802, ratio_rec_lloyd: 1.18436
+gnn: 0.10002, lloyds: 0.00963, rec_lloyds: 0.08786, ratio_lloyd: 10.38248, ratio_rec_lloyd: 1.13837
+Model Saved.
+gnn: 0.12662, lloyds: 0.00994, rec_lloyds: 0.07838, ratio_lloyd: 12.73988, ratio_rec_lloyd: 1.61547
+gnn: 0.11063, lloyds: 0.00938, rec_lloyds: 0.07886, ratio_lloyd: 11.78905, ratio_rec_lloyd: 1.40288
+gnn: 0.12911, lloyds: 0.00985, rec_lloyds: 0.08507, ratio_lloyd: 13.11179, ratio_rec_lloyd: 1.51758
+gnn: 0.13551, lloyds: 0.00928, rec_lloyds: 0.08170, ratio_lloyd: 14.60407, ratio_rec_lloyd: 1.65859
+gnn: 0.11214, lloyds: 0.00950, rec_lloyds: 0.08577, ratio_lloyd: 11.80679, ratio_rec_lloyd: 1.30734
+gnn: 0.12462, lloyds: 0.00928, rec_lloyds: 0.07957, ratio_lloyd: 13.42233, ratio_rec_lloyd: 1.56611
+Model Saved.
+gnn: 0.12918, lloyds: 0.00938, rec_lloyds: 0.08772, ratio_lloyd: 13.77387, ratio_rec_lloyd: 1.47263
+gnn: 0.11201, lloyds: 0.00954, rec_lloyds: 0.08276, ratio_lloyd: 11.74421, ratio_rec_lloyd: 1.35340
+gnn: 0.10363, lloyds: 0.00967, rec_lloyds: 0.06939, ratio_lloyd: 10.71605, ratio_rec_lloyd: 1.49353
+gnn: 0.11218, lloyds: 0.00918, rec_lloyds: 0.07469, ratio_lloyd: 12.22034, ratio_rec_lloyd: 1.50182
+gnn: 0.11617, lloyds: 0.00941, rec_lloyds: 0.08969, ratio_lloyd: 12.35105, ratio_rec_lloyd: 1.29523
+gnn: 0.11618, lloyds: 0.00980, rec_lloyds: 0.08827, ratio_lloyd: 11.84931, ratio_rec_lloyd: 1.31626
+Model Saved.
+gnn: 0.11518, lloyds: 0.00947, rec_lloyds: 0.07956, ratio_lloyd: 12.16107, ratio_rec_lloyd: 1.44773
+gnn: 0.11717, lloyds: 0.00943, rec_lloyds: 0.07908, ratio_lloyd: 12.42597, ratio_rec_lloyd: 1.48173
+gnn: 0.11055, lloyds: 0.00985, rec_lloyds: 0.08755, ratio_lloyd: 11.22557, ratio_rec_lloyd: 1.26275
+gnn: 0.12073, lloyds: 0.00936, rec_lloyds: 0.08833, ratio_lloyd: 12.89666, ratio_rec_lloyd: 1.36688
+gnn: 0.11263, lloyds: 0.00943, rec_lloyds: 0.08458, ratio_lloyd: 11.94255, ratio_rec_lloyd: 1.33172
+gnn: 0.11724, lloyds: 0.00935, rec_lloyds: 0.08851, ratio_lloyd: 12.54350, ratio_rec_lloyd: 1.32451
+Model Saved.
+gnn: 0.10696, lloyds: 0.00936, rec_lloyds: 0.08360, ratio_lloyd: 11.42187, ratio_rec_lloyd: 1.27939
+gnn: 0.12521, lloyds: 0.00913, rec_lloyds: 0.07564, ratio_lloyd: 13.71198, ratio_rec_lloyd: 1.65534
+gnn: 0.12070, lloyds: 0.00894, rec_lloyds: 0.09056, ratio_lloyd: 13.50494, ratio_rec_lloyd: 1.33277
+gnn: 0.11258, lloyds: 0.00974, rec_lloyds: 0.08477, ratio_lloyd: 11.56106, ratio_rec_lloyd: 1.32804
+gnn: 0.12207, lloyds: 0.00955, rec_lloyds: 0.07858, ratio_lloyd: 12.78428, ratio_rec_lloyd: 1.55347
+gnn: 0.12814, lloyds: 0.00958, rec_lloyds: 0.08506, ratio_lloyd: 13.38033, ratio_rec_lloyd: 1.50649
+Model Saved.
+gnn: 0.12884, lloyds: 0.00920, rec_lloyds: 0.08546, ratio_lloyd: 14.00013, ratio_rec_lloyd: 1.50758
+gnn: 0.11320, lloyds: 0.00905, rec_lloyds: 0.08417, ratio_lloyd: 12.50167, ratio_rec_lloyd: 1.34486
+gnn: 0.10135, lloyds: 0.00962, rec_lloyds: 0.08601, ratio_lloyd: 10.53615, ratio_rec_lloyd: 1.17840
+gnn: 0.11221, lloyds: 0.00952, rec_lloyds: 0.08478, ratio_lloyd: 11.79252, ratio_rec_lloyd: 1.32351
+gnn: 0.11325, lloyds: 0.00929, rec_lloyds: 0.08823, ratio_lloyd: 12.19264, ratio_rec_lloyd: 1.28359
+gnn: 0.12719, lloyds: 0.00934, rec_lloyds: 0.08066, ratio_lloyd: 13.61242, ratio_rec_lloyd: 1.57690
+Model Saved.
+gnn: 0.11276, lloyds: 0.00919, rec_lloyds: 0.08485, ratio_lloyd: 12.26611, ratio_rec_lloyd: 1.32893
+gnn: 0.11194, lloyds: 0.00981, rec_lloyds: 0.08748, ratio_lloyd: 11.41281, ratio_rec_lloyd: 1.27952
+gnn: 0.13200, lloyds: 0.00953, rec_lloyds: 0.08665, ratio_lloyd: 13.84975, ratio_rec_lloyd: 1.52333
+gnn: 0.10997, lloyds: 0.00977, rec_lloyds: 0.08546, ratio_lloyd: 11.25057, ratio_rec_lloyd: 1.28674
+gnn: 0.10978, lloyds: 0.00940, rec_lloyds: 0.08482, ratio_lloyd: 11.68460, ratio_rec_lloyd: 1.29434
+gnn: 0.11397, lloyds: 0.00931, rec_lloyds: 0.08460, ratio_lloyd: 12.24382, ratio_rec_lloyd: 1.34718
+Model Saved.
+gnn: 0.11832, lloyds: 0.00930, rec_lloyds: 0.08112, ratio_lloyd: 12.72093, ratio_rec_lloyd: 1.45863
+gnn: 0.09854, lloyds: 0.00929, rec_lloyds: 0.08294, ratio_lloyd: 10.60414, ratio_rec_lloyd: 1.18806
+gnn: 0.10753, lloyds: 0.01000, rec_lloyds: 0.08731, ratio_lloyd: 10.75323, ratio_rec_lloyd: 1.23169
+gnn: 0.12939, lloyds: 0.00933, rec_lloyds: 0.07577, ratio_lloyd: 13.87295, ratio_rec_lloyd: 1.70772
+gnn: 0.12274, lloyds: 0.00936, rec_lloyds: 0.08395, ratio_lloyd: 13.10932, ratio_rec_lloyd: 1.46202
+gnn: 0.13144, lloyds: 0.00924, rec_lloyds: 0.08277, ratio_lloyd: 14.22070, ratio_rec_lloyd: 1.58801
+Model Saved.
+gnn: 0.14136, lloyds: 0.00953, rec_lloyds: 0.08059, ratio_lloyd: 14.83441, ratio_rec_lloyd: 1.75402
+gnn: 0.14648, lloyds: 0.00966, rec_lloyds: 0.08146, ratio_lloyd: 15.16103, ratio_rec_lloyd: 1.79827
+gnn: 0.13132, lloyds: 0.00948, rec_lloyds: 0.08609, ratio_lloyd: 13.85288, ratio_rec_lloyd: 1.52550
+gnn: 0.13793, lloyds: 0.00984, rec_lloyds: 0.08749, ratio_lloyd: 14.01377, ratio_rec_lloyd: 1.57653
+gnn: 0.11544, lloyds: 0.00980, rec_lloyds: 0.07714, ratio_lloyd: 11.77904, ratio_rec_lloyd: 1.49660
+gnn: 0.13356, lloyds: 0.00919, rec_lloyds: 0.08773, ratio_lloyd: 14.52744, ratio_rec_lloyd: 1.52249
+Model Saved.
+gnn: 0.12395, lloyds: 0.00962, rec_lloyds: 0.07645, ratio_lloyd: 12.89089, ratio_rec_lloyd: 1.62137
+gnn: 0.14549, lloyds: 0.00943, rec_lloyds: 0.08858, ratio_lloyd: 15.42243, ratio_rec_lloyd: 1.64244
+gnn: 0.12453, lloyds: 0.00991, rec_lloyds: 0.07687, ratio_lloyd: 12.56527, ratio_rec_lloyd: 1.62008
+gnn: 0.12625, lloyds: 0.00956, rec_lloyds: 0.08554, ratio_lloyd: 13.21078, ratio_rec_lloyd: 1.47592
+gnn: 0.13982, lloyds: 0.00948, rec_lloyds: 0.08356, ratio_lloyd: 14.74191, ratio_rec_lloyd: 1.67334
+gnn: 0.12294, lloyds: 0.01001, rec_lloyds: 0.09561, ratio_lloyd: 12.28611, ratio_rec_lloyd: 1.28585
+Model Saved.
+gnn: 0.12002, lloyds: 0.00969, rec_lloyds: 0.08781, ratio_lloyd: 12.38306, ratio_rec_lloyd: 1.36675
+gnn: 0.12798, lloyds: 0.00967, rec_lloyds: 0.07909, ratio_lloyd: 13.23206, ratio_rec_lloyd: 1.61814
+gnn: 0.13428, lloyds: 0.00958, rec_lloyds: 0.08134, ratio_lloyd: 14.01924, ratio_rec_lloyd: 1.65074
+gnn: 0.13406, lloyds: 0.00974, rec_lloyds: 0.07920, ratio_lloyd: 13.76182, ratio_rec_lloyd: 1.69269
+gnn: 0.13524, lloyds: 0.00953, rec_lloyds: 0.08471, ratio_lloyd: 14.18904, ratio_rec_lloyd: 1.59647
+gnn: 0.13860, lloyds: 0.00958, rec_lloyds: 0.08194, ratio_lloyd: 14.46981, ratio_rec_lloyd: 1.69145
+Model Saved.
+gnn: 0.12052, lloyds: 0.00954, rec_lloyds: 0.08573, ratio_lloyd: 12.63537, ratio_rec_lloyd: 1.40589
+gnn: 0.11612, lloyds: 0.00990, rec_lloyds: 0.08702, ratio_lloyd: 11.72469, ratio_rec_lloyd: 1.33437
+gnn: 0.10683, lloyds: 0.00953, rec_lloyds: 0.08180, ratio_lloyd: 11.20760, ratio_rec_lloyd: 1.30610
+gnn: 0.11379, lloyds: 0.00966, rec_lloyds: 0.08228, ratio_lloyd: 11.78308, ratio_rec_lloyd: 1.38305
+gnn: 0.11788, lloyds: 0.00959, rec_lloyds: 0.07806, ratio_lloyd: 12.29164, ratio_rec_lloyd: 1.51002
+gnn: 0.11285, lloyds: 0.00942, rec_lloyds: 0.08660, ratio_lloyd: 11.97309, ratio_rec_lloyd: 1.30304
+Model Saved.
+gnn: 0.11615, lloyds: 0.00952, rec_lloyds: 0.07499, ratio_lloyd: 12.20040, ratio_rec_lloyd: 1.54885
+gnn: 0.13307, lloyds: 0.00969, rec_lloyds: 0.07810, ratio_lloyd: 13.73601, ratio_rec_lloyd: 1.70390
+gnn: 0.12502, lloyds: 0.00940, rec_lloyds: 0.08137, ratio_lloyd: 13.29463, ratio_rec_lloyd: 1.53640
+gnn: 0.13378, lloyds: 0.00931, rec_lloyds: 0.08261, ratio_lloyd: 14.37173, ratio_rec_lloyd: 1.61944
+gnn: 0.14132, lloyds: 0.00959, rec_lloyds: 0.08408, ratio_lloyd: 14.73137, ratio_rec_lloyd: 1.68070
+gnn: 0.12521, lloyds: 0.00976, rec_lloyds: 0.09548, ratio_lloyd: 12.83062, ratio_rec_lloyd: 1.31140
+Model Saved.
+gnn: 0.13376, lloyds: 0.00931, rec_lloyds: 0.08441, ratio_lloyd: 14.36355, ratio_rec_lloyd: 1.58459
+gnn: 0.12853, lloyds: 0.00985, rec_lloyds: 0.09476, ratio_lloyd: 13.04715, ratio_rec_lloyd: 1.35633
+gnn: 0.13215, lloyds: 0.00938, rec_lloyds: 0.08964, ratio_lloyd: 14.09335, ratio_rec_lloyd: 1.47412
+gnn: 0.14605, lloyds: 0.00980, rec_lloyds: 0.07867, ratio_lloyd: 14.90968, ratio_rec_lloyd: 1.85660
+gnn: 0.12890, lloyds: 0.00946, rec_lloyds: 0.07574, ratio_lloyd: 13.61952, ratio_rec_lloyd: 1.70180
+gnn: 0.13653, lloyds: 0.00987, rec_lloyds: 0.08904, ratio_lloyd: 13.83334, ratio_rec_lloyd: 1.53333
+Model Saved.
+gnn: 0.12538, lloyds: 0.00992, rec_lloyds: 0.08768, ratio_lloyd: 12.63481, ratio_rec_lloyd: 1.42991
+gnn: 0.14129, lloyds: 0.00924, rec_lloyds: 0.08164, ratio_lloyd: 15.28828, ratio_rec_lloyd: 1.73063
+gnn: 0.13351, lloyds: 0.00968, rec_lloyds: 0.08244, ratio_lloyd: 13.79175, ratio_rec_lloyd: 1.61960
+gnn: 0.12510, lloyds: 0.00970, rec_lloyds: 0.08453, ratio_lloyd: 12.90003, ratio_rec_lloyd: 1.47996
+gnn: 0.11595, lloyds: 0.00952, rec_lloyds: 0.08666, ratio_lloyd: 12.18225, ratio_rec_lloyd: 1.33803
+gnn: 0.10568, lloyds: 0.00980, rec_lloyds: 0.08676, ratio_lloyd: 10.78703, ratio_rec_lloyd: 1.21808
+Model Saved.
+gnn: 0.11101, lloyds: 0.00965, rec_lloyds: 0.09779, ratio_lloyd: 11.50542, ratio_rec_lloyd: 1.13520
+gnn: 0.12148, lloyds: 0.00957, rec_lloyds: 0.08409, ratio_lloyd: 12.69724, ratio_rec_lloyd: 1.44451
+gnn: 0.11655, lloyds: 0.00976, rec_lloyds: 0.08872, ratio_lloyd: 11.94353, ratio_rec_lloyd: 1.31366
+gnn: 0.11098, lloyds: 0.00918, rec_lloyds: 0.09553, ratio_lloyd: 12.08870, ratio_rec_lloyd: 1.16181
+gnn: 0.10997, lloyds: 0.00932, rec_lloyds: 0.07771, ratio_lloyd: 11.80545, ratio_rec_lloyd: 1.41519
+gnn: 0.12013, lloyds: 0.00963, rec_lloyds: 0.08207, ratio_lloyd: 12.47825, ratio_rec_lloyd: 1.46376
+Model Saved.
+gnn: 0.13742, lloyds: 0.00927, rec_lloyds: 0.08572, ratio_lloyd: 14.81968, ratio_rec_lloyd: 1.60307
+gnn: 0.11477, lloyds: 0.00929, rec_lloyds: 0.08531, ratio_lloyd: 12.36082, ratio_rec_lloyd: 1.34541
+gnn: 0.12901, lloyds: 0.00982, rec_lloyds: 0.08852, ratio_lloyd: 13.14127, ratio_rec_lloyd: 1.45742
+gnn: 0.10158, lloyds: 0.00949, rec_lloyds: 0.09046, ratio_lloyd: 10.70059, ratio_rec_lloyd: 1.12292
+gnn: 0.12379, lloyds: 0.00920, rec_lloyds: 0.08200, ratio_lloyd: 13.46159, ratio_rec_lloyd: 1.50963
+gnn: 0.11717, lloyds: 0.00952, rec_lloyds: 0.10108, ratio_lloyd: 12.30522, ratio_rec_lloyd: 1.15925
+Model Saved.
+gnn: 0.11970, lloyds: 0.00936, rec_lloyds: 0.07735, ratio_lloyd: 12.78695, ratio_rec_lloyd: 1.54754
+gnn: 0.11897, lloyds: 0.00979, rec_lloyds: 0.08750, ratio_lloyd: 12.14626, ratio_rec_lloyd: 1.35967
+gnn: 0.10067, lloyds: 0.00977, rec_lloyds: 0.08984, ratio_lloyd: 10.30098, ratio_rec_lloyd: 1.12057
+gnn: 0.11430, lloyds: 0.00987, rec_lloyds: 0.07801, ratio_lloyd: 11.57494, ratio_rec_lloyd: 1.46510
+gnn: 0.11319, lloyds: 0.00960, rec_lloyds: 0.08349, ratio_lloyd: 11.78819, ratio_rec_lloyd: 1.35574
+gnn: 0.12154, lloyds: 0.00958, rec_lloyds: 0.08045, ratio_lloyd: 12.68380, ratio_rec_lloyd: 1.51087
+Model Saved.
+gnn: 0.13241, lloyds: 0.00958, rec_lloyds: 0.07995, ratio_lloyd: 13.82119, ratio_rec_lloyd: 1.65617
+gnn: 0.13191, lloyds: 0.00953, rec_lloyds: 0.08549, ratio_lloyd: 13.83428, ratio_rec_lloyd: 1.54299
+gnn: 0.11605, lloyds: 0.00929, rec_lloyds: 0.07503, ratio_lloyd: 12.48987, ratio_rec_lloyd: 1.54660
+gnn: 0.12405, lloyds: 0.00899, rec_lloyds: 0.08058, ratio_lloyd: 13.80467, ratio_rec_lloyd: 1.53941
+gnn: 0.12080, lloyds: 0.00940, rec_lloyds: 0.08323, ratio_lloyd: 12.85297, ratio_rec_lloyd: 1.45146
+gnn: 0.13104, lloyds: 0.00935, rec_lloyds: 0.08507, ratio_lloyd: 14.00973, ratio_rec_lloyd: 1.54044
+Model Saved.
+gnn: 0.11122, lloyds: 0.00940, rec_lloyds: 0.08650, ratio_lloyd: 11.83750, ratio_rec_lloyd: 1.28586
+gnn: 0.12199, lloyds: 0.00948, rec_lloyds: 0.08854, ratio_lloyd: 12.87372, ratio_rec_lloyd: 1.37789
+gnn: 0.12726, lloyds: 0.01004, rec_lloyds: 0.08246, ratio_lloyd: 12.68032, ratio_rec_lloyd: 1.54336
+gnn: 0.11417, lloyds: 0.00914, rec_lloyds: 0.07821, ratio_lloyd: 12.49209, ratio_rec_lloyd: 1.45980
+gnn: 0.12707, lloyds: 0.00938, rec_lloyds: 0.08299, ratio_lloyd: 13.55020, ratio_rec_lloyd: 1.53118
+gnn: 0.12162, lloyds: 0.00982, rec_lloyds: 0.07715, ratio_lloyd: 12.38813, ratio_rec_lloyd: 1.57651
+Model Saved.
+gnn: 0.13156, lloyds: 0.00961, rec_lloyds: 0.08210, ratio_lloyd: 13.68814, ratio_rec_lloyd: 1.60250
+gnn: 0.12895, lloyds: 0.00944, rec_lloyds: 0.08837, ratio_lloyd: 13.65781, ratio_rec_lloyd: 1.45912
+gnn: 0.11971, lloyds: 0.00950, rec_lloyds: 0.08866, ratio_lloyd: 12.60001, ratio_rec_lloyd: 1.35016
+gnn: 0.10817, lloyds: 0.00978, rec_lloyds: 0.09443, ratio_lloyd: 11.05771, ratio_rec_lloyd: 1.14547
+gnn: 0.12066, lloyds: 0.00925, rec_lloyds: 0.08927, ratio_lloyd: 13.04457, ratio_rec_lloyd: 1.35162
+gnn: 0.11533, lloyds: 0.00940, rec_lloyds: 0.08599, ratio_lloyd: 12.27359, ratio_rec_lloyd: 1.34121
+Model Saved.
+gnn: 0.12631, lloyds: 0.00991, rec_lloyds: 0.08231, ratio_lloyd: 12.75142, ratio_rec_lloyd: 1.53449
+gnn: 0.11336, lloyds: 0.00955, rec_lloyds: 0.09114, ratio_lloyd: 11.86638, ratio_rec_lloyd: 1.24382
+gnn: 0.11196, lloyds: 0.00952, rec_lloyds: 0.08616, ratio_lloyd: 11.75461, ratio_rec_lloyd: 1.29945
+gnn: 0.09287, lloyds: 0.00940, rec_lloyds: 0.08331, ratio_lloyd: 9.88266, ratio_rec_lloyd: 1.11467
+gnn: 0.11302, lloyds: 0.00972, rec_lloyds: 0.08811, ratio_lloyd: 11.62365, ratio_rec_lloyd: 1.28277
+gnn: 0.10693, lloyds: 0.00930, rec_lloyds: 0.08531, ratio_lloyd: 11.50340, ratio_rec_lloyd: 1.25350
+Model Saved.
+gnn: 0.10873, lloyds: 0.00966, rec_lloyds: 0.08043, ratio_lloyd: 11.26103, ratio_rec_lloyd: 1.35187
+gnn: 0.11780, lloyds: 0.00907, rec_lloyds: 0.08415, ratio_lloyd: 12.98395, ratio_rec_lloyd: 1.39995
+gnn: 0.11039, lloyds: 0.00950, rec_lloyds: 0.08655, ratio_lloyd: 11.61839, ratio_rec_lloyd: 1.27533
+gnn: 0.10823, lloyds: 0.00936, rec_lloyds: 0.08636, ratio_lloyd: 11.56022, ratio_rec_lloyd: 1.25333
+gnn: 0.09457, lloyds: 0.00984, rec_lloyds: 0.08840, ratio_lloyd: 9.60794, ratio_rec_lloyd: 1.06986
+gnn: 0.09144, lloyds: 0.00977, rec_lloyds: 0.08250, ratio_lloyd: 9.36346, ratio_rec_lloyd: 1.10841
+Model Saved.
+gnn: 0.11680, lloyds: 0.00968, rec_lloyds: 0.08027, ratio_lloyd: 12.07085, ratio_rec_lloyd: 1.45521
+gnn: 0.11289, lloyds: 0.00983, rec_lloyds: 0.08168, ratio_lloyd: 11.48169, ratio_rec_lloyd: 1.38221
+gnn: 0.11045, lloyds: 0.00947, rec_lloyds: 0.08297, ratio_lloyd: 11.66403, ratio_rec_lloyd: 1.33118
+gnn: 0.11897, lloyds: 0.00946, rec_lloyds: 0.09465, ratio_lloyd: 12.57823, ratio_rec_lloyd: 1.25687
+gnn: 0.11166, lloyds: 0.00929, rec_lloyds: 0.08960, ratio_lloyd: 12.01773, ratio_rec_lloyd: 1.24617
+gnn: 0.10835, lloyds: 0.00951, rec_lloyds: 0.07907, ratio_lloyd: 11.39599, ratio_rec_lloyd: 1.37019
+Model Saved.
+gnn: 0.11313, lloyds: 0.00954, rec_lloyds: 0.09188, ratio_lloyd: 11.85794, ratio_rec_lloyd: 1.23136
+gnn: 0.11166, lloyds: 0.00926, rec_lloyds: 0.09102, ratio_lloyd: 12.06089, ratio_rec_lloyd: 1.22677
+gnn: 0.10740, lloyds: 0.00918, rec_lloyds: 0.08623, ratio_lloyd: 11.70302, ratio_rec_lloyd: 1.24554
+gnn: 0.11714, lloyds: 0.00942, rec_lloyds: 0.07536, ratio_lloyd: 12.43118, ratio_rec_lloyd: 1.55452
+gnn: 0.12394, lloyds: 0.00968, rec_lloyds: 0.08294, ratio_lloyd: 12.80812, ratio_rec_lloyd: 1.49440
+gnn: 0.10511, lloyds: 0.00928, rec_lloyds: 0.08263, ratio_lloyd: 11.32901, ratio_rec_lloyd: 1.27196
+Model Saved.
+gnn: 0.11573, lloyds: 0.00963, rec_lloyds: 0.07908, ratio_lloyd: 12.02161, ratio_rec_lloyd: 1.46346
+gnn: 0.11048, lloyds: 0.00939, rec_lloyds: 0.08797, ratio_lloyd: 11.77001, ratio_rec_lloyd: 1.25589
+gnn: 0.11169, lloyds: 0.00957, rec_lloyds: 0.08927, ratio_lloyd: 11.67541, ratio_rec_lloyd: 1.25114
+gnn: 0.11751, lloyds: 0.00922, rec_lloyds: 0.07593, ratio_lloyd: 12.74684, ratio_rec_lloyd: 1.54756
+gnn: 0.10804, lloyds: 0.00963, rec_lloyds: 0.08587, ratio_lloyd: 11.21973, ratio_rec_lloyd: 1.25824
+gnn: 0.12232, lloyds: 0.00931, rec_lloyds: 0.08571, ratio_lloyd: 13.14313, ratio_rec_lloyd: 1.42716
+Model Saved.
+gnn: 0.12004, lloyds: 0.00932, rec_lloyds: 0.08116, ratio_lloyd: 12.88315, ratio_rec_lloyd: 1.47911
+gnn: 0.12039, lloyds: 0.00955, rec_lloyds: 0.08318, ratio_lloyd: 12.60705, ratio_rec_lloyd: 1.44733
+gnn: 0.11544, lloyds: 0.00955, rec_lloyds: 0.08773, ratio_lloyd: 12.08627, ratio_rec_lloyd: 1.31597
+gnn: 0.12902, lloyds: 0.00928, rec_lloyds: 0.08647, ratio_lloyd: 13.90192, ratio_rec_lloyd: 1.49214
+gnn: 0.12581, lloyds: 0.00920, rec_lloyds: 0.07732, ratio_lloyd: 13.67695, ratio_rec_lloyd: 1.62728
+gnn: 0.10495, lloyds: 0.00949, rec_lloyds: 0.07736, ratio_lloyd: 11.05953, ratio_rec_lloyd: 1.35658
+Model Saved.
+gnn: 0.11710, lloyds: 0.00966, rec_lloyds: 0.08777, ratio_lloyd: 12.11986, ratio_rec_lloyd: 1.33407
+gnn: 0.10634, lloyds: 0.00964, rec_lloyds: 0.08341, ratio_lloyd: 11.03216, ratio_rec_lloyd: 1.27487
+gnn: 0.12517, lloyds: 0.00917, rec_lloyds: 0.08961, ratio_lloyd: 13.65023, ratio_rec_lloyd: 1.39679
+gnn: 0.11174, lloyds: 0.00954, rec_lloyds: 0.08308, ratio_lloyd: 11.71642, ratio_rec_lloyd: 1.34489
+gnn: 0.11981, lloyds: 0.00935, rec_lloyds: 0.07730, ratio_lloyd: 12.81011, ratio_rec_lloyd: 1.54992
+gnn: 0.10403, lloyds: 0.00999, rec_lloyds: 0.08727, ratio_lloyd: 10.41644, ratio_rec_lloyd: 1.19198
+Model Saved.
+gnn: 0.10210, lloyds: 0.00971, rec_lloyds: 0.08133, ratio_lloyd: 10.51798, ratio_rec_lloyd: 1.25531
+gnn: 0.11134, lloyds: 0.00914, rec_lloyds: 0.09256, ratio_lloyd: 12.18746, ratio_rec_lloyd: 1.20287
+gnn: 0.10046, lloyds: 0.00956, rec_lloyds: 0.08448, ratio_lloyd: 10.50574, ratio_rec_lloyd: 1.18924
+gnn: 0.11162, lloyds: 0.00961, rec_lloyds: 0.08146, ratio_lloyd: 11.61935, ratio_rec_lloyd: 1.37025
+gnn: 0.09791, lloyds: 0.00966, rec_lloyds: 0.08175, ratio_lloyd: 10.13484, ratio_rec_lloyd: 1.19767
+gnn: 0.10904, lloyds: 0.00984, rec_lloyds: 0.08457, ratio_lloyd: 11.08466, ratio_rec_lloyd: 1.28937
+Model Saved.
+gnn: 0.10421, lloyds: 0.00957, rec_lloyds: 0.08780, ratio_lloyd: 10.88880, ratio_rec_lloyd: 1.18693
+gnn: 0.11630, lloyds: 0.00950, rec_lloyds: 0.08545, ratio_lloyd: 12.23559, ratio_rec_lloyd: 1.36094
+gnn: 0.11618, lloyds: 0.00932, rec_lloyds: 0.08476, ratio_lloyd: 12.46273, ratio_rec_lloyd: 1.37074
+gnn: 0.11553, lloyds: 0.00917, rec_lloyds: 0.08708, ratio_lloyd: 12.59863, ratio_rec_lloyd: 1.32681
+gnn: 0.10879, lloyds: 0.00957, rec_lloyds: 0.08135, ratio_lloyd: 11.37084, ratio_rec_lloyd: 1.33730
+gnn: 0.11731, lloyds: 0.00931, rec_lloyds: 0.08359, ratio_lloyd: 12.59931, ratio_rec_lloyd: 1.40339
+Model Saved.
+gnn: 0.10979, lloyds: 0.00930, rec_lloyds: 0.08574, ratio_lloyd: 11.80376, ratio_rec_lloyd: 1.28059
+gnn: 0.11403, lloyds: 0.00946, rec_lloyds: 0.09161, ratio_lloyd: 12.05533, ratio_rec_lloyd: 1.24484
+gnn: 0.11412, lloyds: 0.00981, rec_lloyds: 0.08751, ratio_lloyd: 11.63224, ratio_rec_lloyd: 1.30397
+gnn: 0.11255, lloyds: 0.00935, rec_lloyds: 0.08293, ratio_lloyd: 12.03573, ratio_rec_lloyd: 1.35727
+gnn: 0.11020, lloyds: 0.00944, rec_lloyds: 0.08360, ratio_lloyd: 11.67411, ratio_rec_lloyd: 1.31822
+gnn: 0.12516, lloyds: 0.00962, rec_lloyds: 0.08784, ratio_lloyd: 13.01536, ratio_rec_lloyd: 1.42480
+Model Saved.
+gnn: 0.10805, lloyds: 0.00970, rec_lloyds: 0.09312, ratio_lloyd: 11.13614, ratio_rec_lloyd: 1.16029
+gnn: 0.11214, lloyds: 0.00927, rec_lloyds: 0.08619, ratio_lloyd: 12.10228, ratio_rec_lloyd: 1.30109
+gnn: 0.11809, lloyds: 0.00965, rec_lloyds: 0.08102, ratio_lloyd: 12.23384, ratio_rec_lloyd: 1.45761
+gnn: 0.11140, lloyds: 0.00948, rec_lloyds: 0.09238, ratio_lloyd: 11.74751, ratio_rec_lloyd: 1.20579
+gnn: 0.09838, lloyds: 0.00933, rec_lloyds: 0.07758, ratio_lloyd: 10.53915, ratio_rec_lloyd: 1.26811
+gnn: 0.11088, lloyds: 0.00960, rec_lloyds: 0.09200, ratio_lloyd: 11.55605, ratio_rec_lloyd: 1.20529
+Model Saved.
+gnn: 0.09790, lloyds: 0.00957, rec_lloyds: 0.08001, ratio_lloyd: 10.22498, ratio_rec_lloyd: 1.22360
+gnn: 0.10530, lloyds: 0.00922, rec_lloyds: 0.07444, ratio_lloyd: 11.41785, ratio_rec_lloyd: 1.41464
+gnn: 0.10732, lloyds: 0.00980, rec_lloyds: 0.08983, ratio_lloyd: 10.94648, ratio_rec_lloyd: 1.19462
+gnn: 0.12046, lloyds: 0.00942, rec_lloyds: 0.08305, ratio_lloyd: 12.79189, ratio_rec_lloyd: 1.45045
+gnn: 0.11394, lloyds: 0.00977, rec_lloyds: 0.07930, ratio_lloyd: 11.66252, ratio_rec_lloyd: 1.43674
+gnn: 0.11043, lloyds: 0.00961, rec_lloyds: 0.08121, ratio_lloyd: 11.48753, ratio_rec_lloyd: 1.35989
+Model Saved.
+gnn: 0.10478, lloyds: 0.01013, rec_lloyds: 0.08340, ratio_lloyd: 10.34575, ratio_rec_lloyd: 1.25641
+gnn: 0.12444, lloyds: 0.00923, rec_lloyds: 0.08234, ratio_lloyd: 13.48271, ratio_rec_lloyd: 1.51125
+gnn: 0.11961, lloyds: 0.00926, rec_lloyds: 0.07584, ratio_lloyd: 12.91727, ratio_rec_lloyd: 1.57712
+gnn: 0.10769, lloyds: 0.00956, rec_lloyds: 0.08668, ratio_lloyd: 11.26419, ratio_rec_lloyd: 1.24238
+gnn: 0.09535, lloyds: 0.00965, rec_lloyds: 0.07921, ratio_lloyd: 9.88247, ratio_rec_lloyd: 1.20373
+gnn: 0.11172, lloyds: 0.00961, rec_lloyds: 0.08331, ratio_lloyd: 11.62927, ratio_rec_lloyd: 1.34093
+Model Saved.
+gnn: 0.11284, lloyds: 0.00976, rec_lloyds: 0.08591, ratio_lloyd: 11.56444, ratio_rec_lloyd: 1.31350
+gnn: 0.11025, lloyds: 0.00952, rec_lloyds: 0.08821, ratio_lloyd: 11.58302, ratio_rec_lloyd: 1.24983
+gnn: 0.09855, lloyds: 0.00988, rec_lloyds: 0.08756, ratio_lloyd: 9.97853, ratio_rec_lloyd: 1.12542
+gnn: 0.10072, lloyds: 0.00925, rec_lloyds: 0.07736, ratio_lloyd: 10.88855, ratio_rec_lloyd: 1.30200
+gnn: 0.11118, lloyds: 0.00982, rec_lloyds: 0.08460, ratio_lloyd: 11.31874, ratio_rec_lloyd: 1.31423
+gnn: 0.09557, lloyds: 0.00948, rec_lloyds: 0.09007, ratio_lloyd: 10.07653, ratio_rec_lloyd: 1.06116
+Model Saved.
+gnn: 0.10960, lloyds: 0.00933, rec_lloyds: 0.07781, ratio_lloyd: 11.74854, ratio_rec_lloyd: 1.40857
+gnn: 0.11097, lloyds: 0.00957, rec_lloyds: 0.08454, ratio_lloyd: 11.60182, ratio_rec_lloyd: 1.31261
+gnn: 0.11410, lloyds: 0.00936, rec_lloyds: 0.07391, ratio_lloyd: 12.19603, ratio_rec_lloyd: 1.54369
+gnn: 0.11607, lloyds: 0.00932, rec_lloyds: 0.09049, ratio_lloyd: 12.44862, ratio_rec_lloyd: 1.28271
+gnn: 0.09551, lloyds: 0.00938, rec_lloyds: 0.08368, ratio_lloyd: 10.18439, ratio_rec_lloyd: 1.14135
+gnn: 0.09833, lloyds: 0.00974, rec_lloyds: 0.09065, ratio_lloyd: 10.09078, ratio_rec_lloyd: 1.08468
+Model Saved.
+gnn: 0.10517, lloyds: 0.00989, rec_lloyds: 0.08244, ratio_lloyd: 10.63022, ratio_rec_lloyd: 1.27581
+gnn: 0.10216, lloyds: 0.00971, rec_lloyds: 0.08053, ratio_lloyd: 10.52468, ratio_rec_lloyd: 1.26857
+gnn: 0.10348, lloyds: 0.00895, rec_lloyds: 0.08280, ratio_lloyd: 11.56672, ratio_rec_lloyd: 1.24965
+gnn: 0.09489, lloyds: 0.00951, rec_lloyds: 0.07926, ratio_lloyd: 9.97911, ratio_rec_lloyd: 1.19718
+gnn: 0.10300, lloyds: 0.00958, rec_lloyds: 0.08152, ratio_lloyd: 10.74931, ratio_rec_lloyd: 1.26347
+gnn: 0.10913, lloyds: 0.00955, rec_lloyds: 0.08549, ratio_lloyd: 11.42754, ratio_rec_lloyd: 1.27645
+Model Saved.
+gnn: 0.10529, lloyds: 0.00958, rec_lloyds: 0.07993, ratio_lloyd: 10.98908, ratio_rec_lloyd: 1.31734
+gnn: 0.09857, lloyds: 0.00944, rec_lloyds: 0.08591, ratio_lloyd: 10.44632, ratio_rec_lloyd: 1.14734
+gnn: 0.11277, lloyds: 0.00935, rec_lloyds: 0.08642, ratio_lloyd: 12.05485, ratio_rec_lloyd: 1.30487
+gnn: 0.10372, lloyds: 0.00959, rec_lloyds: 0.08810, ratio_lloyd: 10.81089, ratio_rec_lloyd: 1.17734
+gnn: 0.10454, lloyds: 0.00899, rec_lloyds: 0.08558, ratio_lloyd: 11.62475, ratio_rec_lloyd: 1.22160
+gnn: 0.11251, lloyds: 0.00933, rec_lloyds: 0.08318, ratio_lloyd: 12.06023, ratio_rec_lloyd: 1.35258
+Model Saved.
+gnn: 0.10207, lloyds: 0.00958, rec_lloyds: 0.08887, ratio_lloyd: 10.65024, ratio_rec_lloyd: 1.14865
+gnn: 0.11506, lloyds: 0.00957, rec_lloyds: 0.08471, ratio_lloyd: 12.02827, ratio_rec_lloyd: 1.35831
+gnn: 0.10934, lloyds: 0.00944, rec_lloyds: 0.08560, ratio_lloyd: 11.58188, ratio_rec_lloyd: 1.27746
+gnn: 0.11414, lloyds: 0.00965, rec_lloyds: 0.09389, ratio_lloyd: 11.82733, ratio_rec_lloyd: 1.21567
+gnn: 0.10391, lloyds: 0.00967, rec_lloyds: 0.08350, ratio_lloyd: 10.74263, ratio_rec_lloyd: 1.24435
+gnn: 0.10612, lloyds: 0.00932, rec_lloyds: 0.08240, ratio_lloyd: 11.38293, ratio_rec_lloyd: 1.28780
+Model Saved.
+gnn: 0.10515, lloyds: 0.00911, rec_lloyds: 0.07957, ratio_lloyd: 11.53975, ratio_rec_lloyd: 1.32144
+gnn: 0.11629, lloyds: 0.00956, rec_lloyds: 0.09252, ratio_lloyd: 12.15818, ratio_rec_lloyd: 1.25690
+gnn: 0.10291, lloyds: 0.00994, rec_lloyds: 0.07608, ratio_lloyd: 10.35307, ratio_rec_lloyd: 1.35257
+gnn: 0.12464, lloyds: 0.00956, rec_lloyds: 0.09233, ratio_lloyd: 13.04307, ratio_rec_lloyd: 1.34995
+gnn: 0.12294, lloyds: 0.00945, rec_lloyds: 0.09096, ratio_lloyd: 13.00628, ratio_rec_lloyd: 1.35158
+gnn: 0.12196, lloyds: 0.00904, rec_lloyds: 0.07972, ratio_lloyd: 13.48485, ratio_rec_lloyd: 1.52998
+Model Saved.
+gnn: 0.12510, lloyds: 0.00942, rec_lloyds: 0.07884, ratio_lloyd: 13.28196, ratio_rec_lloyd: 1.58680
+gnn: 0.11877, lloyds: 0.00961, rec_lloyds: 0.08030, ratio_lloyd: 12.35988, ratio_rec_lloyd: 1.47912
+gnn: 0.10614, lloyds: 0.00930, rec_lloyds: 0.08375, ratio_lloyd: 11.41350, ratio_rec_lloyd: 1.26733
+gnn: 0.11030, lloyds: 0.00931, rec_lloyds: 0.08789, ratio_lloyd: 11.84922, ratio_rec_lloyd: 1.25491
+gnn: 0.10378, lloyds: 0.00961, rec_lloyds: 0.07895, ratio_lloyd: 10.79954, ratio_rec_lloyd: 1.31441
+gnn: 0.10660, lloyds: 0.00964, rec_lloyds: 0.08707, ratio_lloyd: 11.05643, ratio_rec_lloyd: 1.22433
+Model Saved.
+gnn: 0.10954, lloyds: 0.00975, rec_lloyds: 0.07362, ratio_lloyd: 11.23088, ratio_rec_lloyd: 1.48806
+gnn: 0.10107, lloyds: 0.00954, rec_lloyds: 0.07804, ratio_lloyd: 10.59524, ratio_rec_lloyd: 1.29512
+gnn: 0.11281, lloyds: 0.00960, rec_lloyds: 0.09314, ratio_lloyd: 11.74690, ratio_rec_lloyd: 1.21122
+gnn: 0.11751, lloyds: 0.00898, rec_lloyds: 0.07875, ratio_lloyd: 13.08739, ratio_rec_lloyd: 1.49220
+gnn: 0.10809, lloyds: 0.01028, rec_lloyds: 0.08409, ratio_lloyd: 10.51230, ratio_rec_lloyd: 1.28537
+gnn: 0.11954, lloyds: 0.00942, rec_lloyds: 0.09413, ratio_lloyd: 12.68483, ratio_rec_lloyd: 1.26996
+Model Saved.
+gnn: 0.11720, lloyds: 0.00925, rec_lloyds: 0.08069, ratio_lloyd: 12.66462, ratio_rec_lloyd: 1.45244
+gnn: 0.10724, lloyds: 0.00959, rec_lloyds: 0.07925, ratio_lloyd: 11.17849, ratio_rec_lloyd: 1.35318
+gnn: 0.11396, lloyds: 0.00954, rec_lloyds: 0.08523, ratio_lloyd: 11.94358, ratio_rec_lloyd: 1.33716
+gnn: 0.11368, lloyds: 0.00940, rec_lloyds: 0.08158, ratio_lloyd: 12.09215, ratio_rec_lloyd: 1.39338
+gnn: 0.11686, lloyds: 0.00942, rec_lloyds: 0.09026, ratio_lloyd: 12.40468, ratio_rec_lloyd: 1.29461
+gnn: 0.11313, lloyds: 0.00979, rec_lloyds: 0.09227, ratio_lloyd: 11.55016, ratio_rec_lloyd: 1.22607
+Model Saved.
+gnn: 0.11596, lloyds: 0.00870, rec_lloyds: 0.09772, ratio_lloyd: 13.32184, ratio_rec_lloyd: 1.18665
+gnn: 0.11155, lloyds: 0.00940, rec_lloyds: 0.09086, ratio_lloyd: 11.86708, ratio_rec_lloyd: 1.22765
+gnn: 0.11932, lloyds: 0.00960, rec_lloyds: 0.09396, ratio_lloyd: 12.42876, ratio_rec_lloyd: 1.26989
+gnn: 0.13984, lloyds: 0.00963, rec_lloyds: 0.09186, ratio_lloyd: 14.52359, ratio_rec_lloyd: 1.52239
+gnn: 0.14711, lloyds: 0.00905, rec_lloyds: 0.07927, ratio_lloyd: 16.25218, ratio_rec_lloyd: 1.85574
+gnn: 0.14943, lloyds: 0.00924, rec_lloyds: 0.08402, ratio_lloyd: 16.17274, ratio_rec_lloyd: 1.77857
+Model Saved.
+gnn: 0.13730, lloyds: 0.00959, rec_lloyds: 0.08111, ratio_lloyd: 14.32088, ratio_rec_lloyd: 1.69269
+gnn: 0.14090, lloyds: 0.00938, rec_lloyds: 0.09060, ratio_lloyd: 15.02803, ratio_rec_lloyd: 1.55516
+gnn: 0.13475, lloyds: 0.00952, rec_lloyds: 0.08442, ratio_lloyd: 14.15819, ratio_rec_lloyd: 1.59612
+gnn: 0.13375, lloyds: 0.00937, rec_lloyds: 0.07782, ratio_lloyd: 14.27479, ratio_rec_lloyd: 1.71864
+gnn: 0.12458, lloyds: 0.00951, rec_lloyds: 0.08436, ratio_lloyd: 13.09419, ratio_rec_lloyd: 1.47672
+gnn: 0.11718, lloyds: 0.00948, rec_lloyds: 0.08704, ratio_lloyd: 12.36718, ratio_rec_lloyd: 1.34638
+Model Saved.
+gnn: 0.11765, lloyds: 0.00928, rec_lloyds: 0.09072, ratio_lloyd: 12.67573, ratio_rec_lloyd: 1.29691
+gnn: 0.13952, lloyds: 0.00930, rec_lloyds: 0.08549, ratio_lloyd: 14.99759, ratio_rec_lloyd: 1.63202
+gnn: 0.13793, lloyds: 0.00914, rec_lloyds: 0.08253, ratio_lloyd: 15.09086, ratio_rec_lloyd: 1.67140
+gnn: 0.13611, lloyds: 0.00977, rec_lloyds: 0.09633, ratio_lloyd: 13.93089, ratio_rec_lloyd: 1.41295
+gnn: 0.13263, lloyds: 0.00961, rec_lloyds: 0.08638, ratio_lloyd: 13.80236, ratio_rec_lloyd: 1.53542
+gnn: 0.12738, lloyds: 0.00914, rec_lloyds: 0.09268, ratio_lloyd: 13.93192, ratio_rec_lloyd: 1.37447
+Model Saved.
+gnn: 0.13275, lloyds: 0.00957, rec_lloyds: 0.09503, ratio_lloyd: 13.87555, ratio_rec_lloyd: 1.39695
+gnn: 0.11964, lloyds: 0.01015, rec_lloyds: 0.08135, ratio_lloyd: 11.78237, ratio_rec_lloyd: 1.47068
+gnn: 0.10476, lloyds: 0.00919, rec_lloyds: 0.09106, ratio_lloyd: 11.39425, ratio_rec_lloyd: 1.15043
+gnn: 0.11789, lloyds: 0.00975, rec_lloyds: 0.08279, ratio_lloyd: 12.09474, ratio_rec_lloyd: 1.42404
+gnn: 0.11239, lloyds: 0.00918, rec_lloyds: 0.08100, ratio_lloyd: 12.24677, ratio_rec_lloyd: 1.38756
+gnn: 0.11230, lloyds: 0.00962, rec_lloyds: 0.08288, ratio_lloyd: 11.67825, ratio_rec_lloyd: 1.35510
+Model Saved.
+gnn: 0.11076, lloyds: 0.00973, rec_lloyds: 0.08140, ratio_lloyd: 11.37898, ratio_rec_lloyd: 1.36064
+gnn: 0.10879, lloyds: 0.00958, rec_lloyds: 0.08726, ratio_lloyd: 11.35289, ratio_rec_lloyd: 1.24680
+gnn: 0.12353, lloyds: 0.00972, rec_lloyds: 0.08527, ratio_lloyd: 12.71112, ratio_rec_lloyd: 1.44873
+gnn: 0.11068, lloyds: 0.00940, rec_lloyds: 0.08466, ratio_lloyd: 11.77309, ratio_rec_lloyd: 1.30738
+gnn: 0.10927, lloyds: 0.00922, rec_lloyds: 0.08052, ratio_lloyd: 11.85174, ratio_rec_lloyd: 1.35691
+gnn: 0.11862, lloyds: 0.00960, rec_lloyds: 0.08153, ratio_lloyd: 12.36026, ratio_rec_lloyd: 1.45487
+Model Saved.
+gnn: 0.10723, lloyds: 0.00953, rec_lloyds: 0.08262, ratio_lloyd: 11.25769, ratio_rec_lloyd: 1.29786
+Traceback (most recent call last):
+  File "src/Kmeans/kmeans.py", line 493, in <module>
+    cost_lloyd = Lloyds(points_np, n_clusters=clusters)
+  File "src/Kmeans/kmeans.py", line 357, in Lloyds
+    labels = kmeans.fit_predict(inp)
+  File "/home/jo1443/.local/lib/python3.6/site-packages/sklearn/cluster/k_means_.py", line 917, in fit_predict
+    return self.fit(X).labels_
+  File "/home/jo1443/.local/lib/python3.6/site-packages/sklearn/cluster/k_means_.py", line 896, in fit
+    return_n_iter=True)
+  File "/home/jo1443/.local/lib/python3.6/site-packages/sklearn/cluster/k_means_.py", line 346, in k_means
+    x_squared_norms=x_squared_norms, random_state=random_state)
+  File "/home/jo1443/.local/lib/python3.6/site-packages/sklearn/cluster/k_means_.py", line 395, in _kmeans_single_elkan
+    x_squared_norms=x_squared_norms)
+  File "/home/jo1443/.local/lib/python3.6/site-packages/sklearn/cluster/k_means_.py", line 684, in _init_centroids
+    x_squared_norms=x_squared_norms)
+  File "/home/jo1443/.local/lib/python3.6/site-packages/sklearn/cluster/k_means_.py", line 113, in _k_init
+    X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+IndexError: index 320 is out of bounds for axis 0 with size 320

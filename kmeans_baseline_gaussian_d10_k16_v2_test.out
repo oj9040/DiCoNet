@@ -1,0 +1,39 @@
+Reading training dataset at ./data/kmeans/KMEANS_GM320_clusters16_dim10_train.np
+Reading testing dataset at ./data/kmeans/KMEANS_GM320_clusters16_dim10_test.np
+GNN successfully loaded from src/Kmeans/baseline/model/gm2
+/home/jo1443/DiCoNet/src/Kmeans/model.py:64: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  Y = F.softmax(Y.permute(1,0,2)).permute(1,0,2)
+src/Kmeans/kmeans.py:316: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  probs = F.softmax(scores.permute(2, 1, 0)).permute(2, 1, 0)
+gnn: 0.12593, lloyd: 0.00979, rec_lloyd: 0.08664, ratio_lloyd: 12.85842, ratio_rec_lloyd: 1.45354
+gnn: 0.10556, lloyd: 0.00942, rec_lloyd: 0.07485, ratio_lloyd: 11.20911, ratio_rec_lloyd: 1.41029
+gnn: 0.10296, lloyd: 0.00956, rec_lloyd: 0.09273, ratio_lloyd: 10.76835, ratio_rec_lloyd: 1.11032
+gnn: 0.11580, lloyd: 0.00945, rec_lloyd: 0.08783, ratio_lloyd: 12.25913, ratio_rec_lloyd: 1.31845
+gnn: 0.10587, lloyd: 0.00944, rec_lloyd: 0.08117, ratio_lloyd: 11.21240, ratio_rec_lloyd: 1.30427
+gnn: 0.11496, lloyd: 0.00948, rec_lloyd: 0.08109, ratio_lloyd: 12.12287, ratio_rec_lloyd: 1.41757
+gnn: 0.11150, lloyd: 0.00952, rec_lloyd: 0.08090, ratio_lloyd: 11.71185, ratio_rec_lloyd: 1.37820
+gnn: 0.10476, lloyd: 0.00980, rec_lloyd: 0.07746, ratio_lloyd: 10.69472, ratio_rec_lloyd: 1.35238
+gnn: 0.10507, lloyd: 0.00948, rec_lloyd: 0.09447, ratio_lloyd: 11.08214, ratio_rec_lloyd: 1.11214
+gnn: 0.11576, lloyd: 0.00969, rec_lloyd: 0.08970, ratio_lloyd: 11.94518, ratio_rec_lloyd: 1.29053
+gnn: 0.11205, lloyd: 0.00978, rec_lloyd: 0.09119, ratio_lloyd: 11.45688, ratio_rec_lloyd: 1.22867
+gnn: 0.10941, lloyd: 0.00978, rec_lloyd: 0.08824, ratio_lloyd: 11.18506, ratio_rec_lloyd: 1.23990
+gnn: 0.11328, lloyd: 0.00930, rec_lloyd: 0.08217, ratio_lloyd: 12.18279, ratio_rec_lloyd: 1.37862
+gnn: 0.10753, lloyd: 0.00967, rec_lloyd: 0.08867, ratio_lloyd: 11.11557, ratio_rec_lloyd: 1.21268
+gnn: 0.10750, lloyd: 0.00914, rec_lloyd: 0.08364, ratio_lloyd: 11.75724, ratio_rec_lloyd: 1.28518
+gnn: 0.11815, lloyd: 0.00974, rec_lloyd: 0.09219, ratio_lloyd: 12.13059, ratio_rec_lloyd: 1.28157
+gnn: 0.10721, lloyd: 0.00948, rec_lloyd: 0.08868, ratio_lloyd: 11.31152, ratio_rec_lloyd: 1.20889
+gnn: 0.09763, lloyd: 0.00969, rec_lloyd: 0.08700, ratio_lloyd: 10.07512, ratio_rec_lloyd: 1.12229
+gnn: 0.12045, lloyd: 0.01009, rec_lloyd: 0.08616, ratio_lloyd: 11.93303, ratio_rec_lloyd: 1.39796
+gnn: 0.10491, lloyd: 0.00916, rec_lloyd: 0.08473, ratio_lloyd: 11.44707, ratio_rec_lloyd: 1.23810
+gnn: 0.10841, lloyd: 0.00977, rec_lloyd: 0.09374, ratio_lloyd: 11.09477, ratio_rec_lloyd: 1.15649
+gnn: 0.09808, lloyd: 0.00965, rec_lloyd: 0.08695, ratio_lloyd: 10.15888, ratio_rec_lloyd: 1.12794
+gnn: 0.10085, lloyd: 0.00920, rec_lloyd: 0.08890, ratio_lloyd: 10.96331, ratio_rec_lloyd: 1.13452
+gnn: 0.10625, lloyd: 0.00950, rec_lloyd: 0.08111, ratio_lloyd: 11.18566, ratio_rec_lloyd: 1.30993
+gnn: 0.10006, lloyd: 0.00925, rec_lloyd: 0.08135, ratio_lloyd: 10.81547, ratio_rec_lloyd: 1.23004
+gnn: 0.11093, lloyd: 0.00948, rec_lloyd: 0.08376, ratio_lloyd: 11.70069, ratio_rec_lloyd: 1.32440
+gnn: 0.10422, lloyd: 0.00912, rec_lloyd: 0.08334, ratio_lloyd: 11.42645, ratio_rec_lloyd: 1.25063
+gnn: 0.12084, lloyd: 0.00959, rec_lloyd: 0.08004, ratio_lloyd: 12.60498, ratio_rec_lloyd: 1.50980
+gnn: 0.10870, lloyd: 0.00937, rec_lloyd: 0.07653, ratio_lloyd: 11.60462, ratio_rec_lloyd: 1.42030
+gnn: 0.11553, lloyd: 0.00976, rec_lloyd: 0.09232, ratio_lloyd: 11.83600, ratio_rec_lloyd: 1.25145
+gnn: 0.10689, lloyd: 0.00961, rec_lloyd: 0.07959, ratio_lloyd: 11.12512, ratio_rec_lloyd: 1.34302
+avg. gnn: 0.10926, lloyd: 0.00954, rec_lloyd: 0.08539, ratio_lloyd: 11.45081, ratio_rec_lloyd: 1.28387

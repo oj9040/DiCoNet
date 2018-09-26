@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# reproducing result of Table 3 in DicoNet paper
+# N=100, 5 splits
+# training
+#nohup python -u src/Knapsack/knapsack.py --save_file_path src/Knapsack/diconet/model/knapsack --dataset_path ./data/knapsack --solver_path src/Knapsack/solver --logs_path src/Knapsack/diconet --splits 5 --N 100 > knapsack_n100_s5.out &
+
+# testing
+nohup python -u src/Knapsack/knapsack.py --test --load_file_path src/Knapsack/diconet/model/knapsack --dataset_path ./data/knapsack --solver_path src/Knapsack/solver --logs_path src/Knapsack/diconet --splits 5 --N 100 > knapsack_n100_s5_test.out &
+
+

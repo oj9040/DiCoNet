@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#reproducing results of Table 1 in DicoNet paper
+
+### training
+#baseline
+#nohup python -u src/ConvexHull/main.py --path src/ConvexHull/baseline --path_dataset ./data/convexhull --mode train --num_examples_train 1048576 --batch_size 128 > convexhull_baseline.out &
+
+#diconet + split computational regularization
+#nohup python -u src/ConvexHull/main.py --path src/ConvexHull/compreg --path_dataset ./data/convexhull --mode train --num_examples_train 1048576 --batch_size 128 --dynamic --regularize_split > convexhull_compreg.out &
+
+
+### testing
+#baseline
+nohup python -u src/ConvexHull/main.py --path src/ConvexHull/baseline_test --path_dataset ./data/convexhull --mode test --load_merge src/ConvexHull/baseline --load_split src/ConvexHull/baseline --num_examples_test 4096 --batch_size 32 > convexhull_baseline_test.out &
+
+#diconet + split computational regularization
+#nohup python -u src/ConvexHull/main.py --path src/ConvexHull/compreg_test --path_dataset ./data/convexhull --mode test --load_merge src/ConvexHull/compreg --load_split src/ConvexHull/compreg --num_examples_test 4096 --batch_size 32 --dynamic --regularize_split > convexhull_compreg_test.out &
+
+

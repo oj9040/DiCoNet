@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# reproducing results of Table 2 in DicoNet paper
+# gaussian dataset (d=10, k=16)
+
+# baseline training
+#nohup python -u src/Kmeans/kmeans.py --baseline --dataset 'GM' --save_file src/Kmeans/baseline/model/gm2 --output_file src/Kmeans/baseline/model/gm2.log --num_examples_train 20000 --num_examples_test 1000 --dim 10 --clusters 16 --K 4 --N 320 --batch_size 32 > kmeans_baseline_gaussian_d10_k16_v2.out &
+
+# baseline testing
+nohup python -u src/Kmeans/kmeans.py --baseline --dataset 'GM' --load_file src/Kmeans/baseline/model/gm2 --output_file src/Kmeans/baseline/model/gm2_test.log --num_examples_train 20000 --num_examples_test 1000 --dim 10 --clusters 16 --K 4 --N 320 --batch_size 32 --test > kmeans_baseline_gaussian_d10_k16_v2_test.out &
+
+# diconet training
+#nohup python -u src/Kmeans/kmeans.py --dataset 'GM' --save_file src/Kmeans/diconet/model/gm2 --output_file src/Kmeans/diconet/model/gm2.log --num_examples_train 20000 --num_examples_test 1000 --dim 10 --clusters 16 --K 4 --N 320 --batch_size 32 > kmeans_gaussian_d10_k16_v2.out &
+
+# diconet testing
+#nohup python -u src/Kmeans/kmeans.py --dataset 'GM' --load_file src/Kmeans/diconet/model/gm2 --output_file src/Kmeans/diconet/model/gm2_test.log --num_examples_train 20000 --num_examples_test 1000 --dim 10 --clusters 16 --K 4 --N 320 --batch_size 32 --test > kmeans_gaussian_d10_k16_v2_test.out &
+
+
